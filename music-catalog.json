@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T14:03:45.871Z",
+  "generatedAt": "2026-09-28T14:14:17.696Z",
   "policy": {
     "maxAgeDays": 90,
     "minViews": 10000,
@@ -20,11 +20,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UCq-Fj5jknLsUf-MWSy4_brA",
       "publishedAt": "2026-09-28T12:32:11+00:00",
-      "views": 52697,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 55444,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=fdnL8rPOo5g",
       "durationSeconds": 223,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "9laFHD3PFGg",
@@ -37,11 +38,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UCq-Fj5jknLsUf-MWSy4_brA",
       "publishedAt": "2026-09-28T11:36:07+00:00",
-      "views": 18153,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 18705,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=9laFHD3PFGg",
       "durationSeconds": 258,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "JbRgxtJ2rUE",
@@ -54,11 +56,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
       "publishedAt": "2026-09-28T09:00:06+00:00",
-      "views": 38264,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 38552,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=JbRgxtJ2rUE",
       "durationSeconds": 261,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "WI4__7z_dJw",
@@ -71,11 +74,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UC3IZKseVpdzPSBaWxBxundA",
       "publishedAt": "2026-09-28T08:59:06+00:00",
-      "views": 637251,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 738095,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=WI4__7z_dJw",
       "durationSeconds": 176,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "oyubak3kMFE",
@@ -88,11 +92,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UC3IZKseVpdzPSBaWxBxundA",
       "publishedAt": "2026-09-28T01:59:59+00:00",
-      "views": 294342,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 297610,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=oyubak3kMFE",
       "durationSeconds": 179,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "XdKSX7Ff4tc",
@@ -105,11 +110,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UCq-Fj5jknLsUf-MWSy4_brA",
       "publishedAt": "2026-09-27T06:00:11+00:00",
-      "views": 3215469,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 3219290,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=XdKSX7Ff4tc",
       "durationSeconds": 237,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "jXPPHFlUfIs",
@@ -122,11 +128,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UCq-Fj5jknLsUf-MWSy4_brA",
       "publishedAt": "2026-09-26T14:24:34+00:00",
-      "views": 91594,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 91609,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=jXPPHFlUfIs",
       "durationSeconds": 201,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "mwThPZ7VJB8",
@@ -139,11 +146,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UCq-Fj5jknLsUf-MWSy4_brA",
       "publishedAt": "2026-09-26T09:36:05+00:00",
-      "views": 161200,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 161242,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=mwThPZ7VJB8",
       "durationSeconds": 153,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "BbQ3S5_q44Q",
@@ -156,11 +164,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UCNIy6zQyP7SuLEIaiwymfUA",
       "publishedAt": "2026-09-25T11:00:07+00:00",
-      "views": 1579199,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 1580353,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=BbQ3S5_q44Q",
       "durationSeconds": 281,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "wue-yq7Es00",
@@ -173,11 +182,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UCG9gfnA5UDoLvz-tC9B-HKw",
       "publishedAt": "2026-09-24T11:00:23+00:00",
-      "views": 257155,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 257566,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=wue-yq7Es00",
       "durationSeconds": 241,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "e2dRcsc98m4",
@@ -190,11 +200,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UCoMlNw7o21I7LqL4OsjSYAg",
       "publishedAt": "2026-09-18T00:00:25+00:00",
-      "views": 728176,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 728203,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=e2dRcsc98m4",
       "durationSeconds": 210,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "s4UW__ysPEM",
@@ -207,11 +218,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UCNIy6zQyP7SuLEIaiwymfUA",
       "publishedAt": "2026-09-17T11:00:32+00:00",
-      "views": 4964305,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 4964875,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=s4UW__ysPEM",
       "durationSeconds": 299,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "7SI019urRx0",
@@ -224,11 +236,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
       "publishedAt": "2026-09-07T08:59:06+00:00",
-      "views": 3498799,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 3498818,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=7SI019urRx0",
       "durationSeconds": 158,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "aQXq3ndLkHs",
@@ -241,11 +254,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UCZuPJZ2kGFdlbQu1qotZaHw",
       "publishedAt": "2026-09-02T16:00:12+00:00",
-      "views": 23489365,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 23489774,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=aQXq3ndLkHs",
       "durationSeconds": 227,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "XwCWKSO0F8s",
@@ -258,11 +272,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UCqECaJ8Gagnn7YCbPEzWH6g",
       "publishedAt": "2026-08-29T13:00:33+00:00",
-      "views": 2127985,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 2128112,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=XwCWKSO0F8s",
       "durationSeconds": 196,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "wLqrZBxLMFs",
@@ -276,10 +291,11 @@
       "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
       "publishedAt": "2026-08-28T04:02:30+00:00",
       "views": 95427,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=wLqrZBxLMFs",
       "durationSeconds": 228,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "R3BwWmMxsLY",
@@ -293,10 +309,11 @@
       "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
       "publishedAt": "2026-08-28T04:00:31+00:00",
       "views": 98444,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=R3BwWmMxsLY",
       "durationSeconds": 199,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "RsDXsGIst-s",
@@ -309,11 +326,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
       "publishedAt": "2026-08-25T15:00:13+00:00",
-      "views": 4437838,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 4437864,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=RsDXsGIst-s",
       "durationSeconds": 239,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "BjFX1eugZ-Y",
@@ -326,11 +344,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
       "publishedAt": "2026-08-24T09:00:01+00:00",
-      "views": 23012853,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 23013024,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=BjFX1eugZ-Y",
       "durationSeconds": 215,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "5M5UiAxHGaQ",
@@ -343,11 +362,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UCEdvpU2pFRCVqU6yIPyTpMQ",
       "publishedAt": "2026-08-21T17:00:15+00:00",
-      "views": 3579845,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 3579850,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=5M5UiAxHGaQ",
       "durationSeconds": 161,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "67auoS0oMzU",
@@ -360,11 +380,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UC5H_KXkPbEsGs0tFt8R35mA",
       "publishedAt": "2026-08-21T15:00:30+00:00",
-      "views": 2527448,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 2527505,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=67auoS0oMzU",
       "durationSeconds": 272,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "YxgfGp7Yt1s",
@@ -377,11 +398,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UCLk8IJ1TwI7Xl7UUfAD8xPQ",
       "publishedAt": "2026-08-20T00:00:06+00:00",
-      "views": 6259225,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 6259369,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=YxgfGp7Yt1s",
       "durationSeconds": 272,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "chl0R8C4NJ8",
@@ -394,11 +416,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
       "publishedAt": "2026-08-11T15:00:38+00:00",
-      "views": 12214564,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 12214954,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=chl0R8C4NJ8",
       "durationSeconds": 233,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "lz0JbSUzZxM",
@@ -411,11 +434,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UCjIA3wwhi0QjSOXAZwOXbPA",
       "publishedAt": "2026-08-04T16:00:04+00:00",
-      "views": 29593117,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 29593502,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=lz0JbSUzZxM",
       "durationSeconds": 264,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "BkAhd02vlBo",
@@ -428,11 +452,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UCt-k6JwNWHMXDBGm9IYHdsg",
       "publishedAt": "2026-07-31T14:00:05+00:00",
-      "views": 428597,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 428608,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=BkAhd02vlBo",
       "durationSeconds": 219,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "kSBQZH3dkZ8",
@@ -445,11 +470,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UC8HOgNWipVorrlBH8oN2R-A",
       "publishedAt": "2026-07-29T13:00:06+00:00",
-      "views": 4264882,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 4264950,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=kSBQZH3dkZ8",
       "durationSeconds": 178,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "O1qb25anMoE",
@@ -463,10 +489,11 @@
       "channelId": "UCnJoUTYXU142gxoyDzp-KRQ",
       "publishedAt": "2026-07-17T15:00:06+00:00",
       "views": 668543,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=O1qb25anMoE",
       "durationSeconds": 125,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     },
     {
       "id": "yuuWdm5tBD0",
@@ -479,11 +506,12 @@
       "countryBasis": "curated-channel-market",
       "channelId": "UClyA28-01x4z60eWQ2kiNbA",
       "publishedAt": "2026-07-12T13:00:18+00:00",
-      "views": 5196883,
-      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "views": 5196982,
+      "viewsCheckedAt": "2026-09-28T14:14:17.696Z",
       "source": "https://www.youtube.com/watch?v=yuuWdm5tBD0",
       "durationSeconds": 252,
-      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z",
+      "verification": "previously-reviewed"
     }
   ]
 }
