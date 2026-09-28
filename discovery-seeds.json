@@ -1,0 +1,202 @@
+[
+  {
+    "brand": "Renault",
+    "countryCode": "FR",
+    "officialPage": "https://www.renault.fr/"
+  },
+  {
+    "brand": "Carrefour",
+    "countryCode": "FR",
+    "officialPage": "https://www.carrefour.fr/"
+  },
+  {
+    "brand": "EDEKA",
+    "countryCode": "DE",
+    "officialPage": "https://www.edeka.de/"
+  },
+  {
+    "brand": "Intermarché",
+    "countryCode": "FR",
+    "officialPage": "https://www.intermarche.com/"
+  },
+  {
+    "brand": "Lidl",
+    "countryCode": "DE",
+    "officialPage": "https://www.lidl.de/"
+  },
+  {
+    "brand": "IKEA",
+    "countryCode": "DE",
+    "officialPage": "https://www.ikea.com/de/de/"
+  },
+  {
+    "brand": "Samsung",
+    "countryCode": "IN",
+    "officialPage": "https://www.samsung.com/in/"
+  },
+  {
+    "brand": "Amul",
+    "countryCode": "IN",
+    "officialPage": "https://amul.com/"
+  },
+  {
+    "brand": "Tata Motors",
+    "countryCode": "IN",
+    "officialPage": "https://cars.tatamotors.com/"
+  },
+  {
+    "brand": "IKEA",
+    "countryCode": "IT",
+    "officialPage": "https://www.ikea.com/it/it/"
+  },
+  {
+    "brand": "Thai Life Insurance",
+    "countryCode": "TH",
+    "officialPage": "https://www.thailife.com/"
+  },
+  {
+    "brand": "AIS",
+    "countryCode": "TH",
+    "officialPage": "https://www.ais.th/"
+  },
+  {
+    "brand": "IKEA",
+    "countryCode": "NL",
+    "officialPage": "https://www.ikea.com/nl/nl/"
+  },
+  {
+    "brand": "Gojek",
+    "countryCode": "ID",
+    "officialPage": "https://www.gojek.com/id-id/"
+  },
+  {
+    "brand": "Jollibee",
+    "countryCode": "PH",
+    "officialPage": "https://www.jollibee.com.ph/"
+  },
+  {
+    "brand": "IKEA",
+    "countryCode": "SE",
+    "officialPage": "https://www.ikea.com/se/sv/"
+  },
+  {
+    "brand": "Samsung",
+    "countryCode": "VN",
+    "officialPage": "https://www.samsung.com/vn/"
+  },
+  {
+    "brand": "Samsung",
+    "countryCode": "MY",
+    "officialPage": "https://www.samsung.com/my/"
+  },
+  {
+    "brand": "IKEA",
+    "countryCode": "ES",
+    "officialPage": "https://www.ikea.com/es/es/"
+  },
+  {
+    "brand": "Samsung",
+    "countryCode": "SG",
+    "officialPage": "https://www.samsung.com/sg/"
+  },
+  {
+    "brand": "Telstra",
+    "countryCode": "AU",
+    "officialPage": "https://www.telstra.com.au/"
+  },
+  {
+    "brand": "Telkomsel",
+    "countryCode": "ID",
+    "officialPage": "https://www.telkomsel.com/"
+  },
+  {
+    "brand": "Toyota",
+    "countryCode": "AU",
+    "officialPage": "https://www.toyota.com.au/"
+  },
+  {
+    "brand": "Samsung",
+    "countryCode": "BR",
+    "officialPage": "https://www.samsung.com/br/"
+  },
+  {
+    "brand": "Jio",
+    "countryCode": "IN",
+    "officialPage": "https://www.jio.com/"
+  },
+  {
+    "brand": "Woolworths",
+    "countryCode": "AU",
+    "officialPage": "https://www.woolworths.com.au/"
+  },
+  {
+    "brand": "McDonald’s",
+    "countryCode": "AU",
+    "officialPage": "https://mcdonalds.com.au/"
+  },
+  {
+    "brand": "Itaú",
+    "countryCode": "BR",
+    "officialPage": "https://www.itau.com.br/"
+  },
+  {
+    "brand": "Natura",
+    "countryCode": "BR",
+    "officialPage": "https://www.natura.com.br/"
+  },
+  {
+    "brand": "Samsung",
+    "countryCode": "MX",
+    "officialPage": "https://www.samsung.com/mx/"
+  },
+  {
+    "brand": "Samsung",
+    "countryCode": "ZA",
+    "officialPage": "https://www.samsung.com/za/"
+  },
+  {
+    "brand": "Samsung",
+    "countryCode": "TR",
+    "officialPage": "https://www.samsung.com/tr/"
+  },
+  {
+    "brand": "Spark",
+    "countryCode": "NZ",
+    "officialPage": "https://www.spark.co.nz/"
+  },
+  {
+    "brand": "Samsung",
+    "countryCode": "AR",
+    "officialPage": "https://www.samsung.com/ar/"
+  },
+  {
+    "brand": "Samsung",
+    "countryCode": "CL",
+    "officialPage": "https://www.samsung.com/cl/"
+  },
+  {
+    "brand": "Samsung",
+    "countryCode": "TW",
+    "officialPage": "https://www.samsung.com/tw/"
+  },
+  {
+    "brand": "Samsung",
+    "countryCode": "PL",
+    "officialPage": "https://www.samsung.com/pl/"
+  },
+  {
+    "brand": "Vodacom",
+    "countryCode": "ZA",
+    "officialPage": "https://www.vodacom.co.za/"
+  },
+  {
+    "brand": "MTN",
+    "countryCode": "ZA",
+    "officialPage": "https://www.mtn.co.za/"
+  },
+  {
+    "brand": "Samsung",
+    "countryCode": "CA",
+    "officialPage": "https://www.samsung.com/ca/"
+  }
+]
