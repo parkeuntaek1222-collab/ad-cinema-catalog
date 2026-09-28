@@ -2,7 +2,7 @@ import {readFileSync,writeFileSync} from 'node:fs';
 import {parseChannel,parseEditorial,eligibleAds,regionFor} from './catalog.mjs';
 const load=(file,fallback)=>{try{return JSON.parse(readFileSync(file,'utf8'))}catch{return fallback}};
 const now=Date.now(),state=load('discovery-state.json',{});
-if(now-Date.parse(state.checkedAt)<7*86400000){console.log('Source discovery is current.');process.exit(0);}
+if(now-Date.parse(state.checkedAt)<86400000){console.log('Source discovery is current.');process.exit(0);}
 const aliases={DE:['deutsch','german'],FR:['france','français'],IT:['italia'],NL:['nederland','netherlands'],SE:['sverige','sweden'],ES:['españa','spain'],IN:['india'],TH:['thai'],ID:['indonesia','telkomsel'],PH:['philippines'],VN:['vietnam'],MY:['malaysia'],SG:['singapore'],AU:['australia','telstra','woolworths'],NZ:['newzealand','new zealand'],BR:['brasil','brazil','itaú'],MX:['méxico','mexico'],ZA:['south africa','southafrica'],TR:['türkiye','turkiye'],PL:['polska','poland'],AR:['argentina'],CL:['chile'],TW:['taiwan'],CA:['canada']};
 const sources=load('sources.json',[]),known=new Set(sources.map(s=>s.id)),seeds=load('discovery-seeds.json',[]),candidates=[];let added=0;
 // Editorial campaigns discover new uploader candidates beyond the fixed seed list.
