@@ -1,0 +1,479 @@
+[
+  {
+    "id": "UC3IZKseVpdzPSBaWxBxundA",
+    "name": "HYBE LABELS",
+    "handle": "HYBELABELS",
+    "countryCode": "KR",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@HYBELABELS",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC3IZKseVpdzPSBaWxBxundA"
+  },
+  {
+    "id": "UCEf_Bc-KVd7onSeifS3py9g",
+    "name": "SMTOWN",
+    "handle": "SMTOWN",
+    "countryCode": "KR",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@SMTOWN",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCEf_Bc-KVd7onSeifS3py9g"
+  },
+  {
+    "id": "UCaO6TYtlC8U5ttz62hTrZgg",
+    "name": "JYP Entertainment",
+    "handle": "JYPEntertainment",
+    "countryCode": "KR",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@JYPEntertainment",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCaO6TYtlC8U5ttz62hTrZgg"
+  },
+  {
+    "id": "UCOmHUn--16B90oW2L6FRR3A",
+    "name": "BLACKPINK",
+    "handle": "BLACKPINK",
+    "countryCode": "KR",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@BLACKPINK",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOmHUn--16B90oW2L6FRR3A"
+  },
+  {
+    "id": "UCNIy6zQyP7SuLEIaiwymfUA",
+    "name": "Fujii Kaze",
+    "handle": "FujiiKaze",
+    "countryCode": "JP",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@FujiiKaze",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNIy6zQyP7SuLEIaiwymfUA"
+  },
+  {
+    "id": "UCln9P4Qm3-EAY4aiEPmRwEA",
+    "name": "Ado",
+    "handle": "Ado1024",
+    "countryCode": "JP",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@Ado1024",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCln9P4Qm3-EAY4aiEPmRwEA"
+  },
+  {
+    "id": "UCUCeZaZeJbEYAAzvMgrKOPQ",
+    "name": "Kenshi Yonezu  米津玄師",
+    "handle": "KenshiYonezu",
+    "countryCode": "JP",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@KenshiYonezu",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUCeZaZeJbEYAAzvMgrKOPQ"
+  },
+  {
+    "id": "UCq-Fj5jknLsUf-MWSy4_brA",
+    "name": "T-Series",
+    "handle": "tseries",
+    "countryCode": "IN",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@tseries",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCq-Fj5jknLsUf-MWSy4_brA"
+  },
+  {
+    "id": "UCFFbwnve3yF62-tVXkTyHqg",
+    "name": "Zee Music Company",
+    "handle": "zeemusiccompany",
+    "countryCode": "IN",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@zeemusiccompany",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCFFbwnve3yF62-tVXkTyHqg"
+  },
+  {
+    "id": "UC56gTxNs4f9xZ7Pa2i5xNzg",
+    "name": "Sony Music India",
+    "handle": "SonyMusicIndia",
+    "countryCode": "IN",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@SonyMusicIndia",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC56gTxNs4f9xZ7Pa2i5xNzg"
+  },
+  {
+    "id": "UClyA28-01x4z60eWQ2kiNbA",
+    "name": "Sơn Tùng M-TP Official",
+    "handle": "sontungmtp",
+    "countryCode": "VN",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@sontungmtp",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UClyA28-01x4z60eWQ2kiNbA"
+  },
+  {
+    "id": "UC8xcPPVYvUxv1CPoEcqj4fQ",
+    "name": "raisa6690",
+    "handle": "raisa6690",
+    "countryCode": "ID",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@raisa6690",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8xcPPVYvUxv1CPoEcqj4fQ"
+  },
+  {
+    "id": "UCm4v7afBTnJKRm4SlfHJzyg",
+    "name": "SB19 Official",
+    "handle": "officialSB19",
+    "countryCode": "PH",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@officialSB19",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCm4v7afBTnJKRm4SlfHJzyg"
+  },
+  {
+    "id": "UCtOcDBKgyr-f50SgbMErFkQ",
+    "name": "BINI Official",
+    "handle": "BINIPH",
+    "countryCode": "PH",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@BINIPH",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtOcDBKgyr-f50SgbMErFkQ"
+  },
+  {
+    "id": "UCHGF6zfD2gwLuke95X3CKFQ",
+    "name": "Rema",
+    "handle": "heisrema",
+    "countryCode": "NG",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@heisrema",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHGF6zfD2gwLuke95X3CKFQ"
+  },
+  {
+    "id": "UCEzDdNqNkT-7rSfSGSr1hWg",
+    "name": "Burna Boy",
+    "handle": "BurnaBoy",
+    "countryCode": "NG",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@BurnaBoy",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCEzDdNqNkT-7rSfSGSr1hWg"
+  },
+  {
+    "id": "UCK7oVw_ftuBIwiipiBf7ogA",
+    "name": "Ayra Starr",
+    "handle": "ayrastarrofficial",
+    "countryCode": "NG",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@ayrastarrofficial",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCK7oVw_ftuBIwiipiBf7ogA"
+  },
+  {
+    "id": "UC8HOgNWipVorrlBH8oN2R-A",
+    "name": "Tyla",
+    "handle": "Tylaofficial",
+    "countryCode": "ZA",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@Tylaofficial",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8HOgNWipVorrlBH8oN2R-A"
+  },
+  {
+    "id": "UC5sQe-dDsoobC6TRokL7SMQ",
+    "name": "Juanes",
+    "handle": "Juanes",
+    "countryCode": "CO",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@Juanes",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5sQe-dDsoobC6TRokL7SMQ"
+  },
+  {
+    "id": "UCZuPJZ2kGFdlbQu1qotZaHw",
+    "name": "KAROL G",
+    "handle": "KarolG",
+    "countryCode": "CO",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@KarolG",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZuPJZ2kGFdlbQu1qotZaHw"
+  },
+  {
+    "id": "UCmBA_wu8xGg1OfOkfW13Q0Q",
+    "name": "Bad Bunny",
+    "handle": "BadBunnyPR",
+    "countryCode": "PR",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@BadBunnyPR",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCmBA_wu8xGg1OfOkfW13Q0Q"
+  },
+  {
+    "id": "UCqjjyPUghDSSKFBABM_CXMw",
+    "name": "Anitta",
+    "handle": "Anitta",
+    "countryCode": "BR",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@Anitta",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCqjjyPUghDSSKFBABM_CXMw"
+  },
+  {
+    "id": "UCQt9awGIFZeldFsATZNeJag",
+    "name": "ROSALÍA",
+    "handle": "ROSALIA",
+    "countryCode": "ES",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@ROSALIA",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQt9awGIFZeldFsATZNeJag"
+  },
+  {
+    "id": "UCXF0YCBWewAj3RytJUAivGA",
+    "name": "Stromae",
+    "handle": "stromae",
+    "countryCode": "BE",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@stromae",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXF0YCBWewAj3RytJUAivGA"
+  },
+  {
+    "id": "UC-J-KZfRV8c13fOCkhXdLiQ",
+    "name": "Dua Lipa",
+    "handle": "DuaLipa",
+    "countryCode": "GB",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@DuaLipa",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC-J-KZfRV8c13fOCkhXdLiQ"
+  },
+  {
+    "id": "UC0C-w0YjGpqDXGB8IHb662A",
+    "name": "Ed Sheeran",
+    "handle": "EdSheeran",
+    "countryCode": "GB",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@EdSheeran",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0C-w0YjGpqDXGB8IHb662A"
+  },
+  {
+    "id": "UCqECaJ8Gagnn7YCbPEzWH6g",
+    "name": "Taylor Swift",
+    "handle": "TaylorSwift",
+    "countryCode": "US",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@TaylorSwift",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCqECaJ8Gagnn7YCbPEzWH6g"
+  },
+  {
+    "id": "UCPKWE1H6xhxwPlqUlKgHb_w",
+    "name": "Sabrina Carpenter",
+    "handle": "SabrinaCarpenter",
+    "countryCode": "US",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@SabrinaCarpenter",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCPKWE1H6xhxwPlqUlKgHb_w"
+  },
+  {
+    "id": "UCiGm_E4ZwYSHV3bcW1pnSeQ",
+    "name": "Billie Eilish",
+    "handle": "BillieEilish",
+    "countryCode": "US",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@BillieEilish",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCiGm_E4ZwYSHV3bcW1pnSeQ"
+  },
+  {
+    "id": "UC0WP5P-ufpRfjbNrmOWwLBQ",
+    "name": "The Weeknd",
+    "handle": "TheWeeknd",
+    "countryCode": "CA",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@TheWeeknd",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0WP5P-ufpRfjbNrmOWwLBQ"
+  },
+  {
+    "id": "UCN9HPn2fq-NL8M5_kp4RWZQ",
+    "name": "Sia",
+    "handle": "Sia",
+    "countryCode": "AU",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@Sia",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCN9HPn2fq-NL8M5_kp4RWZQ"
+  },
+  {
+    "id": "UCQeiBlCcS4-XGwFjrvDn96w",
+    "name": "Tones And I",
+    "handle": "TonesAndI",
+    "countryCode": "AU",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@TonesAndI",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQeiBlCcS4-XGwFjrvDn96w"
+  },
+  {
+    "id": "UC_Av98lDjf5KvFib5elhpYg",
+    "name": "Rauw Alejandro",
+    "handle": "RauwAlejandroTv",
+    "countryCode": "PR",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@RauwAlejandroTv",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_Av98lDjf5KvFib5elhpYg"
+  },
+  {
+    "id": "UCLk8IJ1TwI7Xl7UUfAD8xPQ",
+    "name": "Myke Towers",
+    "handle": "MykeTowers",
+    "countryCode": "PR",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@MykeTowers",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCLk8IJ1TwI7Xl7UUfAD8xPQ"
+  },
+  {
+    "id": "UCoMlNw7o21I7LqL4OsjSYAg",
+    "name": "Feid",
+    "handle": "Feid",
+    "countryCode": "CO",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@Feid",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoMlNw7o21I7LqL4OsjSYAg"
+  },
+  {
+    "id": "UCt-k6JwNWHMXDBGm9IYHdsg",
+    "name": "J Balvin",
+    "handle": "JBalvin",
+    "countryCode": "CO",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@JBalvin",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCt-k6JwNWHMXDBGm9IYHdsg"
+  },
+  {
+    "id": "UCYLNGLIzMhRTi6ZOLjAPSmw",
+    "name": "Shakira",
+    "handle": "Shakira",
+    "countryCode": "CO",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@Shakira",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCYLNGLIzMhRTi6ZOLjAPSmw"
+  },
+  {
+    "id": "UCu59H8LNti6mwvcGRMge5PA",
+    "name": "NATTI NATASHA ",
+    "handle": "NattiNatasha",
+    "countryCode": "DO",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@NattiNatasha",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCu59H8LNti6mwvcGRMge5PA"
+  },
+  {
+    "id": "UCjIA3wwhi0QjSOXAZwOXbPA",
+    "name": "Ozuna",
+    "handle": "Ozuna",
+    "countryCode": "PR",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@Ozuna",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCjIA3wwhi0QjSOXAZwOXbPA"
+  },
+  {
+    "id": "UCJUYcEdvnYFGajHBW0Nao3w",
+    "name": "Duki",
+    "handle": "Duki",
+    "countryCode": "AR",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@Duki",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJUYcEdvnYFGajHBW0Nao3w"
+  },
+  {
+    "id": "UCDD2C5nSHtQ0arRUP_yBFpw",
+    "name": "Nicki Nicole",
+    "handle": "NickiNicole",
+    "countryCode": "AR",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@NickiNicole",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCDD2C5nSHtQ0arRUP_yBFpw"
+  },
+  {
+    "id": "UCnJoUTYXU142gxoyDzp-KRQ",
+    "name": "Luísa Sonza",
+    "handle": "LuisaSonza",
+    "countryCode": "BR",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@LuisaSonza",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCnJoUTYXU142gxoyDzp-KRQ"
+  },
+  {
+    "id": "UCEATCATai_oafDuqKssZITw",
+    "name": "Som Livre",
+    "handle": "SomLivre",
+    "countryCode": "BR",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@SomLivre",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCEATCATai_oafDuqKssZITw"
+  },
+  {
+    "id": "UCXdHJabqwLJ3NvPfx6XmS5Q",
+    "name": "Ninho",
+    "handle": "Ninho",
+    "countryCode": "FR",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@Ninho",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXdHJabqwLJ3NvPfx6XmS5Q"
+  },
+  {
+    "id": "UCV_CsAy5CNBX_uwDQ7RMe1Q",
+    "name": "Central Cee",
+    "handle": "CentralCee",
+    "countryCode": "GB",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@CentralCee",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCV_CsAy5CNBX_uwDQ7RMe1Q"
+  },
+  {
+    "id": "UCTyZ4LCVRiCEVfkVqdi0m3A",
+    "name": "Disclosure",
+    "handle": "Disclosure",
+    "countryCode": "GB",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@Disclosure",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCTyZ4LCVRiCEVfkVqdi0m3A"
+  },
+  {
+    "id": "UCU9R50wyBPKpdbcIScAyZig",
+    "name": "ASAKE",
+    "handle": "AsakeMusic",
+    "countryCode": "NG",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@AsakeMusic",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCU9R50wyBPKpdbcIScAyZig"
+  },
+  {
+    "id": "UCSUVM9Ygr6AI5Eje5BnFhtw",
+    "name": "Omah Lay",
+    "handle": "OmahLay",
+    "countryCode": "NG",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@OmahLay",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSUVM9Ygr6AI5Eje5BnFhtw"
+  },
+  {
+    "id": "UCG9gfnA5UDoLvz-tC9B-HKw",
+    "name": "GMM GRAMMY OFFICIAL",
+    "handle": "GMMGRAMMY",
+    "countryCode": "TH",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@GMMGRAMMY",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCG9gfnA5UDoLvz-tC9B-HKw"
+  },
+  {
+    "id": "UCEdvpU2pFRCVqU6yIPyTpMQ",
+    "name": "Marshmello",
+    "handle": "Marshmello",
+    "countryCode": "US",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@Marshmello",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCEdvpU2pFRCVqU6yIPyTpMQ"
+  },
+  {
+    "id": "UC1l7wYrva1qCH-wgqcHaaRg",
+    "name": "David Guetta",
+    "handle": "DavidGuetta",
+    "countryCode": "FR",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@DavidGuetta",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC1l7wYrva1qCH-wgqcHaaRg"
+  },
+  {
+    "id": "UC5H_KXkPbEsGs0tFt8R35mA",
+    "name": "Martin Garrix",
+    "handle": "MartinGarrix",
+    "countryCode": "NL",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@MartinGarrix",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5H_KXkPbEsGs0tFt8R35mA"
+  },
+  {
+    "id": "UCYp3rk70ACGXQ4gFAiMr1SQ",
+    "name": "Rammstein Official",
+    "handle": "RammsteinOfficial",
+    "countryCode": "DE",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@RammsteinOfficial",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCYp3rk70ACGXQ4gFAiMr1SQ"
+  }
+]

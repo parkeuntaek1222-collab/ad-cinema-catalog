@@ -1,0 +1,489 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T14:03:45.871Z",
+  "policy": {
+    "maxAgeDays": 90,
+    "minViews": 10000,
+    "refreshHours": 6,
+    "selection": "Recent official music videos with observed views; not a chart ranking",
+    "countryBasis": "Curated channel home market, not audience location or chart country"
+  },
+  "tracks": [
+    {
+      "id": "fdnL8rPOo5g",
+      "artist": "T-Series",
+      "title": "AKELA: VISHAL MISHRA | KAUSHAL KISHORE | PAGALPAN",
+      "originalTitle": "AKELA (Official Video): VISHAL MISHRA | KAUSHAL KISHORE | PAGALPAN",
+      "countries": [
+        "IN"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UCq-Fj5jknLsUf-MWSy4_brA",
+      "publishedAt": "2026-09-28T12:32:11+00:00",
+      "views": 52697,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=fdnL8rPOo5g",
+      "durationSeconds": 223,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "9laFHD3PFGg",
+      "artist": "T-Series",
+      "title": "Gumsum: Aasa Singh | Aanchal Tyagi | New Hindi Song | T-Series",
+      "originalTitle": "Gumsum (Official Video): Aasa Singh | Aanchal Tyagi | New Hindi Song | T-Series",
+      "countries": [
+        "IN"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UCq-Fj5jknLsUf-MWSy4_brA",
+      "publishedAt": "2026-09-28T11:36:07+00:00",
+      "views": 18153,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=9laFHD3PFGg",
+      "durationSeconds": 258,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "JbRgxtJ2rUE",
+      "artist": "SMTOWN",
+      "title": "YESUNG 예성 'Winds of Time' MV",
+      "originalTitle": "YESUNG 예성 'Winds of Time' MV",
+      "countries": [
+        "KR"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
+      "publishedAt": "2026-09-28T09:00:06+00:00",
+      "views": 38264,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=JbRgxtJ2rUE",
+      "durationSeconds": 261,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "WI4__7z_dJw",
+      "artist": "HYBE LABELS",
+      "title": "BOYNEXTDOOR (보이넥스트도어) 'ANIMAL' Official MV",
+      "originalTitle": "BOYNEXTDOOR (보이넥스트도어) 'ANIMAL' Official MV",
+      "countries": [
+        "KR"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+      "publishedAt": "2026-09-28T08:59:06+00:00",
+      "views": 637251,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=WI4__7z_dJw",
+      "durationSeconds": 176,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "oyubak3kMFE",
+      "artist": "HYBE LABELS",
+      "title": "JUN ‘9’ Official MV",
+      "originalTitle": "JUN ‘9’ Official MV",
+      "countries": [
+        "KR"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+      "publishedAt": "2026-09-28T01:59:59+00:00",
+      "views": 294342,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=oyubak3kMFE",
+      "durationSeconds": 179,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "XdKSX7Ff4tc",
+      "artist": "T-Series",
+      "title": "Pyaar Manga Hai Tumhi Se | Pehla Pyaar Doosri Baar | Rochak K, Jubin N, Raj S",
+      "originalTitle": "Pyaar Manga Hai Tumhi Se (Official Video) | Pehla Pyaar Doosri Baar | Rochak K, Jubin N, Raj S",
+      "countries": [
+        "IN"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UCq-Fj5jknLsUf-MWSy4_brA",
+      "publishedAt": "2026-09-27T06:00:11+00:00",
+      "views": 3215469,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=XdKSX7Ff4tc",
+      "durationSeconds": 237,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "jXPPHFlUfIs",
+      "artist": "Irumudi: Manemma",
+      "title": "Meri Kismat Daulat Tu (Full Video) | Ravi Teja| G.V. Prakash Kumar,Ritesh,Sumitaa",
+      "originalTitle": "Irumudi: Manemma – Meri Kismat Daulat Tu (Full Video) | Ravi Teja| G.V. Prakash Kumar,Ritesh,Sumitaa",
+      "countries": [
+        "IN"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UCq-Fj5jknLsUf-MWSy4_brA",
+      "publishedAt": "2026-09-26T14:24:34+00:00",
+      "views": 91594,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=jXPPHFlUfIs",
+      "durationSeconds": 201,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "mwThPZ7VJB8",
+      "artist": "T-Series",
+      "title": "Ekla Cholo Re (Full Video): Bhuvan Bam,Rohit Saraf | Ashutosh Phatak, Aarvan | The Revolutionaries",
+      "originalTitle": "Ekla Cholo Re (Full Video): Bhuvan Bam,Rohit Saraf | Ashutosh Phatak, Aarvan | The Revolutionaries",
+      "countries": [
+        "IN"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UCq-Fj5jknLsUf-MWSy4_brA",
+      "publishedAt": "2026-09-26T09:36:05+00:00",
+      "views": 161200,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=mwThPZ7VJB8",
+      "durationSeconds": 153,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "BbQ3S5_q44Q",
+      "artist": "Fujii Kaze, UMI",
+      "title": "You",
+      "originalTitle": "Fujii Kaze, UMI - You (Official Video)",
+      "countries": [
+        "JP"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UCNIy6zQyP7SuLEIaiwymfUA",
+      "publishedAt": "2026-09-25T11:00:07+00:00",
+      "views": 1579199,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=BbQ3S5_q44Q",
+      "durationSeconds": 281,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "wue-yq7Es00",
+      "artist": "อกหักตอนฝนตก",
+      "title": "J JAZZSPER x SPRITE【OFFICIAL MV】",
+      "originalTitle": "อกหักตอนฝนตก - J JAZZSPER x SPRITE【OFFICIAL MV】",
+      "countries": [
+        "TH"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UCG9gfnA5UDoLvz-tC9B-HKw",
+      "publishedAt": "2026-09-24T11:00:23+00:00",
+      "views": 257155,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=wue-yq7Es00",
+      "durationSeconds": 241,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "e2dRcsc98m4",
+      "artist": "Feid",
+      "title": "A Xon De Que",
+      "originalTitle": "Feid - A Xon De Que (Official Video)",
+      "countries": [
+        "CO"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UCoMlNw7o21I7LqL4OsjSYAg",
+      "publishedAt": "2026-09-18T00:00:25+00:00",
+      "views": 728176,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=e2dRcsc98m4",
+      "durationSeconds": 210,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "s4UW__ysPEM",
+      "artist": "Fujii Kaze",
+      "title": "You",
+      "originalTitle": "Fujii Kaze - You (Official Music Video)",
+      "countries": [
+        "JP"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UCNIy6zQyP7SuLEIaiwymfUA",
+      "publishedAt": "2026-09-17T11:00:32+00:00",
+      "views": 4964305,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=s4UW__ysPEM",
+      "durationSeconds": 299,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "7SI019urRx0",
+      "artist": "SMTOWN",
+      "title": "MINHO 민호 'Make it hot' MV",
+      "originalTitle": "MINHO 민호 'Make it hot' MV",
+      "countries": [
+        "KR"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
+      "publishedAt": "2026-09-07T08:59:06+00:00",
+      "views": 3498799,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=7SI019urRx0",
+      "durationSeconds": 158,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "aQXq3ndLkHs",
+      "artist": "KAROL G, Bruno Mars",
+      "title": "Still",
+      "originalTitle": "KAROL G, Bruno Mars - Still (Official Video)",
+      "countries": [
+        "CO"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UCZuPJZ2kGFdlbQu1qotZaHw",
+      "publishedAt": "2026-09-02T16:00:12+00:00",
+      "views": 23489365,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=aQXq3ndLkHs",
+      "durationSeconds": 227,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "XwCWKSO0F8s",
+      "artist": "Taylor Swift",
+      "title": "I Knew It, I Knew You (Piano Version)",
+      "originalTitle": "Taylor Swift - I Knew It, I Knew You (Piano Version) (Official Music Video)",
+      "countries": [
+        "US"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UCqECaJ8Gagnn7YCbPEzWH6g",
+      "publishedAt": "2026-08-29T13:00:33+00:00",
+      "views": 2127985,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=XwCWKSO0F8s",
+      "durationSeconds": 196,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "wLqrZBxLMFs",
+      "artist": "SMTOWN",
+      "title": "Red Velvet 레드벨벳 'Surfin' Boy (RAKUNELAMA Remix)' MV",
+      "originalTitle": "Red Velvet 레드벨벳 'Surfin' Boy (RAKUNELAMA Remix)' MV",
+      "countries": [
+        "KR"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
+      "publishedAt": "2026-08-28T04:02:30+00:00",
+      "views": 95427,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=wLqrZBxLMFs",
+      "durationSeconds": 228,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "R3BwWmMxsLY",
+      "artist": "SMTOWN",
+      "title": "Red Velvet 레드벨벳 'Surfin' Boy (Flamingosis Remix)' MV",
+      "originalTitle": "Red Velvet 레드벨벳 'Surfin' Boy (Flamingosis Remix)' MV",
+      "countries": [
+        "KR"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
+      "publishedAt": "2026-08-28T04:00:31+00:00",
+      "views": 98444,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=R3BwWmMxsLY",
+      "durationSeconds": 199,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "RsDXsGIst-s",
+      "artist": "SMTOWN",
+      "title": "RIIZE 라이즈 'Sunburst' MV",
+      "originalTitle": "RIIZE 라이즈 'Sunburst' MV",
+      "countries": [
+        "KR"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
+      "publishedAt": "2026-08-25T15:00:13+00:00",
+      "views": 4437838,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=RsDXsGIst-s",
+      "durationSeconds": 239,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "BjFX1eugZ-Y",
+      "artist": "SMTOWN",
+      "title": "NCT 127 엔시티 127 'Blingy' MV",
+      "originalTitle": "NCT 127 엔시티 127 'Blingy' MV",
+      "countries": [
+        "KR"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
+      "publishedAt": "2026-08-24T09:00:01+00:00",
+      "views": 23012853,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=BjFX1eugZ-Y",
+      "durationSeconds": 215,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "5M5UiAxHGaQ",
+      "artist": "Marshmello x Portugal. The Man",
+      "title": "Phoenix",
+      "originalTitle": "Marshmello x Portugal. The Man - Phoenix (Official Music Video)",
+      "countries": [
+        "US"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UCEdvpU2pFRCVqU6yIPyTpMQ",
+      "publishedAt": "2026-08-21T17:00:15+00:00",
+      "views": 3579845,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=5M5UiAxHGaQ",
+      "durationSeconds": 161,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "67auoS0oMzU",
+      "artist": "Martin Garrix & U2",
+      "title": "Fireflies",
+      "originalTitle": "Martin Garrix & U2 - Fireflies (Official Video)",
+      "countries": [
+        "NL"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UC5H_KXkPbEsGs0tFt8R35mA",
+      "publishedAt": "2026-08-21T15:00:30+00:00",
+      "views": 2527448,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=67auoS0oMzU",
+      "durationSeconds": 272,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "YxgfGp7Yt1s",
+      "artist": "Myke Towers",
+      "title": "CARITA FELIZ",
+      "originalTitle": "Myke Towers - CARITA FELIZ (Official Music Video)",
+      "countries": [
+        "PR"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UCLk8IJ1TwI7Xl7UUfAD8xPQ",
+      "publishedAt": "2026-08-20T00:00:06+00:00",
+      "views": 6259225,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=YxgfGp7Yt1s",
+      "durationSeconds": 272,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "chl0R8C4NJ8",
+      "artist": "SMTOWN",
+      "title": "Hearts2Hearts 하츠투하츠 'ICONIC HEART' MV",
+      "originalTitle": "Hearts2Hearts 하츠투하츠 'ICONIC HEART' MV",
+      "countries": [
+        "KR"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
+      "publishedAt": "2026-08-11T15:00:38+00:00",
+      "views": 12214564,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=chl0R8C4NJ8",
+      "durationSeconds": 233,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "lz0JbSUzZxM",
+      "artist": "Ozuna x Omar Courtz",
+      "title": "ZIZI",
+      "originalTitle": "Ozuna x Omar Courtz - ZIZI  (Video Oficial)",
+      "countries": [
+        "PR"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UCjIA3wwhi0QjSOXAZwOXbPA",
+      "publishedAt": "2026-08-04T16:00:04+00:00",
+      "views": 29593117,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=lz0JbSUzZxM",
+      "durationSeconds": 264,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "BkAhd02vlBo",
+      "artist": "J Balvin",
+      "title": "Dalmation",
+      "originalTitle": "J Balvin - Dalmation (Official Video)",
+      "countries": [
+        "CO"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UCt-k6JwNWHMXDBGm9IYHdsg",
+      "publishedAt": "2026-07-31T14:00:05+00:00",
+      "views": 428597,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=BkAhd02vlBo",
+      "durationSeconds": 219,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "kSBQZH3dkZ8",
+      "artist": "Tyla",
+      "title": "THAT GIRL",
+      "originalTitle": "Tyla - THAT GIRL (Official Music Video)",
+      "countries": [
+        "ZA"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UC8HOgNWipVorrlBH8oN2R-A",
+      "publishedAt": "2026-07-29T13:00:06+00:00",
+      "views": 4264882,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=kSBQZH3dkZ8",
+      "durationSeconds": 178,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "O1qb25anMoE",
+      "artist": "Luísa Sonza",
+      "title": "Tropical Paradise",
+      "originalTitle": "Luísa Sonza - Tropical Paradise (Clipe Oficial)",
+      "countries": [
+        "BR"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UCnJoUTYXU142gxoyDzp-KRQ",
+      "publishedAt": "2026-07-17T15:00:06+00:00",
+      "views": 668543,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=O1qb25anMoE",
+      "durationSeconds": 125,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    },
+    {
+      "id": "yuuWdm5tBD0",
+      "artist": "Sơn Tùng M-TP Official",
+      "title": "SON TUNG M-TP | COME MY WAY (softer version) | OFFICIAL MUSIC VIDEO",
+      "originalTitle": "SON TUNG M-TP | COME MY WAY (softer version) | OFFICIAL MUSIC VIDEO",
+      "countries": [
+        "VN"
+      ],
+      "countryBasis": "curated-channel-market",
+      "channelId": "UClyA28-01x4z60eWQ2kiNbA",
+      "publishedAt": "2026-07-12T13:00:18+00:00",
+      "views": 5196883,
+      "viewsCheckedAt": "2026-09-28T14:03:45.871Z",
+      "source": "https://www.youtube.com/watch?v=yuuWdm5tBD0",
+      "durationSeconds": 252,
+      "embedCheckedAt": "2026-09-28T14:03:45.871Z"
+    }
+  ]
+}
