@@ -1,1 +1,65 @@
-[]
+[
+  {
+    "brand": "Carrefour",
+    "countryCode": "FR",
+    "officialPage": "https://www.carrefour.fr/",
+    "status": "retry",
+    "error": "Website 403"
+  },
+  {
+    "brand": "EDEKA",
+    "countryCode": "DE",
+    "officialPage": "https://www.edeka.de/",
+    "status": "retry",
+    "error": "Website 403"
+  },
+  {
+    "brand": "Intermarché",
+    "countryCode": "FR",
+    "officialPage": "https://www.intermarche.com/",
+    "status": "retry",
+    "error": "Website 403"
+  },
+  {
+    "brand": "Amul",
+    "countryCode": "IN",
+    "officialPage": "https://amul.com/",
+    "status": "retry",
+    "error": "Website 403"
+  },
+  {
+    "brand": "Tata Motors",
+    "countryCode": "IN",
+    "officialPage": "https://cars.tatamotors.com/",
+    "status": "retry",
+    "error": "Website 403"
+  },
+  {
+    "brand": "Woolworths",
+    "countryCode": "AU",
+    "officialPage": "https://www.woolworths.com.au/",
+    "status": "retry",
+    "error": "Website 403"
+  },
+  {
+    "brand": "McDonald’s",
+    "countryCode": "AU",
+    "officialPage": "https://mcdonalds.com.au/",
+    "status": "retry",
+    "error": "Website 403"
+  },
+  {
+    "brand": "Itaú",
+    "countryCode": "BR",
+    "officialPage": "https://www.itau.com.br/",
+    "status": "retry",
+    "error": "Website 403"
+  },
+  {
+    "brand": "Natura",
+    "countryCode": "BR",
+    "officialPage": "https://www.natura.com.br/",
+    "status": "retry",
+    "error": "Website 403"
+  }
+]
