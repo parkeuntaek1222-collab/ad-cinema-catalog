@@ -18,8 +18,10 @@ jobs:
         with:
           node-version: '22'
       - name: Check selection rules
-        run: node music-core.test.mjs
-      - name: Collect recent official music videos
+        run: node --test music-core.test.mjs music-charts.test.mjs
+      - name: Collect regional popular music and recent videos
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: node collect-music.mjs
       - name: Publish music catalog
         run: |
