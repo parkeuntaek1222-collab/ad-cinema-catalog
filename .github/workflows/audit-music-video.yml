@@ -17,19 +17,56 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Inspect raw genre metadata for three unclassified videos
+      - name: Audit raw genre metadata across entire music pool
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
           node --input-type=module <<'NODE'
+          import {readFileSync,writeFileSync} from 'node:fs';
           import {classifyGenres} from './music-genres.mjs';
-          const ids=['I0HVmhCCjcg','58RzKjPcPPk','ZJXLJLMSc00'];
-          const url=new URL('https://www.googleapis.com/youtube/v3/videos');
-          for(const [k,v] of Object.entries({part:'snippet,topicDetails',id:ids.join(','),key:process.env.YOUTUBE_API_KEY}))url.searchParams.set(k,v);
-          let response,data;try{response=await fetch(url,{signal:AbortSignal.timeout(15000)});data=await response.json()}catch{throw Error('YouTube metadata request failed')}
-          if(!response.ok||!Array.isArray(data.items))throw Error('YouTube metadata HTTP '+response.status);
-          const result={checkedAt:new Date().toISOString(),requestedIds:ids,items:data.items.map(item=>({id:item.id,title:item.snippet.title,channel:item.snippet.channelTitle,categoryId:item.snippet.categoryId,topicDetails:item.topicDetails??null,tags:item.snippet.tags??[],description:item.snippet.description,classification:classifyGenres(item)}))};
-          console.log('GENRE_AUDIT_JSON='+JSON.stringify(result));
+          const catalog=JSON.parse(readFileSync('music-catalog.json','utf8')),ids=[...new Set(catalog.tracks.map(t=>t.id))],items=[];
+          if(ids.length>11000)throw Error('Audit budget exceeded');
+          for(let i=0;i<ids.length;i+=50){
+           const url=new URL('https://www.googleapis.com/youtube/v3/videos');
+           for(const [k,v] of Object.entries({part:'snippet,topicDetails',id:ids.slice(i,i+50).join(','),key:process.env.YOUTUBE_API_KEY}))url.searchParams.set(k,v);
+           let r,d;try{r=await fetch(url,{signal:AbortSignal.timeout(15000)});d=await r.json()}catch{throw Error('Metadata request failed')}
+           if(!r.ok||!Array.isArray(d.items))throw Error('YouTube metadata HTTP '+r.status);
+           items.push(...d.items);
+          }
+          const topics=new Map(),unknownTags=new Map(),details=[];
+          const explicit=item=>{
+           const tags=[...(item.snippet?.tags||[])];
+           for(const txt of [item.snippet?.title||'',item.snippet?.description||'']){
+            for(const m of txt.matchAll(/#([\p{L}\p{N}_-]+)/gu))tags.push(m[1]);
+            for(const m of txt.matchAll(/(?:^|\n)\s*(?:genre|genres|장르)\s*:\s*([^\n]+)/gi))tags.push(...m[1].split(/[,;|]/));
+           }
+           return [...new Set(tags)];
+          };
+          for(const item of items){
+           const current=classifyGenres(item),unclassified=current.genres.includes('unclassified');
+           const urls=item.topicDetails?.topicCategories||[];
+           for(const url of urls){
+            const single=classifyGenres({topicDetails:{topicCategories:[url]}});
+            if(!topics.has(url))topics.set(url,{url,recognized:!single.genres.includes('unclassified'),count:0,unclassifiedCount:0,ids:[]});
+            const row=topics.get(url);row.count++;if(unclassified)row.unclassifiedCount++;row.ids.push(item.id);
+           }
+           for(const tag of explicit(item)){
+            const c=classifyGenres({snippet:{tags:[tag]}});
+            if(c.genres.includes('unclassified')){
+             const label=tag.normalize('NFKC').toLowerCase().replace(/[-_]/g,' ').replace(/\s+/g,' ').trim();
+             if(!unknownTags.has(label))unknownTags.set(label,{tag,count:0,unclassifiedCount:0,ids:[]});
+             const row=unknownTags.get(label);row.count++;if(unclassified)row.unclassifiedCount++;row.ids.push(item.id);
+            }
+           }
+           const latin=urls.includes('https://en.wikipedia.org/wiki/Music_of_Latin_America');
+           details.push({id:item.id,title:item.snippet.title,channel:item.snippet.channelTitle,topics:urls,tags:explicit(item),currentGenres:current.genres,genreEvidence:current.genreEvidence,latinTopic:latin,proposedGenres:latin?[...new Set([...current.genres.filter(g=>g!=='unclassified'),'latin'])]:current.genres});
+          }
+          const missingGenreTag=/\b(pop|rap|hip.?hop|r.?b|soul|rock|metal|dance|electro|edm|house|techno|trance|reggae|afro|amapiano|country|folk|jazz|blues|classical|latin|salsa|bachata|cumbia|corrid|norte|banda|mexican|regional|reggaeton|funk|disco|punk|indie|trap|drill|kpop|jpop|cantopop|mandopop|gospel|christian|soundtrack|musica|música|musique)\b|힙합|팝|발라드|트로트/i;
+          const summary={checkedAt:new Date().toISOString(),catalogGeneratedAt:catalog.generatedAt,requested:ids.length,returned:items.length,missingIds:ids.filter(id=>!items.some(t=>t.id===id)),requests:Math.ceil(ids.length/50),classified:details.filter(t=>!t.currentGenres.includes('unclassified')).length,unclassified:details.filter(t=>t.currentGenres.includes('unclassified')).length,latinMappingOnly:{newlyClassified:details.filter(t=>t.latinTopic&&t.currentGenres.includes('unclassified')).length,existingClassifiedAddLatin:details.filter(t=>t.latinTopic&&!t.currentGenres.includes('unclassified')&&!t.currentGenres.includes('latin')).length,newlyClassifiedUS:details.filter(t=>t.latinTopic&&t.currentGenres.includes('unclassified')&&catalog.tracks.find(c=>c.id===t.id)?.chartCountries?.includes('US')).length},topics:[...topics.values()].sort((a,b)=>b.count-a.count),candidateUnrecognizedTags:[...unknownTags.values()].filter(t=>missingGenreTag.test(t.tag)).sort((a,b)=>b.unclassifiedCount-a.unclassifiedCount||b.count-a.count),unclassifiedExamples:details.filter(t=>t.currentGenres.includes('unclassified')).slice(0,12)};
+          const report={...summary,details,allUnrecognizedTags:[...unknownTags.values()]};
+          writeFileSync('music-genre-pool-audit.json',JSON.stringify(report,null,2));
+          writeFileSync('music-genre-pool-api-raw.json',JSON.stringify({checkedAt:summary.checkedAt,items},null,2));
+          console.log('POOL_GENRE_AUDIT_JSON='+JSON.stringify(summary));
           NODE
       - name: Check raw regional music lists
         env:
@@ -71,6 +108,10 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: music-video-audit
-          path: music-video-audit.json
+          path: |
+            music-video-audit.json
+            music-genre-pool-audit.json
+            music-genre-pool-api-raw.json
           retention-days: 7
+
 
