@@ -6,11 +6,11 @@ test("music topics classify multiple genres with evidence, not geography",()=>{
  assert.deepEqual(r.genres,["pop","rnb"]);assert(r.genreEvidence.every(e=>e.basis==="video"&&e.source==="youtube-topic"));
 });
 test("ordinary artist names, lyrics, regions and ambiguous country words are not genres",()=>{
- const r=classifyGenres({snippet:{title:"Pop Smoke - Song",description:"This country loves rock and soul",tags:["K-Pop","Latin","country","Artist Pop"]}});assert.deepEqual(r.genres,["unclassified"]);
+ const r=classifyGenres({snippet:{title:"Pop Smoke - Song",description:"This country loves rock and soul",tags:["K-Pop","Latin America","country","Artist Pop"]}});assert.deepEqual(r.genres,["unclassified"]);
 });
 test("explicit uploader genre markers cover narrow topics and do not copy description text",()=>{
  const r=classifyGenres({snippet:{title:"Song #Afrobeats",tags:["bluegrass","metalcore"],description:"Genre: Jazz, Folk Music\nprivate-looking irrelevant text"}});
- assert.deepEqual(r.genres,["metal","afrobeats","country","folk","jazz"]);assert(!JSON.stringify(r).includes("private-looking"));assert.deepEqual(r.subgenres,["metalcore","bluegrass","jazz-music"]);assert.equal(GENRES.filter(g=>!g.parent).length,13);
+ assert.deepEqual(r.genres,["metal","afrobeats","country","folk","jazz"]);assert(!JSON.stringify(r).includes("private-looking"));assert.deepEqual(r.subgenres,["metalcore","bluegrass","jazz-music"]);assert.equal(GENRES.filter(g=>!g.parent).length,15);
 });
 test("subgenres require their own evidence; broad topics never imply a narrow style",()=>{
  const broad=classifyGenres({topicDetails:{topicCategories:["https://en.wikipedia.org/wiki/Electronic_music"]}});assert.deepEqual(broad.genres,["electronic"]);assert.deepEqual(broad.subgenres,[]);
@@ -26,4 +26,11 @@ test("unavailable metadata removes stale classification without discarding music
 });
 test("quota failures stop publication and errors never expose credentials",async()=>{
  await assert.rejects(enrichGenres({key:"secret-key",tracks:[{id:"a"}],fetcher:async()=>({ok:false,status:403,json:async()=>({error:{message:"secret-key"}})})}),e=>e.message==="YouTube genre metadata HTTP 403");
+});
+
+test("Latin and Funk / Disco classify from explicit genres, not language or chart markets",()=>{
+ const r=classifyGenres({snippet:{tags:["Reggaeton","bachata","nu-disco","funk"]}},"now");assert.deepEqual(r.genres,["latin","funk-disco"]);assert.deepEqual(r.subgenres,[]);assert(r.genreEvidence.every(e=>e.source==="youtube-uploader-tag"));
+ const regional=classifyGenres({snippet:{title:"Brazilian artist - Song",tags:["Brazil","Spanish","Latin America"]},topicDetails:{topicCategories:["https://en.wikipedia.org/wiki/Music_of_Latin_America"]}});assert.deepEqual(regional.genres,["unclassified"]);
+ const topics=classifyGenres({topicDetails:{topicCategories:["https://en.wikipedia.org/wiki/Reggaeton","https://en.wikipedia.org/wiki/Funk","https://en.wikipedia.org/wiki/Disco"]}});assert.deepEqual(topics.genres,["latin","funk-disco"]);
+ assert.deepEqual(classifyGenres({snippet:{tags:["funk carioca"]}}).genres,["latin"]);
 });

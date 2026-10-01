@@ -5,6 +5,7 @@ export const GENRES=[
  {id:"reggae",label:"Reggae / Dancehall"}, {id:"afrobeats",label:"Afrobeats / Amapiano"},
  {id:"country",label:"Country"}, {id:"folk",label:"Folk / Acoustic"},
  {id:"jazz",label:"Jazz / Blues"}, {id:"classical",label:"Classical"},
+ {id:"latin",label:"Latin"}, {id:"funk-disco",label:"Funk / Disco"},
  {id:"unclassified",label:"Unclassified"},
  {id:"dance-pop",label:"Dance-Pop",parent:"pop"}, {id:"synth-pop",label:"Synth-Pop",parent:"pop"}, {id:"electropop",label:"Electropop",parent:"pop"}, {id:"indie-pop",label:"Indie Pop",parent:"pop"},
  {id:"trap",label:"Trap",parent:"hip-hop"}, {id:"drill",label:"Drill",parent:"hip-hop"}, {id:"boom-bap",label:"Boom Bap",parent:"hip-hop"},
@@ -17,7 +18,7 @@ export const GENRES=[
  {id:"indie-folk",label:"Indie Folk",parent:"folk"}, {id:"acoustic",label:"Acoustic",parent:"folk"},
  {id:"jazz-music",label:"Jazz",parent:"jazz"}, {id:"blues",label:"Blues",parent:"jazz"}
 ];
-const TOPICS={Pop_music:"pop",Hip_hop_music:"hip-hop",Rhythm_and_blues:"rnb",Soul_music:"rnb",Electronic_music:"electronic",Rock_music:"rock",Heavy_metal_music:"metal",Reggae:"reggae",Country_music:"country",Folk_music:"folk",Jazz:"jazz",Blues:"jazz",Classical_music:"classical"};
+const TOPICS={Pop_music:"pop",Hip_hop_music:"hip-hop",Rhythm_and_blues:"rnb",Soul_music:"rnb",Electronic_music:"electronic",Rock_music:"rock",Heavy_metal_music:"metal",Reggae:"reggae",Country_music:"country",Folk_music:"folk",Jazz:"jazz",Blues:"jazz",Classical_music:"classical",Latin_music:"latin",Latin_pop:"latin",Reggaeton:"latin",Bachata:"latin",Salsa_music:"latin",Cumbia:"latin",Merengue_music:"latin",Regional_Mexican:"latin",Norteño:"latin",Corrido:"latin",Samba:"latin",Bossa_nova:"latin",Sertanejo_music:"latin",Forró:"latin",Funk_carioca:"latin",Funk:"funk-disco",Disco:"funk-disco"};
 const ALIASES={
  pop:["pop","dance pop","synth pop","electropop","팝"],
  "hip-hop":["hip hop","hiphop","rap","trap music","drill music","힙합","랩"],
@@ -30,7 +31,9 @@ const ALIASES={
  country:["country music","country pop","country rock","bluegrass","컨트리"],
  folk:["folk music","indie folk","acoustic music"],
  jazz:["jazz","blues","재즈","블루스"],
- classical:["classical music","classical","클래식"]
+ classical:["classical music","classical","클래식"],
+ latin:["latin","latin music","latin pop","reggaeton","reggaetón","latin urban","urbano latino","salsa","bachata","cumbia","merengue","regional mexican","musica mexicana","música mexicana","norteño","norteno","corridos","corrido","samba","bossa nova","sertanejo","forro","forró","funk carioca","baile funk"],
+ "funk-disco":["funk","funk music","disco","disco music","nu disco","nudisco","펑크 음악","디스코"]
 };
 const SUBGENRE_ALIASES={
  "dance-pop":["dance pop","dancepop"],"synth-pop":["synth pop","synthpop"],electropop:["electropop","electro pop"],"indie-pop":["indie pop","indiepop"],
