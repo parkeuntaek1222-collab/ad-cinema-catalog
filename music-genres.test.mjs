@@ -10,7 +10,11 @@ test("ordinary artist names, lyrics, regions and ambiguous country words are not
 });
 test("explicit uploader genre markers cover narrow topics and do not copy description text",()=>{
  const r=classifyGenres({snippet:{title:"Song #Afrobeats",tags:["bluegrass","metalcore"],description:"Genre: Jazz, Folk Music\nprivate-looking irrelevant text"}});
- assert.deepEqual(r.genres,["metal","afrobeats","country","folk","jazz"]);assert(!JSON.stringify(r).includes("private-looking"));assert.equal(GENRES.length,13);
+ assert.deepEqual(r.genres,["metal","afrobeats","country","folk","jazz"]);assert(!JSON.stringify(r).includes("private-looking"));assert.deepEqual(r.subgenres,["metalcore","bluegrass","jazz-music"]);assert.equal(GENRES.filter(g=>!g.parent).length,13);
+});
+test("subgenres require their own evidence; broad topics never imply a narrow style",()=>{
+ const broad=classifyGenres({topicDetails:{topicCategories:["https://en.wikipedia.org/wiki/Electronic_music"]}});assert.deepEqual(broad.genres,["electronic"]);assert.deepEqual(broad.subgenres,[]);
+ const detailed=classifyGenres({snippet:{tags:["deep house","techno","indierock"],description:"#NeoSoul"}});assert.deepEqual(detailed.genres,["rnb","electronic","rock"]);assert.deepEqual(detailed.subgenres,["neo-soul","house","techno","indie-rock"]);assert(detailed.genreEvidence.some(e=>e.genre==='house'));
 });
 test("batch enrichment preserves existing track data and uses fifty ID requests",async()=>{
  const tracks=Array.from({length:51},(_,i)=>({id:String(i),countries:["KR"],artist:"Artist"}));let requests=0;
