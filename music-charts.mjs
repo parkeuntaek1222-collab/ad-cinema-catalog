@@ -32,13 +32,14 @@ export async function collectCharts({key,fetcher=fetch,now=Date.now(),regions=CH
  for(const region of regions){
   if(!supported.has(region)){results.push({region,ok:false,unsupported:true});continue}
   try{
-   const found=[];let pageToken;
+   const found=[];let pageToken,offset=0;
    for(let page=0;page<2;page++){
     const data=await get('videos',{part:'snippet,contentDetails,statistics,status',chart:'mostPopular',regionCode:region,videoCategoryId:'10',maxResults:50,...(pageToken?{pageToken}:{})});
-    found.push(...data.items.map(i=>chartTrack(i,region,now)).filter(Boolean));
+    found.push(...data.items.map((item,index)=>{const track=chartTrack(item,region,now);return track?{...track,regionalChartPositions:{[region]:offset+index+1}}:null}).filter(Boolean));
+    offset+=data.items.length;
     pageToken=data.nextPageToken;if(!pageToken)break;
    }
-   for(const t of found){const old=tracks.get(t.id);if(old){old.countries=[...new Set([...old.countries,region])];old.chartCountries=[...old.countries]}else tracks.set(t.id,t)}
+   for(const t of found){const old=tracks.get(t.id);if(old){old.countries=[...new Set([...old.countries,region])];old.chartCountries=[...old.countries];old.regionalChartPositions[region]=Math.min(old.regionalChartPositions[region]||Infinity,t.regionalChartPositions[region])}else tracks.set(t.id,t)}
    results.push({region,ok:true,qualified:found.length});
   }catch(e){
    results.push({region,ok:false,error:e.message});
@@ -50,4 +51,3 @@ export async function collectCharts({key,fetcher=fetch,now=Date.now(),regions=CH
  if(!tracks.size)throw Error('No qualifying regional music videos; preserving last catalog');
  return {tracks:[...tracks.values()],regions:results,requests,healthy};
 }
-

@@ -11,6 +11,12 @@ test('merges duplicates across countries',async()=>{
  const fetcher=async url=>({ok:true,json:async()=>({items:url.pathname.endsWith('i18nRegions')?[{id:'KR'},{id:'JP'}]:[item()]})});
  const r=await collectCharts({key:'test',regions:['KR','JP','XX'],fetcher,now});
  assert.equal(r.tracks.length,1);assert.deepEqual(r.tracks[0].chartCountries,['KR','JP']);assert.equal(r.requests,3);assert(r.requests<=MAX_REQUESTS);assert(r.regions[2].unsupported);
+ assert.deepEqual(r.tracks[0].regionalChartPositions,{KR:1,JP:1});
+});
+test('records raw list positions before filtering and across pages',async()=>{
+ const fetcher=async url=>{const u=new URL(url);if(u.pathname.endsWith('i18nRegions'))return {ok:true,json:async()=>({items:[{id:'KR'},{id:'JP'}]})};const rejected=item();rejected.snippet.title='Official Audio';const first=item();first.id='firsttrack1';const second=item();second.id='secondtrak1';return {ok:true,json:async()=>u.searchParams.get('regionCode')==='JP'?{items:[second]}:u.searchParams.has('pageToken')?{items:[rejected,second]}:{items:[rejected,first],nextPageToken:'second'}};};
+ const r=await collectCharts({key:'test',regions:['KR','JP'],fetcher,now});
+ assert.equal(r.tracks.find(t=>t.id==='firsttrack1').regionalChartPositions.KR,2);assert.deepEqual(r.tracks.find(t=>t.id==='secondtrak1').regionalChartPositions,{KR:4,JP:1});
 });
 test('stops on quota failure without exposing credentials',async()=>{
  const fetcher=async()=>({ok:false,status:403,json:async()=>({error:{message:'secret-key',errors:[{reason:'quotaExceeded'}]}})});
