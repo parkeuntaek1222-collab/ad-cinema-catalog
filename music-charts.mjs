@@ -1,5 +1,5 @@
 import {musicVideo,eligible} from './music-core.mjs';
-export const CHART_REGIONS=['KR','JP','IN','VN','ID','PH','TH','MY','TW','HK','SG','PK','BD','LK','NP','US','CA','GB','FR','DE','NL','BE','ES','IT','SE','NO','DK','FI','CH','AT','IE','PT','PL','CZ','RO','GR','HU','UA','TR','RU','BR','CO','MX','PR','DO','AR','CL','PE','EC','UY','NG','ZA','KE','GH','TZ','SN','EG','MA','DZ','SA','AE','IL','AU','NZ'];
+export const CHART_REGIONS=['KR','JP','IN','VN','ID','PH','TH','MY','TW','HK','SG','PK','BD','LK','NP','US','CA','GB','FR','DE','NL','BE','ES','IT','SE','NO','DK','FI','CH','AT','IE','PT','PL','CZ','RO','GR','HU','UA','TR','RU','BR','CO','MX','PR','DO','AR','CL','PE','EC','UY','NG','ZA','KE','GH','TZ','SN','EG','MA','DZ','SA','AE','IL','AU','NZ','JM','PA','RS','KZ','UG'];
 export const MAX_REQUESTS=1+CHART_REGIONS.length*2; // Two pages per market, plus supported-region lookup.
 export function durationSeconds(value=''){
  const m=value.match(/^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/);
@@ -50,3 +50,4 @@ export async function collectCharts({key,fetcher=fetch,now=Date.now(),regions=CH
  if(!tracks.size)throw Error('No qualifying regional music videos; preserving last catalog');
  return {tracks:[...tracks.values()],regions:results,requests,healthy};
 }
+
