@@ -17,6 +17,20 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Inspect raw genre metadata for three unclassified videos
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          node --input-type=module <<'NODE'
+          import {classifyGenres} from './music-genres.mjs';
+          const ids=['I0HVmhCCjcg','58RzKjPcPPk','ZJXLJLMSc00'];
+          const url=new URL('https://www.googleapis.com/youtube/v3/videos');
+          for(const [k,v] of Object.entries({part:'snippet,topicDetails',id:ids.join(','),key:process.env.YOUTUBE_API_KEY}))url.searchParams.set(k,v);
+          let response,data;try{response=await fetch(url,{signal:AbortSignal.timeout(15000)});data=await response.json()}catch{throw Error('YouTube metadata request failed')}
+          if(!response.ok||!Array.isArray(data.items))throw Error('YouTube metadata HTTP '+response.status);
+          const result={checkedAt:new Date().toISOString(),requestedIds:ids,items:data.items.map(item=>({id:item.id,title:item.snippet.title,channel:item.snippet.channelTitle,categoryId:item.snippet.categoryId,topicDetails:item.topicDetails??null,tags:item.snippet.tags??[],description:item.snippet.description,classification:classifyGenres(item)}))};
+          console.log('GENRE_AUDIT_JSON='+JSON.stringify(result));
+          NODE
       - name: Check raw regional music lists
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
@@ -59,3 +73,4 @@ jobs:
           name: music-video-audit
           path: music-video-audit.json
           retention-days: 7
+
