@@ -1,0 +1,60 @@
+name: Audit music video chart presence
+on:
+  workflow_dispatch:
+    inputs:
+      video_id:
+        description: YouTube video ID to check before title filtering
+        required: true
+        default: fEw6VZq9xg8
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check raw regional music lists
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          VIDEO_ID: ${{ inputs.video_id }}
+        run: |
+          node --input-type=module <<'NODE'
+          import {CHART_REGIONS} from './music-charts.mjs';
+          import {musicVideo} from './music-core.mjs';
+          import {writeFileSync} from 'node:fs';
+          const id=process.env.VIDEO_ID,key=process.env.YOUTUBE_API_KEY;
+          if(!/^[\w-]{11}$/.test(id)||!key)throw Error('Invalid video ID or missing credential');
+          let requests=0;const checkedAt=new Date().toISOString(),matches=[],regions=[];
+          async function get(params){
+            if(++requests>1+CHART_REGIONS.length*2)throw Error('Audit request limit reached');
+            const url=new URL('https://www.googleapis.com/youtube/v3/videos');
+            for(const [k,v] of Object.entries({...params,key}))url.searchParams.set(k,String(v));
+            let r,d;try{r=await fetch(url,{signal:AbortSignal.timeout(15000)});d=await r.json()}catch{throw Error('YouTube API connection failed')}
+            if(!r.ok){const raw=d.error?.errors?.[0]?.reason,reason=typeof raw==='string'&&/^[A-Za-z]+$/.test(raw)?raw:'unknown';const e=Error('YouTube HTTP '+r.status+' '+reason);e.status=r.status;throw e}
+            if(!Array.isArray(d.items))throw Error('Invalid API items');return d;
+          }
+          const video=(await get({part:'snippet,contentDetails,statistics,status',id})).items[0];
+          for(const region of CHART_REGIONS){
+            try{
+              let pageToken,offset=0,pages=0;
+              for(let page=0;page<2;page++){
+                const d=await get({part:'id',chart:'mostPopular',regionCode:region,videoCategoryId:10,maxResults:50,...(pageToken?{pageToken}:{})});pages++;
+                const index=d.items.findIndex(v=>v.id===id);if(index>=0)matches.push({region,position:offset+index+1});offset+=d.items.length;pageToken=d.nextPageToken;if(!pageToken)break;
+              }
+              regions.push({region,ok:true,videos:offset,pages});
+            }catch(e){if([400,401,403,429].includes(e.status))throw e;regions.push({region,ok:false,error:e.message})}
+          }
+          const report={checkedAt,id,requests,configuredRegions:CHART_REGIONS.length,healthyRegions:regions.filter(r=>r.ok).length,matches,video:video?{title:video.snippet.title,channelTitle:video.snippet.channelTitle,channelId:video.snippet.channelId,publishedAt:video.snippet.publishedAt,categoryId:video.snippet.categoryId,views:video.statistics.viewCount,duration:video.contentDetails.duration,embeddable:video.status.embeddable,titleAccepted:musicVideo(video.snippet.title),descriptionHasMV:/music video/i.test(video.snippet.description||'')}:null,regions,scope:'Raw YouTube mostPopular music lists, up to two pages per configured region; no title filtering or catalog changes.'};
+          console.log('VIDEO_AUDIT_JSON='+JSON.stringify(report));
+          writeFileSync('music-video-audit.json',JSON.stringify(report,null,2)+'\n');
+          writeFileSync(process.env.GITHUB_STEP_SUMMARY,['# Music video chart presence','',video?.snippet.title||id,`Checked: ${checkedAt}`,`Regions checked: ${report.healthyRegions}/${CHART_REGIONS.length}`,`Matches before filtering: ${matches.length}`,'',...matches.map(m=>`- ${m.region}: position ${m.position}`)].join('\n'));
+          NODE
+      - uses: actions/upload-artifact@v4
+        with:
+          name: music-video-audit
+          path: music-video-audit.json
+          retention-days: 7
