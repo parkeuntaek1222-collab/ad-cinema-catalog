@@ -26,3 +26,9 @@ Exact normalized song-title and singer matches are required, along with the same
 
 If Tencent's public endpoint changes or fails, its status is reported and the other 69 regional collectors continue. Stale Tencent chart entries are not carried forward; quota/auth failures stop publication. Public endpoints are not a guaranteed long-term API. Update this supplement if Tencent changes its published interface.
 
+
+## Genre selection
+
+Genres are estimated per video from public YouTube `topicDetails.topicCategories`, exact genre tags, hashtags, and explicit `Genre:` description lines. Generic lyrics, country tags, artist names, and the Music category alone are not genre evidence. No artist-wide assumptions, audio/video download, paid API, or AI service is used. Music topics of Asia/Latin America and independent music are not treated as musical genres. The 12 broad selectable genres plus Unclassified allow multiple labels per video. Each label keeps source evidence and the observation time; no match remains Unclassified.
+
+Every refresh enriches at most 2,000 tracks in batches of 50 IDs, adding at most 40 YouTube requests. Together with 69 region charts and China, the total ceiling is 188 units per run (752 for four scheduled runs). Missing metadata or connection errors leave the affected tracks Unclassified; auth/quota errors abort publication without exposing the key. The public catalog carries labels, not whole descriptions or unneeded video tags. The site defaults to All genres, keeps current-song metadata unchanged, and only filters the playback pool when a visitor selects a genre. Empty genres are disabled; failed videos remain skipped.
