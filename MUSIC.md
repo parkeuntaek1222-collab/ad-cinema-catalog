@@ -4,7 +4,7 @@ The scheduled collector runs every six hours and uses only YouTube Data API `vid
 
 No upload-age limit or minimum-view threshold is applied. An older or low-view video can qualify if it is returned by the current regional Trending list. Views and publication dates remain metadata; playback does not weight them.
 
-Candidates must be public, embeddable, music-category, non-age-restricted music outside ongoing livestreams, 90–900 seconds long, and permitted in the collecting region. No title-based MV/exclusion checks apply; regional list inclusion does not certify uploader identity or guarantee playback in every visitor country. Genre labels come from video music topics and explicit uploader genre tags. Unclassified candidates play in All genres; selected genre filters include only matching classified tracks.
+Candidates must be public, embeddable, music-category, non-age-restricted music outside ongoing livestreams, 90–900 seconds long, and permitted in the collecting region. No title-based MV/exclusion checks apply; regional list inclusion does not certify uploader identity or guarantee playback in every visitor country. Genre labels come from video music topics and explicit uploader genre tags. Unclassified candidates play in All genres and the Unclassified genre option, which can be combined with other genres. Named genre filters require matching classification evidence.
 
 Video IDs deduplicate entries across regions while preserving each appearance. RSS, Tencent UNI Chart, Spotify, Billboard and Apple Music are not used or merged into the catalog. Legacy source files remain for reference only.
 
@@ -14,4 +14,4 @@ API/quota failures or insufficient regional responses fail the job before writin
 
 Checks: `node --test music-core.test.mjs music-charts.test.mjs music-genres.test.mjs`.
 
-All music formats in the regional API results are admitted: unmarked titles, audio, lyric videos and recorded live performances. The former music-video title filter is disabled. Ongoing live streams, non-music categories, unavailable embedding, age restrictions, region restrictions and durations outside 90–900 seconds remain excluded. Unclassified tracks remain included when no genre filter is selected.
+All music formats in the regional API results are admitted: unmarked titles, audio, lyric videos and recorded live performances. The former music-video title filter is disabled. Ongoing live streams, non-music categories, unavailable embedding, age restrictions, region restrictions and durations outside 90–900 seconds remain excluded. Unclassified tracks are included when no genre filter is selected or Unclassified is selected.
