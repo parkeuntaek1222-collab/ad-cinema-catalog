@@ -28,7 +28,7 @@ test('preserves prior catalog on empty results',async()=>{
 });
 
 test('all configured markets fit the two-page request budget',async()=>{
- assert.equal(new Set(CHART_REGIONS).size,CHART_REGIONS.length);
+ assert.equal(new Set(CHART_REGIONS).size,110);assert.equal(CHART_REGIONS.length,110);assert(!CHART_REGIONS.includes('IS'));assert(['AM','LA','EE','BO','YE','ZW','PG'].every(code=>CHART_REGIONS.includes(code))); 
  const fetcher=async url=>({ok:true,json:async()=>url.pathname.endsWith('i18nRegions')?{items:CHART_REGIONS.map(id=>({id}))}:{items:[item()],...(url.searchParams.has('pageToken')?{}:{nextPageToken:'second'})}});
  const r=await collectCharts({key:'test',fetcher,now});
  assert.equal(r.requests,MAX_REQUESTS);

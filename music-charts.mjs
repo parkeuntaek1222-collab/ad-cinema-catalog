@@ -1,5 +1,5 @@
 import {musicVideo,eligible} from './music-core.mjs';
-export const CHART_REGIONS=['KR','JP','IN','VN','ID','PH','TH','MY','TW','HK','SG','PK','BD','LK','NP','US','CA','GB','FR','DE','NL','BE','ES','IT','SE','NO','DK','FI','CH','AT','IE','PT','PL','CZ','RO','GR','HU','UA','TR','RU','BR','CO','MX','PR','DO','AR','CL','PE','EC','UY','NG','ZA','KE','GH','TZ','SN','EG','MA','DZ','SA','AE','IL','AU','NZ','JM','PA','RS','KZ','UG'];
+export const CHART_REGIONS=['KR','JP','IN','VN','ID','PH','TH','MY','TW','HK','SG','PK','BD','LK','NP','US','CA','GB','FR','DE','NL','BE','ES','IT','SE','NO','DK','FI','CH','AT','IE','PT','PL','CZ','RO','GR','HU','UA','TR','RU','BR','CO','MX','PR','DO','AR','CL','PE','EC','UY','NG','ZA','KE','GH','TZ','SN','EG','MA','DZ','SA','AE','IL','AU','NZ','JM','PA','RS','KZ','UG','AM','AZ','GE','KH','LA','BA','BG','BY','CY','EE','HR','LI','LT','LU','LV','MD','ME','MK','MT','SI','SK','BO','CR','GT','HN','NI','PY','SV','VE','BH','IQ','JO','KW','LB','OM','QA','YE','LY','TN','ZW','PG'];
 export const MAX_REQUESTS=1+CHART_REGIONS.length*2; // Two pages per market, plus supported-region lookup.
 export function durationSeconds(value=''){
  const m=value.match(/^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/);
