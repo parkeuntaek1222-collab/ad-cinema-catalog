@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-09-30T22:37:50.179Z",
+  "checkedAt": "2026-10-01T01:05:26.741Z",
   "sources": 53,
   "healthy": 53,
-  "chartRequests": 31,
+  "chartRequests": 65,
   "chartRegions": [
     {
       "region": "KR",
@@ -50,6 +50,36 @@
       "qualified": 9
     },
     {
+      "region": "HK",
+      "ok": true,
+      "qualified": 12
+    },
+    {
+      "region": "SG",
+      "ok": true,
+      "qualified": 13
+    },
+    {
+      "region": "PK",
+      "ok": true,
+      "qualified": 10
+    },
+    {
+      "region": "BD",
+      "ok": true,
+      "qualified": 7
+    },
+    {
+      "region": "LK",
+      "ok": true,
+      "qualified": 6
+    },
+    {
+      "region": "NP",
+      "ok": true,
+      "qualified": 10
+    },
+    {
       "region": "US",
       "ok": true,
       "qualified": 7
@@ -57,22 +87,22 @@
     {
       "region": "CA",
       "ok": true,
-      "qualified": 10
+      "qualified": 11
     },
     {
       "region": "GB",
       "ok": true,
-      "qualified": 11
+      "qualified": 12
     },
     {
       "region": "FR",
       "ok": true,
-      "qualified": 0
+      "qualified": 1
     },
     {
       "region": "DE",
       "ok": true,
-      "qualified": 15
+      "qualified": 14
     },
     {
       "region": "NL",
@@ -92,7 +122,87 @@
     {
       "region": "IT",
       "ok": true,
-      "qualified": 12
+      "qualified": 13
+    },
+    {
+      "region": "SE",
+      "ok": true,
+      "qualified": 13
+    },
+    {
+      "region": "NO",
+      "ok": true,
+      "qualified": 7
+    },
+    {
+      "region": "DK",
+      "ok": true,
+      "qualified": 9
+    },
+    {
+      "region": "FI",
+      "ok": true,
+      "qualified": 11
+    },
+    {
+      "region": "CH",
+      "ok": true,
+      "qualified": 9
+    },
+    {
+      "region": "AT",
+      "ok": true,
+      "qualified": 9
+    },
+    {
+      "region": "IE",
+      "ok": true,
+      "qualified": 11
+    },
+    {
+      "region": "PT",
+      "ok": true,
+      "qualified": 9
+    },
+    {
+      "region": "PL",
+      "ok": true,
+      "qualified": 3
+    },
+    {
+      "region": "CZ",
+      "ok": true,
+      "qualified": 11
+    },
+    {
+      "region": "RO",
+      "ok": true,
+      "qualified": 22
+    },
+    {
+      "region": "GR",
+      "ok": true,
+      "qualified": 11
+    },
+    {
+      "region": "HU",
+      "ok": true,
+      "qualified": 14
+    },
+    {
+      "region": "UA",
+      "ok": true,
+      "qualified": 1
+    },
+    {
+      "region": "TR",
+      "ok": true,
+      "qualified": 6
+    },
+    {
+      "region": "RU",
+      "ok": true,
+      "qualified": 5
     },
     {
       "region": "BR",
@@ -107,7 +217,7 @@
     {
       "region": "MX",
       "ok": true,
-      "qualified": 5
+      "qualified": 4
     },
     {
       "region": "PR",
@@ -117,7 +227,7 @@
     {
       "region": "DO",
       "ok": true,
-      "qualified": 16
+      "qualified": 14
     },
     {
       "region": "AR",
@@ -128,6 +238,21 @@
       "region": "CL",
       "ok": true,
       "qualified": 8
+    },
+    {
+      "region": "PE",
+      "ok": true,
+      "qualified": 6
+    },
+    {
+      "region": "EC",
+      "ok": true,
+      "qualified": 7
+    },
+    {
+      "region": "UY",
+      "ok": true,
+      "qualified": 17
     },
     {
       "region": "NG",
@@ -145,9 +270,54 @@
       "qualified": 14
     },
     {
+      "region": "GH",
+      "ok": true,
+      "qualified": 10
+    },
+    {
+      "region": "TZ",
+      "ok": true,
+      "qualified": 17
+    },
+    {
+      "region": "SN",
+      "ok": true,
+      "qualified": 2
+    },
+    {
+      "region": "EG",
+      "ok": true,
+      "qualified": 10
+    },
+    {
+      "region": "MA",
+      "ok": true,
+      "qualified": 8
+    },
+    {
+      "region": "DZ",
+      "ok": true,
+      "qualified": 5
+    },
+    {
+      "region": "SA",
+      "ok": true,
+      "qualified": 7
+    },
+    {
+      "region": "AE",
+      "ok": true,
+      "qualified": 11
+    },
+    {
+      "region": "IL",
+      "ok": true,
+      "qualified": 2
+    },
+    {
       "region": "AU",
       "ok": true,
-      "qualified": 12
+      "qualified": 13
     },
     {
       "region": "NZ",
@@ -155,40 +325,80 @@
       "qualified": 10
     }
   ],
-  "chartTracks": 180,
-  "tracks": 218,
+  "chartTracks": 344,
+  "tracks": 380,
   "countries": [
+    "AE",
     "AR",
+    "AT",
     "AU",
+    "BD",
     "BE",
     "BR",
     "CA",
+    "CH",
     "CL",
     "CO",
+    "CZ",
     "DE",
+    "DK",
     "DO",
+    "DZ",
+    "EC",
+    "EG",
     "ES",
+    "FI",
+    "FR",
     "GB",
+    "GH",
+    "GR",
+    "HK",
+    "HU",
     "ID",
+    "IE",
+    "IL",
     "IN",
     "IT",
     "JP",
     "KE",
     "KR",
+    "LK",
+    "MA",
     "MX",
     "MY",
     "NG",
     "NL",
+    "NO",
+    "NP",
     "NZ",
+    "PE",
     "PH",
+    "PK",
+    "PL",
     "PR",
+    "PT",
+    "RO",
+    "RU",
+    "SA",
+    "SE",
+    "SG",
+    "SN",
     "TH",
+    "TR",
     "TW",
+    "TZ",
+    "UA",
     "US",
+    "UY",
     "VN",
     "ZA"
   ],
   "channels": [
+    {
+      "channel": "UCNIy6zQyP7SuLEIaiwymfUA",
+      "ok": true,
+      "qualified": 2
+    },
     {
       "channel": "UCEf_Bc-KVd7onSeifS3py9g",
       "ok": true,
@@ -200,9 +410,9 @@
       "qualified": 0
     },
     {
-      "channel": "UCUCeZaZeJbEYAAzvMgrKOPQ",
+      "channel": "UC3IZKseVpdzPSBaWxBxundA",
       "ok": true,
-      "qualified": 0
+      "qualified": 3
     },
     {
       "channel": "UCaO6TYtlC8U5ttz62hTrZgg",
@@ -210,17 +420,12 @@
       "qualified": 0
     },
     {
-      "channel": "UCNIy6zQyP7SuLEIaiwymfUA",
-      "ok": true,
-      "qualified": 2
-    },
-    {
-      "channel": "UC3IZKseVpdzPSBaWxBxundA",
-      "ok": true,
-      "qualified": 3
-    },
-    {
       "channel": "UCln9P4Qm3-EAY4aiEPmRwEA",
+      "ok": true,
+      "qualified": 0
+    },
+    {
+      "channel": "UCUCeZaZeJbEYAAzvMgrKOPQ",
       "ok": true,
       "qualified": 0
     },
@@ -235,19 +440,19 @@
       "qualified": 1
     },
     {
+      "channel": "UCFFbwnve3yF62-tVXkTyHqg",
+      "ok": true,
+      "qualified": 1
+    },
+    {
       "channel": "UClyA28-01x4z60eWQ2kiNbA",
       "ok": true,
       "qualified": 1
     },
     {
-      "channel": "UC8xcPPVYvUxv1CPoEcqj4fQ",
+      "channel": "UCHGF6zfD2gwLuke95X3CKFQ",
       "ok": true,
       "qualified": 0
-    },
-    {
-      "channel": "UCFFbwnve3yF62-tVXkTyHqg",
-      "ok": true,
-      "qualified": 1
     },
     {
       "channel": "UCm4v7afBTnJKRm4SlfHJzyg",
@@ -260,7 +465,7 @@
       "qualified": 0
     },
     {
-      "channel": "UCHGF6zfD2gwLuke95X3CKFQ",
+      "channel": "UC8xcPPVYvUxv1CPoEcqj4fQ",
       "ok": true,
       "qualified": 0
     },
@@ -275,7 +480,12 @@
       "qualified": 0
     },
     {
-      "channel": "UCqjjyPUghDSSKFBABM_CXMw",
+      "channel": "UC8HOgNWipVorrlBH8oN2R-A",
+      "ok": true,
+      "qualified": 1
+    },
+    {
+      "channel": "UC5sQe-dDsoobC6TRokL7SMQ",
       "ok": true,
       "qualified": 0
     },
@@ -285,32 +495,22 @@
       "qualified": 0
     },
     {
-      "channel": "UC5sQe-dDsoobC6TRokL7SMQ",
-      "ok": true,
-      "qualified": 0
-    },
-    {
       "channel": "UCZuPJZ2kGFdlbQu1qotZaHw",
       "ok": true,
       "qualified": 1
     },
     {
-      "channel": "UC8HOgNWipVorrlBH8oN2R-A",
+      "channel": "UCqjjyPUghDSSKFBABM_CXMw",
       "ok": true,
-      "qualified": 1
+      "qualified": 0
+    },
+    {
+      "channel": "UC0C-w0YjGpqDXGB8IHb662A",
+      "ok": true,
+      "qualified": 0
     },
     {
       "channel": "UCQt9awGIFZeldFsATZNeJag",
-      "ok": true,
-      "qualified": 0
-    },
-    {
-      "channel": "UCPKWE1H6xhxwPlqUlKgHb_w",
-      "ok": true,
-      "qualified": 0
-    },
-    {
-      "channel": "UC-J-KZfRV8c13fOCkhXdLiQ",
       "ok": true,
       "qualified": 0
     },
@@ -320,17 +520,17 @@
       "qualified": 0
     },
     {
+      "channel": "UC-J-KZfRV8c13fOCkhXdLiQ",
+      "ok": true,
+      "qualified": 0
+    },
+    {
       "channel": "UCqECaJ8Gagnn7YCbPEzWH6g",
       "ok": true,
       "qualified": 2
     },
     {
-      "channel": "UC0C-w0YjGpqDXGB8IHb662A",
-      "ok": true,
-      "qualified": 0
-    },
-    {
-      "channel": "UCQeiBlCcS4-XGwFjrvDn96w",
+      "channel": "UCiGm_E4ZwYSHV3bcW1pnSeQ",
       "ok": true,
       "qualified": 0
     },
@@ -345,7 +545,12 @@
       "qualified": 0
     },
     {
-      "channel": "UCiGm_E4ZwYSHV3bcW1pnSeQ",
+      "channel": "UCPKWE1H6xhxwPlqUlKgHb_w",
+      "ok": true,
+      "qualified": 0
+    },
+    {
+      "channel": "UCQeiBlCcS4-XGwFjrvDn96w",
       "ok": true,
       "qualified": 0
     },
@@ -355,12 +560,12 @@
       "qualified": 0
     },
     {
-      "channel": "UCLk8IJ1TwI7Xl7UUfAD8xPQ",
+      "channel": "UCt-k6JwNWHMXDBGm9IYHdsg",
       "ok": true,
       "qualified": 1
     },
     {
-      "channel": "UCt-k6JwNWHMXDBGm9IYHdsg",
+      "channel": "UCLk8IJ1TwI7Xl7UUfAD8xPQ",
       "ok": true,
       "qualified": 1
     },
@@ -370,12 +575,12 @@
       "qualified": 1
     },
     {
-      "channel": "UCYLNGLIzMhRTi6ZOLjAPSmw",
+      "channel": "UCu59H8LNti6mwvcGRMge5PA",
       "ok": true,
       "qualified": 0
     },
     {
-      "channel": "UCJUYcEdvnYFGajHBW0Nao3w",
+      "channel": "UCYLNGLIzMhRTi6ZOLjAPSmw",
       "ok": true,
       "qualified": 0
     },
@@ -390,7 +595,7 @@
       "qualified": 0
     },
     {
-      "channel": "UCu59H8LNti6mwvcGRMge5PA",
+      "channel": "UCJUYcEdvnYFGajHBW0Nao3w",
       "ok": true,
       "qualified": 0
     },
@@ -405,6 +610,11 @@
       "qualified": 1
     },
     {
+      "channel": "UCTyZ4LCVRiCEVfkVqdi0m3A",
+      "ok": true,
+      "qualified": 0
+    },
+    {
       "channel": "UCXdHJabqwLJ3NvPfx6XmS5Q",
       "ok": true,
       "qualified": 0
@@ -415,17 +625,7 @@
       "qualified": 0
     },
     {
-      "channel": "UCTyZ4LCVRiCEVfkVqdi0m3A",
-      "ok": true,
-      "qualified": 0
-    },
-    {
       "channel": "UCSUVM9Ygr6AI5Eje5BnFhtw",
-      "ok": true,
-      "qualified": 0
-    },
-    {
-      "channel": "UCG9gfnA5UDoLvz-tC9B-HKw",
       "ok": true,
       "qualified": 0
     },
@@ -440,14 +640,19 @@
       "qualified": 0
     },
     {
-      "channel": "UC5H_KXkPbEsGs0tFt8R35mA",
-      "ok": true,
-      "qualified": 1
-    },
-    {
       "channel": "UC1l7wYrva1qCH-wgqcHaaRg",
       "ok": true,
       "qualified": 0
+    },
+    {
+      "channel": "UCG9gfnA5UDoLvz-tC9B-HKw",
+      "ok": true,
+      "qualified": 0
+    },
+    {
+      "channel": "UC5H_KXkPbEsGs0tFt8R35mA",
+      "ok": true,
+      "qualified": 1
     },
     {
       "channel": "UCYp3rk70ACGXQ4gFAiMr1SQ",
