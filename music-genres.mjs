@@ -18,10 +18,10 @@ export const GENRES=[
  {id:"indie-folk",label:"Indie Folk",parent:"folk"}, {id:"acoustic",label:"Acoustic",parent:"folk"},
  {id:"jazz-music",label:"Jazz",parent:"jazz"}, {id:"blues",label:"Blues",parent:"jazz"}
 ];
-const TOPICS={Pop_music:"pop",Hip_hop_music:"hip-hop",Rhythm_and_blues:"rnb",Soul_music:"rnb",Electronic_music:"electronic",Rock_music:"rock",Heavy_metal_music:"metal",Reggae:"reggae",Country_music:"country",Folk_music:"folk",Jazz:"jazz",Blues:"jazz",Classical_music:"classical",Latin_music:"latin",Latin_pop:"latin",Reggaeton:"latin",Bachata:"latin",Salsa_music:"latin",Cumbia:"latin",Merengue_music:"latin",Regional_Mexican:"latin",Norteño:"latin",Corrido:"latin",Samba:"latin",Bossa_nova:"latin",Sertanejo_music:"latin",Forró:"latin",Funk_carioca:"latin",Funk:"funk-disco",Disco:"funk-disco"};
+const TOPICS={Pop_music:"pop",Hip_hop_music:"hip-hop",Rhythm_and_blues:"rnb",Soul_music:"rnb",Electronic_music:"electronic",Rock_music:"rock",Heavy_metal_music:"metal",Reggae:"reggae",Country_music:"country",Folk_music:"folk",Jazz:"jazz",Blues:"jazz",Classical_music:"classical",Music_of_Latin_America:"latin",Latin_music:"latin",Latin_pop:"latin",Reggaeton:"latin",Bachata:"latin",Salsa_music:"latin",Cumbia:"latin",Merengue_music:"latin",Regional_Mexican:"latin",Norteño:"latin",Corrido:"latin",Samba:"latin",Bossa_nova:"latin",Sertanejo_music:"latin",Forró:"latin",Funk_carioca:"latin",Funk:"funk-disco",Disco:"funk-disco"};
 const ALIASES={
- pop:["pop","dance pop","synth pop","electropop","팝"],
- "hip-hop":["hip hop","hiphop","rap","trap music","drill music","힙합","랩"],
+ pop:["arabic pop","turkish pop","türkçe pop","canciones pop","台灣流行樂","pop","dance pop","synth pop","electropop","팝"],
+ "hip-hop":["arabic rap","arabic hip hop","egyptian hip hop","egyptian rap","egyptian rap music","egypt rap","rap egypt","tamil rap song","tamil hip hop","egyptian trap","arabic trap","cairo rap","راب عربي","راب مصري","تراب مصري","hip hop","hiphop","rap","trap music","drill music","힙합","랩"],
  rnb:["r&b","rnb","rhythm and blues","soul","neo soul","알앤비"],
  electronic:["edm","electronic","electronic music","house music","techno","trance music","drum and bass","dubstep"],
  rock:["rock","rock music","alternative rock","indie rock","punk rock","록"],
@@ -29,10 +29,10 @@ const ALIASES={
  reggae:["reggae","dancehall","dub music","레게"],
  afrobeats:["afrobeats","afrobeat","amapiano"],
  country:["country music","country pop","country rock","bluegrass","컨트리"],
- folk:["folk music","indie folk","acoustic music"],
+ folk:["folksong","egyptian folk","armenian folk pop","new folk fusion","nepali folk song","bangla folk song","banglafolksong","bangladeshi folk song","folk music bangladesh","slovak folk song","folkrock","sad / emotional / folk","pashto folk / tapay / sad poetry","folk music","indie folk","acoustic music"],
  jazz:["jazz","blues","재즈","블루스"],
  classical:["classical music","classical","클래식"],
- latin:["latin","latin music","latin pop","reggaeton","reggaetón","latin urban","urbano latino","salsa","bachata","cumbia","merengue","regional mexican","musica mexicana","música mexicana","norteño","norteno","corridos","corrido","samba","bossa nova","sertanejo","forro","forró","funk carioca","baile funk"],
+ latin:["regional mexicano","regionalmexicano","latin regional mexican","musicamexicana","música latina","cumbiasureña","cumbiacampera","cumbia campera","cumbia tik tok","cumbiachicha","cumbiafusion","banda","banda sinaloense","latin","latin music","latin pop","reggaeton","reggaetón","latin urban","urbano latino","salsa","bachata","cumbia","merengue","regional mexican","musica mexicana","música mexicana","norteño","norteno","corridos","corrido","samba","bossa nova","sertanejo","forro","forró","funk carioca","baile funk"],
  "funk-disco":["funk","funk music","disco","disco music","nu disco","nudisco","펑크 음악","디스코"]
 };
 const SUBGENRE_ALIASES={

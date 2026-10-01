@@ -30,7 +30,12 @@ test("quota failures stop publication and errors never expose credentials",async
 
 test("Latin and Funk / Disco classify from explicit genres, not language or chart markets",()=>{
  const r=classifyGenres({snippet:{tags:["Reggaeton","bachata","nu-disco","funk"]}},"now");assert.deepEqual(r.genres,["latin","funk-disco"]);assert.deepEqual(r.subgenres,[]);assert(r.genreEvidence.every(e=>e.source==="youtube-uploader-tag"));
- const regional=classifyGenres({snippet:{title:"Brazilian artist - Song",tags:["Brazil","Spanish","Latin America"]},topicDetails:{topicCategories:["https://en.wikipedia.org/wiki/Music_of_Latin_America"]}});assert.deepEqual(regional.genres,["unclassified"]);
+ const regional=classifyGenres({snippet:{title:"Brazilian artist - Song",tags:["Brazil","Spanish","Latin America"]},topicDetails:{topicCategories:["https://en.wikipedia.org/wiki/Music_of_Latin_America"]}});assert.deepEqual(regional.genres,["latin"]);
  const topics=classifyGenres({topicDetails:{topicCategories:["https://en.wikipedia.org/wiki/Reggaeton","https://en.wikipedia.org/wiki/Funk","https://en.wikipedia.org/wiki/Disco"]}});assert.deepEqual(topics.genres,["latin","funk-disco"]);
  assert.deepEqual(classifyGenres({snippet:{tags:["funk carioca"]}}).genres,["latin"]);
+});
+
+test("reviewed regional genre aliases classify while broad non-genre topics stay unknown",()=>{
+ for(const [tag,id] of [["راب مصري","hip-hop"],["台灣流行樂","pop"],["New_Folk_Fusion","folk"],["RegionalMexicano","latin"]])assert.deepEqual(classifyGenres({snippet:{tags:[tag]}}).genres,[id]);
+ assert.deepEqual(classifyGenres({topicDetails:{topicCategories:["https://en.wikipedia.org/wiki/Music","https://en.wikipedia.org/wiki/Music_of_Asia","https://en.wikipedia.org/wiki/Religion"]}}).genres,["unclassified"]);
 });
