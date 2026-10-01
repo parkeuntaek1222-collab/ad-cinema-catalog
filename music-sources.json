@@ -475,5 +475,14 @@
     "countryBasis": "curated-channel-market",
     "sourceUrl": "https://www.youtube.com/@RammsteinOfficial",
     "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCYp3rk70ACGXQ4gFAiMr1SQ"
+  },
+  {
+    "id": "UCciv4gN3Jm1M8bUsaBs-a_w",
+    "name": "ZhouShen Official",
+    "handle": "ZhouShenOfficial",
+    "countryCode": "CN",
+    "countryBasis": "curated-channel-market",
+    "sourceUrl": "https://www.youtube.com/@ZhouShenOfficial",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCciv4gN3Jm1M8bUsaBs-a_w"
   }
 ]

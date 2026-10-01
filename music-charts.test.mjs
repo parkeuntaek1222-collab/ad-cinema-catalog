@@ -29,3 +29,28 @@ test('all configured markets fit the two-page request budget',async()=>{
  assert.equal(r.healthy,CHART_REGIONS.length);
  assert.deepEqual(r.tracks[0].chartCountries,CHART_REGIONS);
 });
+
+import {chinaTrack,chinaChartSongs,collectChina,CHINA_CHANNELS,CHINA_MAX_REQUESTS} from './music-china.mjs';
+const cnChart={songs:[{songName:'贰拾肆',singerName:'梓渝',rank:7}],issue:'202639'};
+function cnItem(){const i=item();i.snippet.channelId=CHINA_CHANNELS[0].id;i.snippet.title='梓渝#ziyu | 主打曲《贰拾肆》MV正式上线！';return i}
+test('China matches a reviewed official MV and preserves raw title/chart provenance',()=>{
+ const i=cnItem(),t=chinaTrack(i,cnChart,now);
+ assert(t);assert.equal(t.title,'贰拾肆');assert.deepEqual(t.countries,['CN']);assert.equal(t.youtubeTitle,i.snippet.title);assert.equal(t.externalCharts[0].rank,7);assert(!t.originalTitle.includes('#'));assert.equal(t.countryBasis,'external-music-chart');
+ for(const mutate of [i=>i.snippet.channelId='unknown',i=>i.snippet.title+='拍摄vlog',i=>i.status.embeddable=false,i=>i.contentDetails.duration='PT40S',i=>i.snippet.title='梓渝《另一首歌》MV',i=>i.snippet.title+='预告片']){const j=cnItem();mutate(j);assert.equal(chinaTrack(j,cnChart,now),null)}
+ assert.equal(chinaTrack(cnItem(),{...cnChart,songs:[...cnChart.songs,{songName:'拾肆',singerName:'梓渝',rank:8}]},now),null);
+});
+test('China source failure is isolated but quota failure is sanitized and stops publishing',async()=>{
+ const offline=await collectChina({key:'secret-key',fetcher:async()=>{throw Error('secret-key')},now});assert.equal(offline.status.ok,false);assert.equal(offline.status.error,'Tencent chart connection failed');assert.deepEqual(offline.tracks,[]);
+ const quota=async url=>String(url).includes('tencentmusic')?{ok:true,json:async()=>({code:'0',data:{content:{chartsList:cnChart.songs,issue:'202639'}}})}:{ok:false,status:403,json:async()=>({error:{message:'secret-key',errors:[{reason:'quotaExceeded'}]}})};
+ await assert.rejects(collectChina({key:'secret-key',fetcher:quota,now}),e=>e.message==='YouTube API HTTP 403 quotaExceeded');
+ assert.throws(()=>chinaChartSongs({code:'0',data:{content:{chartsList:[],issue:'202639'}}}),/Empty/);
+});
+test('China upload scanning is bounded and publishes only matching validated MVs',async()=>{
+ const seen=[],fetcher=async url=>{url=new URL(url);seen.push(url);let data;
+ if(url.host==='chart.tencentmusic.com')data={code:'0',data:{content:{chartsList:cnChart.songs,issue:'202639'}}};
+ else if(url.pathname.endsWith('/channels'))data={items:CHINA_CHANNELS.map((c,index)=>({id:c.id,contentDetails:{relatedPlaylists:{uploads:'playlist'+index}}}))};
+ else if(url.pathname.endsWith('/playlistItems'))data={items:Array.from({length:50},(_,i)=>({contentDetails:{videoId:'video'+url.searchParams.get('playlistId').slice(-1)+String(i).padStart(5,'0')}}))};
+ else data={items:[cnItem()]};
+ return {ok:true,json:async()=>data};};
+ const result=await collectChina({key:'test',fetcher,now});assert.equal(result.status.requests,CHINA_MAX_REQUESTS);assert.equal(result.status.checkedChannels,4);assert(seen.every(u=>!u.pathname.endsWith('/search')));assert(result.tracks.every(t=>t.countryBasis==='external-music-chart'));
+});
