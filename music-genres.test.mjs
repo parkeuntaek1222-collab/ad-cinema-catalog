@@ -19,7 +19,7 @@ test("subgenres require their own evidence; broad topics never imply a narrow st
 test("batch enrichment preserves existing track data and uses fifty ID requests",async()=>{
  const tracks=Array.from({length:51},(_,i)=>({id:String(i),countries:["KR"],artist:"Artist"}));let requests=0;
  const fetcher=async url=>{requests++;assert(url.searchParams.get("id").split(",").length<=50);return {ok:true,json:async()=>({items:url.searchParams.get("id").split(",").map(id=>({id,topicDetails:{topicCategories:["https://en.wikipedia.org/wiki/Reggae"]}}))})}};
- const r=await enrichGenres({key:"test",tracks,fetcher});assert.equal(requests,2);assert.equal(r.status.classified,51);assert.deepEqual(r.tracks[0].countries,["KR"]);assert.equal(MAX_GENRE_REQUESTS,40);
+ const r=await enrichGenres({key:"test",tracks,fetcher});assert.equal(requests,2);assert.equal(r.status.classified,51);assert.deepEqual(r.tracks[0].countries,["KR"]);assert.equal(MAX_GENRE_REQUESTS,220);
 });
 test("unavailable metadata removes stale classification without discarding music",async()=>{
  const r=await enrichGenres({key:"test",tracks:[{id:"a",genres:["pop"]}],fetcher:async()=>{throw Error("secret-key")}});assert.equal(r.tracks.length,1);assert.deepEqual(r.tracks[0].genres,["unclassified"]);assert.equal(r.status.failedBatches,1);

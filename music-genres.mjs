@@ -59,7 +59,7 @@ export function classifyGenres(item,checkedAt=new Date().toISOString()){
  const genres=GENRES.filter(g=>!g.parent&&evidence.some(e=>e.genre===g.id)).map(g=>g.id),subgenres=GENRES.filter(g=>g.parent&&evidence.some(e=>e.genre===g.id)).map(g=>g.id);
  return {genres:genres.length?genres:["unclassified"],subgenres,genreEvidence:evidence,genresCheckedAt:checkedAt,genreClassification:"metadata-estimate"};
 }
-export const MAX_GENRE_TRACKS=2000,MAX_GENRE_REQUESTS=Math.ceil(MAX_GENRE_TRACKS/50);
+export const MAX_GENRE_TRACKS=11000,MAX_GENRE_REQUESTS=Math.ceil(MAX_GENRE_TRACKS/50);
 export async function enrichGenres({tracks,key,fetcher=fetch,now=Date.now()}){
  if(!key)throw Error("YOUTUBE_API_KEY is required");
  if(tracks.length>MAX_GENRE_TRACKS)throw Error("Genre track budget exhausted");

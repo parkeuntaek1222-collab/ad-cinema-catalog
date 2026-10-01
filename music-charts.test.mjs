@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {chartTrack,collectCharts,MAX_REQUESTS,CHART_REGIONS} from './music-charts.mjs';
+import {trendingEligible} from './music-core.mjs';
 const now=Date.parse('2026-09-29T00:00:00Z');
 function item(){return {id:'abcdefghijk',snippet:{title:'Artist - Song (Official Video)',channelTitle:'Artist',channelId:'channel',categoryId:'10',liveBroadcastContent:'none',publishedAt:'2026-09-28T00:00:00Z'},contentDetails:{duration:'PT3M20S'},status:{embeddable:true,privacyStatus:'public'},statistics:{viewCount:'20000'}}}
 test('validates video and preserves regional provenance',()=>{
@@ -59,4 +60,11 @@ test('China upload scanning is bounded and publishes only matching validated MVs
  else data={items:[cnItem()]};
  return {ok:true,json:async()=>data};};
  const result=await collectChina({key:'test',fetcher,now});assert.equal(result.status.requests,CHINA_MAX_REQUESTS);assert.equal(result.status.checkedChannels,4);assert(seen.every(u=>!u.pathname.endsWith('/search')));assert(result.tracks.every(t=>t.countryBasis==='external-music-chart'));
+});
+
+ test('old and low-view Trending MVs remain eligible; off-list sources do not',()=>{
+ const i=item();i.snippet.publishedAt='2020-01-01T00:00:00Z';i.statistics.viewCount='500';
+ const t={...chartTrack(i,'KR',now),regionalChartPositions:{KR:1}};
+ assert(trendingEligible(t,now));
+ for(const change of [{countryBasis:'curated-channel-market'},{countryBasis:'external-music-chart'},{chartCountries:[]},{regionalChartPositions:{}},{durationSeconds:30},{embedCheckedAt:'2020-01-01T00:00:00Z'}])assert(!trendingEligible({...t,...change},now));
 });
