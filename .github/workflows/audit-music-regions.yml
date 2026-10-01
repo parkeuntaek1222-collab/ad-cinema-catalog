@@ -1,0 +1,55 @@
+name: Audit additional music regions
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check supported regions and music chart responses
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          node --input-type=module <<'NODE'
+          import {CHART_REGIONS,chartTrack} from './music-charts.mjs';
+          import {writeFileSync} from 'node:fs';
+          const key=process.env.YOUTUBE_API_KEY;if(!key)throw Error('Missing YouTube API credential');
+          const checkedAt=new Date().toISOString(),now=Date.now();let requests=0;
+          async function get(resource,params){
+            if(++requests>101)throw Error('Audit request limit reached');
+            const url=new URL('https://www.googleapis.com/youtube/v3/'+resource);
+            for(const [k,v] of Object.entries({...params,key}))url.searchParams.set(k,String(v));
+            let response,data;try{response=await fetch(url,{signal:AbortSignal.timeout(10000)});data=await response.json()}catch{throw Error('YouTube API connection failed')}
+            if(!response.ok){const raw=data.error?.errors?.[0]?.reason,reason=typeof raw==='string'&&/^[a-zA-Z]+$/.test(raw)?raw:'unknown';const error=new Error('YouTube HTTP '+response.status+' '+reason);error.reason=reason;error.status=response.status;throw error}
+            if(!Array.isArray(data.items))throw Error('Invalid API items');return data;
+          }
+          const supported=(await get('i18nRegions',{part:'snippet',hl:'en_US'})).items.map(item=>({code:item.id,name:item.snippet?.name||item.id}));
+          const candidates=supported.filter(item=>!CHART_REGIONS.includes(item.code));if(candidates.length>100)throw Error('Too many audit candidates');
+          const results=[];
+          for(const region of candidates){
+            try{
+              const data=await get('videos',{part:'snippet,contentDetails,statistics,status',chart:'mostPopular',regionCode:region.code,videoCategoryId:'10',maxResults:50});
+              const qualified=data.items.map(item=>chartTrack(item,region.code,now)).filter(Boolean);
+              results.push({...region,status:data.items.length?'available':'empty',chartVideos:data.items.length,qualifiedVideos:qualified.length,examples:qualified.slice(0,3).map(track=>({id:track.id,title:track.title}))});
+            }catch(error){
+              if([400,401,403,429].includes(error.status)&&error.reason!=='videoChartNotFound')throw error;
+              results.push({...region,status:error.reason==='videoChartNotFound'?'unsupported-chart':'error',error:error.message});
+            }
+          }
+          const report={checkedAt,supportedRegions:supported.length,currentYouTubeRegions:CHART_REGIONS.length,requests,policy:'One page of up to 50 music-category popular videos per omitted supported region; current ELSEWHERE MV/age/view/duration/embedding rules. No catalog changes.',results};
+          writeFileSync('music-region-audit.json',JSON.stringify(report,null,2)+'\n');
+          console.log('REGION_AUDIT_JSON='+JSON.stringify(report));
+          const lines=['# Additional music region audit','',`Checked: ${checkedAt}`,`YouTube supported regions: ${supported.length}; already collected: ${CHART_REGIONS.length}; requests: ${requests}`,'','| Country / region | Code | Music chart | Qualifying MVs (first 50) |','| --- | --- | --- | --- |',...results.map(r=>`| ${r.name.replace(/\|/g,' ')} | ${r.code} | ${r.status} | ${r.qualifiedVideos??'—'} |`)];
+          writeFileSync(process.env.GITHUB_STEP_SUMMARY,lines.join('\n')+'\n');
+          NODE
+      - uses: actions/upload-artifact@v4
+        with:
+          name: music-region-audit
+          path: music-region-audit.json
+          retention-days: 7
