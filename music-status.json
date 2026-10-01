@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-01T01:05:26.741Z",
-  "sources": 53,
-  "healthy": 53,
+  "checkedAt": "2026-10-01T01:13:27.716Z",
+  "sources": 54,
+  "healthy": 54,
   "chartRequests": 65,
   "chartRegions": [
     {
@@ -82,7 +82,7 @@
     {
       "region": "US",
       "ok": true,
-      "qualified": 7
+      "qualified": 8
     },
     {
       "region": "CA",
@@ -325,8 +325,18 @@
       "qualified": 10
     }
   ],
-  "chartTracks": 344,
-  "tracks": 380,
+  "chartTracks": 345,
+  "china": {
+    "ok": true,
+    "source": "https://chart.tencentmusic.com/uni-chart",
+    "issue": "202639",
+    "chartSongs": 100,
+    "checkedChannels": 4,
+    "requests": 8,
+    "qualified": 1,
+    "checkedAt": "2026-10-01T01:13:27.716Z"
+  },
+  "tracks": 383,
   "countries": [
     "AE",
     "AR",
@@ -338,6 +348,7 @@
     "CA",
     "CH",
     "CL",
+    "CN",
     "CO",
     "CZ",
     "DE",
@@ -395,24 +406,9 @@
   ],
   "channels": [
     {
-      "channel": "UCNIy6zQyP7SuLEIaiwymfUA",
-      "ok": true,
-      "qualified": 2
-    },
-    {
       "channel": "UCEf_Bc-KVd7onSeifS3py9g",
       "ok": true,
       "qualified": 8
-    },
-    {
-      "channel": "UCOmHUn--16B90oW2L6FRR3A",
-      "ok": true,
-      "qualified": 0
-    },
-    {
-      "channel": "UC3IZKseVpdzPSBaWxBxundA",
-      "ok": true,
-      "qualified": 3
     },
     {
       "channel": "UCaO6TYtlC8U5ttz62hTrZgg",
@@ -420,12 +416,12 @@
       "qualified": 0
     },
     {
-      "channel": "UCln9P4Qm3-EAY4aiEPmRwEA",
+      "channel": "UCNIy6zQyP7SuLEIaiwymfUA",
       "ok": true,
-      "qualified": 0
+      "qualified": 2
     },
     {
-      "channel": "UCUCeZaZeJbEYAAzvMgrKOPQ",
+      "channel": "UCOmHUn--16B90oW2L6FRR3A",
       "ok": true,
       "qualified": 0
     },
@@ -435,9 +431,19 @@
       "qualified": 5
     },
     {
+      "channel": "UC3IZKseVpdzPSBaWxBxundA",
+      "ok": true,
+      "qualified": 3
+    },
+    {
       "channel": "UC56gTxNs4f9xZ7Pa2i5xNzg",
       "ok": true,
       "qualified": 1
+    },
+    {
+      "channel": "UCUCeZaZeJbEYAAzvMgrKOPQ",
+      "ok": true,
+      "qualified": 0
     },
     {
       "channel": "UCFFbwnve3yF62-tVXkTyHqg",
@@ -450,7 +456,12 @@
       "qualified": 1
     },
     {
-      "channel": "UCHGF6zfD2gwLuke95X3CKFQ",
+      "channel": "UC8xcPPVYvUxv1CPoEcqj4fQ",
+      "ok": true,
+      "qualified": 0
+    },
+    {
+      "channel": "UCln9P4Qm3-EAY4aiEPmRwEA",
       "ok": true,
       "qualified": 0
     },
@@ -465,7 +476,7 @@
       "qualified": 0
     },
     {
-      "channel": "UC8xcPPVYvUxv1CPoEcqj4fQ",
+      "channel": "UCK7oVw_ftuBIwiipiBf7ogA",
       "ok": true,
       "qualified": 0
     },
@@ -475,7 +486,7 @@
       "qualified": 0
     },
     {
-      "channel": "UCK7oVw_ftuBIwiipiBf7ogA",
+      "channel": "UCHGF6zfD2gwLuke95X3CKFQ",
       "ok": true,
       "qualified": 0
     },
@@ -495,22 +506,7 @@
       "qualified": 0
     },
     {
-      "channel": "UCZuPJZ2kGFdlbQu1qotZaHw",
-      "ok": true,
-      "qualified": 1
-    },
-    {
-      "channel": "UCqjjyPUghDSSKFBABM_CXMw",
-      "ok": true,
-      "qualified": 0
-    },
-    {
-      "channel": "UC0C-w0YjGpqDXGB8IHb662A",
-      "ok": true,
-      "qualified": 0
-    },
-    {
-      "channel": "UCQt9awGIFZeldFsATZNeJag",
+      "channel": "UC-J-KZfRV8c13fOCkhXdLiQ",
       "ok": true,
       "qualified": 0
     },
@@ -520,7 +516,22 @@
       "qualified": 0
     },
     {
-      "channel": "UC-J-KZfRV8c13fOCkhXdLiQ",
+      "channel": "UCqjjyPUghDSSKFBABM_CXMw",
+      "ok": true,
+      "qualified": 0
+    },
+    {
+      "channel": "UCQt9awGIFZeldFsATZNeJag",
+      "ok": true,
+      "qualified": 0
+    },
+    {
+      "channel": "UCZuPJZ2kGFdlbQu1qotZaHw",
+      "ok": true,
+      "qualified": 1
+    },
+    {
+      "channel": "UCiGm_E4ZwYSHV3bcW1pnSeQ",
       "ok": true,
       "qualified": 0
     },
@@ -530,12 +541,7 @@
       "qualified": 2
     },
     {
-      "channel": "UCiGm_E4ZwYSHV3bcW1pnSeQ",
-      "ok": true,
-      "qualified": 0
-    },
-    {
-      "channel": "UCN9HPn2fq-NL8M5_kp4RWZQ",
+      "channel": "UC0C-w0YjGpqDXGB8IHb662A",
       "ok": true,
       "qualified": 0
     },
@@ -555,7 +561,22 @@
       "qualified": 0
     },
     {
+      "channel": "UCN9HPn2fq-NL8M5_kp4RWZQ",
+      "ok": true,
+      "qualified": 0
+    },
+    {
       "channel": "UC_Av98lDjf5KvFib5elhpYg",
+      "ok": true,
+      "qualified": 0
+    },
+    {
+      "channel": "UCLk8IJ1TwI7Xl7UUfAD8xPQ",
+      "ok": true,
+      "qualified": 1
+    },
+    {
+      "channel": "UCYLNGLIzMhRTi6ZOLjAPSmw",
       "ok": true,
       "qualified": 0
     },
@@ -565,9 +586,9 @@
       "qualified": 1
     },
     {
-      "channel": "UCLk8IJ1TwI7Xl7UUfAD8xPQ",
+      "channel": "UCu59H8LNti6mwvcGRMge5PA",
       "ok": true,
-      "qualified": 1
+      "qualified": 0
     },
     {
       "channel": "UCoMlNw7o21I7LqL4OsjSYAg",
@@ -575,24 +596,9 @@
       "qualified": 1
     },
     {
-      "channel": "UCu59H8LNti6mwvcGRMge5PA",
-      "ok": true,
-      "qualified": 0
-    },
-    {
-      "channel": "UCYLNGLIzMhRTi6ZOLjAPSmw",
-      "ok": true,
-      "qualified": 0
-    },
-    {
       "channel": "UCjIA3wwhi0QjSOXAZwOXbPA",
       "ok": true,
       "qualified": 1
-    },
-    {
-      "channel": "UCDD2C5nSHtQ0arRUP_yBFpw",
-      "ok": true,
-      "qualified": 0
     },
     {
       "channel": "UCJUYcEdvnYFGajHBW0Nao3w",
@@ -600,7 +606,7 @@
       "qualified": 0
     },
     {
-      "channel": "UCEATCATai_oafDuqKssZITw",
+      "channel": "UCDD2C5nSHtQ0arRUP_yBFpw",
       "ok": true,
       "qualified": 0
     },
@@ -610,12 +616,12 @@
       "qualified": 1
     },
     {
-      "channel": "UCTyZ4LCVRiCEVfkVqdi0m3A",
+      "channel": "UCEATCATai_oafDuqKssZITw",
       "ok": true,
       "qualified": 0
     },
     {
-      "channel": "UCXdHJabqwLJ3NvPfx6XmS5Q",
+      "channel": "UCTyZ4LCVRiCEVfkVqdi0m3A",
       "ok": true,
       "qualified": 0
     },
@@ -630,17 +636,7 @@
       "qualified": 0
     },
     {
-      "channel": "UCEdvpU2pFRCVqU6yIPyTpMQ",
-      "ok": true,
-      "qualified": 1
-    },
-    {
-      "channel": "UCU9R50wyBPKpdbcIScAyZig",
-      "ok": true,
-      "qualified": 0
-    },
-    {
-      "channel": "UC1l7wYrva1qCH-wgqcHaaRg",
+      "channel": "UCXdHJabqwLJ3NvPfx6XmS5Q",
       "ok": true,
       "qualified": 0
     },
@@ -650,7 +646,22 @@
       "qualified": 0
     },
     {
-      "channel": "UC5H_KXkPbEsGs0tFt8R35mA",
+      "channel": "UCU9R50wyBPKpdbcIScAyZig",
+      "ok": true,
+      "qualified": 0
+    },
+    {
+      "channel": "UCEdvpU2pFRCVqU6yIPyTpMQ",
+      "ok": true,
+      "qualified": 1
+    },
+    {
+      "channel": "UC1l7wYrva1qCH-wgqcHaaRg",
+      "ok": true,
+      "qualified": 0
+    },
+    {
+      "channel": "UCciv4gN3Jm1M8bUsaBs-a_w",
       "ok": true,
       "qualified": 1
     },
@@ -658,6 +669,11 @@
       "channel": "UCYp3rk70ACGXQ4gFAiMr1SQ",
       "ok": true,
       "qualified": 0
+    },
+    {
+      "channel": "UC5H_KXkPbEsGs0tFt8R35mA",
+      "ok": true,
+      "qualified": 1
     }
   ]
 }
