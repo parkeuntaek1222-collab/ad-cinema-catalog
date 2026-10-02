@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T22:39:30.284Z",
+  "generatedAt": "2026-10-02T05:32:28.792Z",
   "policy": {
     "maxAgeDays": 30,
     "minViews": 1000,
@@ -182,8 +182,8 @@
       "id": "6QVrpnx3aCI",
       "title": "三角チョコパイ「でこぼこ収穫祭」篇 15秒",
       "date": "2026-09-29T01:04:15+00:00",
-      "views": 16353,
-      "viewsCheckedAt": "2026-10-01T22:39:30.284Z",
+      "views": 16810,
+      "viewsCheckedAt": "2026-10-02T05:32:28.792Z",
       "countryCode": "JP",
       "region": "Asia",
       "countryBasis": "official-channel-market",
@@ -193,16 +193,16 @@
       "source": "https://www.youtube.com/watch?v=6QVrpnx3aCI",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 840,
-      "viewsPerHour": 88,
-      "growthWindowHours": 9.52
+      "viewGain": 457,
+      "viewsPerHour": 66,
+      "growthWindowHours": 6.88
     },
     {
       "id": "zNTxjDLqX7I",
       "title": "三角チョコパイ「でこぼこ収穫祭」篇 30秒",
       "date": "2026-09-29T01:03:42+00:00",
-      "views": 301396,
-      "viewsCheckedAt": "2026-10-01T22:39:30.284Z",
+      "views": 312849,
+      "viewsCheckedAt": "2026-10-02T05:32:28.792Z",
       "countryCode": "JP",
       "region": "Asia",
       "countryBasis": "official-channel-market",
@@ -212,9 +212,9 @@
       "source": "https://www.youtube.com/watch?v=zNTxjDLqX7I",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 46548,
-      "viewsPerHour": 4889,
-      "growthWindowHours": 9.52
+      "viewGain": 11453,
+      "viewsPerHour": 1664,
+      "growthWindowHours": 6.88
     },
     {
       "id": "bLJZFVwdFWw",
@@ -258,8 +258,8 @@
       "id": "8uMEsPpMpYE",
       "title": "ハッピーえほん大賞「家族の魔法」篇",
       "date": "2026-09-28T02:02:57+00:00",
-      "views": 5006,
-      "viewsCheckedAt": "2026-10-01T22:39:30.284Z",
+      "views": 5032,
+      "viewsCheckedAt": "2026-10-02T05:32:28.792Z",
       "countryCode": "JP",
       "region": "Asia",
       "countryBasis": "official-channel-market",
@@ -269,9 +269,9 @@
       "source": "https://www.youtube.com/watch?v=8uMEsPpMpYE",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 44,
-      "viewsPerHour": 5,
-      "growthWindowHours": 9.52
+      "viewGain": 26,
+      "viewsPerHour": 4,
+      "growthWindowHours": 6.88
     },
     {
       "id": "n9_ZAMFL_K8",
@@ -372,8 +372,8 @@
       "id": "lG3zcu7hSxE",
       "title": "おねがいマックデリバリー 月見バーガー篇 30秒",
       "date": "2026-09-25T01:14:12+00:00",
-      "views": 375733,
-      "viewsCheckedAt": "2026-10-01T22:39:30.284Z",
+      "views": 381113,
+      "viewsCheckedAt": "2026-10-02T05:32:28.792Z",
       "countryCode": "JP",
       "region": "Asia",
       "countryBasis": "official-channel-market",
@@ -383,16 +383,16 @@
       "source": "https://www.youtube.com/watch?v=lG3zcu7hSxE",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 22368,
-      "viewsPerHour": 2350,
-      "growthWindowHours": 9.52
+      "viewGain": 5380,
+      "viewsPerHour": 782,
+      "growthWindowHours": 6.88
     },
     {
       "id": "_0x_Ydlwy_E",
       "title": "ハッピーセット すみっコぐらし 第2弾 「今日は何っコ？」篇",
       "date": "2026-09-25T01:06:18+00:00",
-      "views": 942253,
-      "viewsCheckedAt": "2026-10-01T22:39:30.284Z",
+      "views": 942106,
+      "viewsCheckedAt": "2026-10-02T05:32:28.792Z",
       "countryCode": "JP",
       "region": "Asia",
       "countryBasis": "official-channel-market",
@@ -402,9 +402,9 @@
       "source": "https://www.youtube.com/watch?v=_0x_Ydlwy_E",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 45709,
-      "viewsPerHour": 4801,
-      "growthWindowHours": 9.52
+      "viewGain": null,
+      "viewsPerHour": null,
+      "growthWindowHours": null
     },
     {
       "id": "Islfm7DLkCY",
@@ -657,8 +657,8 @@
       "id": "1WLqGs7c_yA",
       "title": "Shot on iPhone 18 Pro: \"new trick” by ROSÉ",
       "date": "2026-09-18T16:01:00+00:00",
-      "views": 4913055,
-      "viewsCheckedAt": "2026-10-01T22:39:30.284Z",
+      "views": 5025835,
+      "viewsCheckedAt": "2026-10-02T05:32:28.792Z",
       "countryCode": null,
       "region": "Global",
       "countryBasis": "global",
@@ -668,9 +668,9 @@
       "source": "https://www.youtube.com/watch?v=1WLqGs7c_yA",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 90522,
-      "viewsPerHour": 9508,
-      "growthWindowHours": 9.52
+      "viewGain": 112780,
+      "viewsPerHour": 16385,
+      "growthWindowHours": 6.88
     },
     {
       "id": "6lPOLUFYkjc",
@@ -904,8 +904,8 @@
       "id": "MO9HJsUxEEk",
       "title": "Introducing the new Apple Watch Series 12: the most accurate heart rate sensing in a wearable",
       "date": "2026-09-09T18:44:45+00:00",
-      "views": 15290432,
-      "viewsCheckedAt": "2026-10-01T22:39:30.284Z",
+      "views": 15290958,
+      "viewsCheckedAt": "2026-10-02T05:32:28.792Z",
       "countryCode": null,
       "region": "Global",
       "countryBasis": "global",
@@ -915,16 +915,16 @@
       "source": "https://www.youtube.com/watch?v=MO9HJsUxEEk",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 2826,
-      "viewsPerHour": 297,
-      "growthWindowHours": 9.52
+      "viewGain": 526,
+      "viewsPerHour": 76,
+      "growthWindowHours": 6.88
     },
     {
       "id": "Q3zwkxqh1t0",
       "title": "Introducing the new iPhone 18 Pro",
       "date": "2026-09-09T18:41:02+00:00",
-      "views": 23574549,
-      "viewsCheckedAt": "2026-10-01T22:39:30.284Z",
+      "views": 23580175,
+      "viewsCheckedAt": "2026-10-02T05:32:28.792Z",
       "countryCode": null,
       "region": "Global",
       "countryBasis": "global",
@@ -934,16 +934,16 @@
       "source": "https://www.youtube.com/watch?v=Q3zwkxqh1t0",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 14244,
-      "viewsPerHour": 1496,
-      "growthWindowHours": 9.52
+      "viewGain": 5626,
+      "viewsPerHour": 817,
+      "growthWindowHours": 6.88
     },
     {
       "id": "FUfGcZ092b0",
       "title": "Introducing the new iPhone Duo",
       "date": "2026-09-09T18:33:34+00:00",
-      "views": 31422518,
-      "viewsCheckedAt": "2026-10-01T22:39:30.284Z",
+      "views": 31432240,
+      "viewsCheckedAt": "2026-10-02T05:32:28.792Z",
       "countryCode": null,
       "region": "Global",
       "countryBasis": "global",
@@ -953,9 +953,9 @@
       "source": "https://www.youtube.com/watch?v=FUfGcZ092b0",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 17795,
-      "viewsPerHour": 1869,
-      "growthWindowHours": 9.52
+      "viewGain": 9722,
+      "viewsPerHour": 1412,
+      "growthWindowHours": 6.88
     },
     {
       "id": "-9fA4PXcqZM",
@@ -1018,8 +1018,8 @@
       "id": "mGvgygPgZ_k",
       "title": "Introducing JioTag 2",
       "date": "2026-09-08T07:05:31+00:00",
-      "views": 13939,
-      "viewsCheckedAt": "2026-10-01T22:39:30.284Z",
+      "views": 13944,
+      "viewsCheckedAt": "2026-10-02T05:32:28.792Z",
       "countryCode": "IN",
       "region": "Asia",
       "countryBasis": "official-channel-market",
@@ -1029,9 +1029,9 @@
       "source": "https://www.youtube.com/watch?v=mGvgygPgZ_k",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 39,
-      "viewsPerHour": 4,
-      "growthWindowHours": 9.52
+      "viewGain": 5,
+      "viewsPerHour": 1,
+      "growthWindowHours": 6.88
     },
     {
       "id": "qnZglHbvx3E",
@@ -1094,8 +1094,8 @@
       "id": "bvaujn3bXgg",
       "title": "The World’s Original Energy Drink Takes on the World | Amul x FIH Hockey World Cup 2026",
       "date": "2026-09-02T11:15:55+00:00",
-      "views": 3447,
-      "viewsCheckedAt": "2026-10-01T22:39:30.284Z",
+      "views": 3457,
+      "viewsCheckedAt": "2026-10-02T05:32:28.792Z",
       "countryCode": "IN",
       "region": "Asia",
       "countryBasis": "official-channel-market",
@@ -1105,16 +1105,16 @@
       "source": "https://www.youtube.com/watch?v=bvaujn3bXgg",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 47,
-      "viewsPerHour": 5,
-      "growthWindowHours": 9.52
+      "viewGain": 10,
+      "viewsPerHour": 1,
+      "growthWindowHours": 6.88
     },
     {
       "id": "AEtdo5CIwu4",
       "title": "Amul Doodh Peeta Hai India | Commonwealth Games 2026",
       "date": "2026-09-02T11:10:49+00:00",
-      "views": 6857,
-      "viewsCheckedAt": "2026-10-01T22:39:30.284Z",
+      "views": 6869,
+      "viewsCheckedAt": "2026-10-02T05:32:28.792Z",
       "countryCode": "IN",
       "region": "Asia",
       "countryBasis": "official-channel-market",
@@ -1124,9 +1124,9 @@
       "source": "https://www.youtube.com/watch?v=AEtdo5CIwu4",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 74,
-      "viewsPerHour": 8,
-      "growthWindowHours": 9.52
+      "viewGain": 12,
+      "viewsPerHour": 2,
+      "growthWindowHours": 6.88
     }
   ]
 }
