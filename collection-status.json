@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-02T22:10:40.631Z",
+  "checkedAt": "2026-10-03T05:14:42.517Z",
   "sources": 83,
-  "healthy": 83,
+  "healthy": 1,
   "ads": 54,
   "countries": [
     "AU",
@@ -18,173 +18,213 @@
   ],
   "channels": [
     {
-      "id": "UCWwgaK7x0_FR1goeSRazfsQ",
-      "ok": true,
-      "eligible": 5
-    },
-    {
       "id": "UChqSIUxTWurwjobZ9X0frtg",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 5
     },
     {
-      "id": "UCE_M8A5yxnLfW0KghEeajjw",
-      "ok": true,
+      "id": "UCWwgaK7x0_FR1goeSRazfsQ",
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 5
+    },
+    {
+      "id": "UCrgHdSQWAXEv1QZpzgrJHnA",
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 4
     },
     {
       "id": "UCbp3o7U6oSa6s-LQBZvOnGg",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCUFgkRb0ZHc4Rpq15VRCICA",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
       "id": "UCuLUOxd7ezJ8c6NSLBNRRfg",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 0
+    },
+    {
+      "id": "UCUFgkRb0ZHc4Rpq15VRCICA",
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 0
+    },
+    {
+      "id": "UCosXctaTYxN4YPIvI5Fpcrw",
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
       "id": "UCH47Lk8Qv2Vdr7yu7JHyvug",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 3
     },
     {
-      "id": "UCosXctaTYxN4YPIvI5Fpcrw",
-      "ok": true,
+      "id": "UC-2Y8dQb0S6DtpxNgAKoJKA",
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
-      "id": "UCrgHdSQWAXEv1QZpzgrJHnA",
-      "ok": true,
+      "id": "UCE_M8A5yxnLfW0KghEeajjw",
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 4
     },
     {
       "id": "UC23ZqC2LTzl7dfOi6EmwJhg",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCK8sQmJBp8GCxrOtXWBpyEA",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
       "id": "UCYwrS5QvBY_JbSdbINLey6Q",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
-      "id": "UC-2Y8dQb0S6DtpxNgAKoJKA",
-      "ok": true,
+      "id": "UC6Im3VweLhYbiT2qYTIP6nw",
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
-      "id": "UC22zQ9nBEk6KOjUWqR5XXZg",
-      "ok": true,
+      "id": "UCK8sQmJBp8GCxrOtXWBpyEA",
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
       "id": "UC1pOTJteEef10zJM0cHs4iQ",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 4
     },
     {
+      "id": "UC22zQ9nBEk6KOjUWqR5XXZg",
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 0
+    },
+    {
       "id": "UCv5iVjD-tFfl04V4AB4XRYw",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 1
     },
     {
-      "id": "UC6Im3VweLhYbiT2qYTIP6nw",
-      "ok": true,
+      "id": "UCgY-h0zGG5EOa3f_k22wMJg",
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
       "id": "UCtbCLKu58bBQnvuZWjTTvHA",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCgY-h0zGG5EOa3f_k22wMJg",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCRpqjPtyLWp51TRyi515Rlg",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UC8meHqoXa7z6I6-jiGgfL0w",
-      "ok": true,
-      "eligible": 5
-    },
-    {
-      "id": "UC6xD-jKli-_qIYXDTsNv4dw",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCo6fjlKg6GuCmEMeqYbGJng",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
       "id": "UCxvxIxnS9cjPyeebbiOd4lg",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 4
     },
     {
-      "id": "UCrIAnDo3VuWex3fywkGpB1g",
-      "ok": true,
-      "eligible": 1
-    },
-    {
-      "id": "UC_rBRrHKHnHkzgx8qIWwygg",
-      "ok": true,
+      "id": "UCo6fjlKg6GuCmEMeqYbGJng",
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
+      "id": "UCRpqjPtyLWp51TRyi515Rlg",
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 0
+    },
+    {
+      "id": "UC8meHqoXa7z6I6-jiGgfL0w",
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 5
+    },
+    {
       "id": "UCi86xSII1cJOOwOtiefntRw",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 1
     },
     {
-      "id": "UCu2Nnh9SBz5ax3NQFEnInyg",
-      "ok": true,
+      "id": "UC6xD-jKli-_qIYXDTsNv4dw",
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
       "id": "UCYSjF7_K6jBVzYVuqrE0uZA",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 0
+    },
+    {
+      "id": "UC_rBRrHKHnHkzgx8qIWwygg",
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 0
+    },
+    {
+      "id": "UCrIAnDo3VuWex3fywkGpB1g",
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 1
+    },
+    {
+      "id": "UCu2Nnh9SBz5ax3NQFEnInyg",
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
       "id": "UCa1yUHQmV6Z0PpAUtfgNd9g",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCptyYDiGZ9hs1pH0AaoBTxA",
-      "ok": true,
-      "eligible": 1
-    },
-    {
-      "id": "UCDy7RpxdBRnVJzDUJZ_-ktg",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
       "id": "UCx_eAZKDceT1yaY4bRo636A",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 1
     },
     {
       "id": "UCfigptVgX1LGgUKZkQ2BZMQ",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 0
+    },
+    {
+      "id": "UCDy7RpxdBRnVJzDUJZ_-ktg",
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 0
+    },
+    {
+      "id": "UCptyYDiGZ9hs1pH0AaoBTxA",
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 1
+    },
+    {
+      "id": "UCqnGgTN0ajGp0LaoKkyxAxA",
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
@@ -193,243 +233,285 @@
       "eligible": 0
     },
     {
-      "id": "UCqnGgTN0ajGp0LaoKkyxAxA",
-      "ok": true,
-      "eligible": 0
-    },
-    {
       "id": "UCR8RWMHZcSgqjD0HiUiJ_cQ",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCRI5ZedBs0_BYY4PlxD6m7w",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCea45juw3lHS65aRSC4bdCw",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
       "id": "UCO5ujNeWRIwP4DbCZqZWcLw",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
-      "id": "UCVjS9AuBloqJJjhsy3vIfug",
-      "ok": true,
+      "id": "UCRI5ZedBs0_BYY4PlxD6m7w",
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
       "id": "UC_BaxRhNREI_V0DVXjXDALA",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
-      "id": "UCMZh9kMjQ6Yc_JuCNIp1UDw",
-      "ok": true,
+      "id": "UCVjS9AuBloqJJjhsy3vIfug",
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
-      "id": "UClj0L8WZrVydk5xKOscI6-A",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCgiZEPih0eqntG8G7R1_qyw",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCOO7YwECdkQ9QlPGt05xZYQ",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCTOPrhKvNxvCtNZ2uAy1pQw",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UC72-oIt37SxC6qDQ5O-hYZQ",
-      "ok": true,
+      "id": "UCea45juw3lHS65aRSC4bdCw",
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
       "id": "UCA5vKQkvC9zlTDOSNtoMdCQ",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
-      "id": "UC4U21wzihiCvS3-SyIvoeEA",
-      "ok": true,
+      "id": "UCMZh9kMjQ6Yc_JuCNIp1UDw",
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
-      "id": "UCDjs-YnLzdYUREkCkLT4H1g",
-      "ok": true,
+      "id": "UCTOPrhKvNxvCtNZ2uAy1pQw",
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 0
+    },
+    {
+      "id": "UClj0L8WZrVydk5xKOscI6-A",
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 0
+    },
+    {
+      "id": "UCgiZEPih0eqntG8G7R1_qyw",
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 0
+    },
+    {
+      "id": "UCOO7YwECdkQ9QlPGt05xZYQ",
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
       "id": "UC_Mqb6toM3tO8aAD6Q5HXvA",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 2
     },
     {
       "id": "UCvHYGBxKRDpvIxhXIi-A2Ug",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 1
+    },
+    {
+      "id": "UC72-oIt37SxC6qDQ5O-hYZQ",
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 0
+    },
+    {
+      "id": "UC4U21wzihiCvS3-SyIvoeEA",
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 0
     },
     {
       "id": "UC3O8-tKnz9VUn3sxZKyKN3w",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 1
     },
     {
+      "id": "UCDjs-YnLzdYUREkCkLT4H1g",
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 0
+    },
+    {
       "id": "UClu5bSQwA6D9uat64pGt3FQ",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCPyawQGP6s9nir6kaQUqBYg",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCmlKSK0OKn_B3oPwElW4n5w",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
       "id": "UCmdjwK7Kxekuh9tSyABzZzA",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
       "id": "UCGo8Gdd6MSKBufVc9AIjptA",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
-      "id": "UCQEZFAIw6YFJAN63xoCA46w",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UC26E_8Ic6cc087pvMPUPFxg",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UC4W3zAWU0niQ9FghysCBUsQ",
-      "ok": true,
+      "id": "UCmlKSK0OKn_B3oPwElW4n5w",
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
       "id": "UCSGD1TbYm5ZEZtGKQlkZ69A",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 0
+    },
+    {
+      "id": "UCPyawQGP6s9nir6kaQUqBYg",
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 0
+    },
+    {
+      "id": "UCQEZFAIw6YFJAN63xoCA46w",
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 0
+    },
+    {
+      "id": "UCM4uVUnkKlubDfgbF2ggqbQ",
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 0
+    },
+    {
+      "id": "UC26E_8Ic6cc087pvMPUPFxg",
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
       "id": "UCFpVYHZJsBvSI8TX1PF0Taw",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
-      "id": "UCG2D173IlWnQHUTS07ytGsw",
-      "ok": true,
-      "eligible": 2
-    },
-    {
       "id": "UChaWSe-UQyKBgAElbT7AsZA",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 2
     },
     {
-      "id": "UCM4uVUnkKlubDfgbF2ggqbQ",
-      "ok": true,
+      "id": "UCG2D173IlWnQHUTS07ytGsw",
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 2
+    },
+    {
+      "id": "UCPzW9BqgPdlJbAYHHwxnf8w",
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 0
+    },
+    {
+      "id": "UC4W3zAWU0niQ9FghysCBUsQ",
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
       "id": "UCVfQkDXSIQwHLsaKf-kVVYQ",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 3
     },
     {
-      "id": "UCvZv4eZVszrPLEQWeUdEFww",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UC7x7gqeQQ5dazPAvDgC7TIw",
-      "ok": true,
-      "eligible": 1
-    },
-    {
       "id": "UCr94-HE29as1D5dbk5T4f5Q",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
-      "id": "UCPzW9BqgPdlJbAYHHwxnf8w",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UC0yw39DOcCOwyUj2uY8vbuA",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCamYoLu-bNaUKGvsjhDfnOw",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCSo_it8y_WM0dLlvuOs34Zg",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCVxotPxp9JUc4wBWmdyXhYQ",
-      "ok": true,
+      "id": "UCvZv4eZVszrPLEQWeUdEFww",
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
       "id": "UCNHPnm8RtlOecbQvNoBSxZw",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 2
     },
     {
-      "id": "UChGjPs2DJpo3Fq6vHTcu8VA",
-      "ok": true,
+      "id": "UC7x7gqeQQ5dazPAvDgC7TIw",
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 1
+    },
+    {
+      "id": "UCamYoLu-bNaUKGvsjhDfnOw",
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 0
+    },
+    {
+      "id": "UC0yw39DOcCOwyUj2uY8vbuA",
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 0
+    },
+    {
+      "id": "UCVxotPxp9JUc4wBWmdyXhYQ",
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
       "id": "UCb95GzFiBNC8LgSh7Lituuw",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
-      "id": "UCXvg-X18i5Vv7fVpm2YSocw",
-      "ok": true,
+      "id": "UCSo_it8y_WM0dLlvuOs34Zg",
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
       "id": "UCC7Pt4G2JPEj91qOdkc6RSw",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 0
+    },
+    {
+      "id": "UCXvg-X18i5Vv7fVpm2YSocw",
+      "ok": false,
+      "error": "HTTP 404",
+      "eligible": 0
+    },
+    {
+      "id": "UChGjPs2DJpo3Fq6vHTcu8VA",
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
       "id": "UCtEQuR-kzCp8Fv6F5DY2wPg",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 0
     },
     {
       "id": "UC2PyUUBPi7llRGplhMuD4pQ",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 404",
       "eligible": 1
     }
   ]
