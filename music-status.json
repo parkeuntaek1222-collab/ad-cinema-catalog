@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-02T22:33:31.980Z",
+  "checkedAt": "2026-10-03T05:44:43.796Z",
   "sourceMode": "youtube-trending-only",
   "sources": 0,
   "healthy": 0,
@@ -14,7 +14,7 @@
     {
       "region": "JP",
       "ok": true,
-      "qualified": 25
+      "qualified": 24
     },
     {
       "region": "IN",
@@ -94,7 +94,7 @@
     {
       "region": "GB",
       "ok": true,
-      "qualified": 28
+      "qualified": 27
     },
     {
       "region": "FR",
@@ -119,7 +119,7 @@
     {
       "region": "ES",
       "ok": true,
-      "qualified": 27
+      "qualified": 28
     },
     {
       "region": "IT",
@@ -164,7 +164,7 @@
     {
       "region": "PT",
       "ok": true,
-      "qualified": 27
+      "qualified": 28
     },
     {
       "region": "PL",
@@ -209,12 +209,12 @@
     {
       "region": "BR",
       "ok": true,
-      "qualified": 25
+      "qualified": 26
     },
     {
       "region": "CO",
       "ok": true,
-      "qualified": 26
+      "qualified": 27
     },
     {
       "region": "MX",
@@ -249,7 +249,7 @@
     {
       "region": "EC",
       "ok": true,
-      "qualified": 25
+      "qualified": 24
     },
     {
       "region": "UY",
@@ -369,7 +369,7 @@
     {
       "region": "KH",
       "ok": true,
-      "qualified": 24
+      "qualified": 23
     },
     {
       "region": "LA",
@@ -459,7 +459,7 @@
     {
       "region": "BO",
       "ok": true,
-      "qualified": 23
+      "qualified": 22
     },
     {
       "region": "CR",
@@ -474,7 +474,7 @@
     {
       "region": "HN",
       "ok": true,
-      "qualified": 26
+      "qualified": 24
     },
     {
       "region": "NI",
@@ -489,12 +489,12 @@
     {
       "region": "SV",
       "ok": true,
-      "qualified": 23
+      "qualified": 24
     },
     {
       "region": "VE",
       "ok": true,
-      "qualified": 27
+      "qualified": 26
     },
     {
       "region": "BH",
@@ -557,15 +557,15 @@
       "qualified": 28
     }
   ],
-  "chartTracks": 1627,
+  "chartTracks": 1624,
   "genres": {
     "requests": 33,
-    "classified": 1344,
-    "unclassified": 283,
+    "classified": 1339,
+    "unclassified": 285,
     "failedBatches": 0
   },
-  "tracks": 1627,
-  "playableTracks": 1627,
+  "tracks": 1624,
+  "playableTracks": 1624,
   "countries": [
     "AE",
     "AM",
