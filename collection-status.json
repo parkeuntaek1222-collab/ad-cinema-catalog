@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-06T22:38:44.317Z",
+  "checkedAt": "2026-10-07T13:16:31.103Z",
   "sources": 83,
   "healthy": 83,
-  "ads": 65,
+  "ads": 61,
   "countries": [
     "AU",
     "BR",
@@ -22,9 +22,9 @@
       "eligible": 0
     },
     {
-      "id": "UChqSIUxTWurwjobZ9X0frtg",
+      "id": "UCUFgkRb0ZHc4Rpq15VRCICA",
       "ok": true,
-      "eligible": 5
+      "eligible": 0
     },
     {
       "id": "UCrgHdSQWAXEv1QZpzgrJHnA",
@@ -32,7 +32,22 @@
       "eligible": 4
     },
     {
+      "id": "UChqSIUxTWurwjobZ9X0frtg",
+      "ok": true,
+      "eligible": 6
+    },
+    {
+      "id": "UCuLUOxd7ezJ8c6NSLBNRRfg",
+      "ok": true,
+      "eligible": 0
+    },
+    {
       "id": "UCWwgaK7x0_FR1goeSRazfsQ",
+      "ok": true,
+      "eligible": 1
+    },
+    {
+      "id": "UCE_M8A5yxnLfW0KghEeajjw",
       "ok": true,
       "eligible": 4
     },
@@ -42,19 +57,9 @@
       "eligible": 0
     },
     {
-      "id": "UCuLUOxd7ezJ8c6NSLBNRRfg",
+      "id": "UCH47Lk8Qv2Vdr7yu7JHyvug",
       "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCUFgkRb0ZHc4Rpq15VRCICA",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UC-2Y8dQb0S6DtpxNgAKoJKA",
-      "ok": true,
-      "eligible": 0
+      "eligible": 3
     },
     {
       "id": "UCK8sQmJBp8GCxrOtXWBpyEA",
@@ -72,37 +77,17 @@
       "eligible": 0
     },
     {
-      "id": "UC22zQ9nBEk6KOjUWqR5XXZg",
-      "ok": true,
-      "eligible": 0
-    },
-    {
       "id": "UC1pOTJteEef10zJM0cHs4iQ",
       "ok": true,
       "eligible": 4
     },
     {
-      "id": "UCH47Lk8Qv2Vdr7yu7JHyvug",
-      "ok": true,
-      "eligible": 3
-    },
-    {
-      "id": "UCE_M8A5yxnLfW0KghEeajjw",
-      "ok": true,
-      "eligible": 4
-    },
-    {
-      "id": "UCgY-h0zGG5EOa3f_k22wMJg",
+      "id": "UC-2Y8dQb0S6DtpxNgAKoJKA",
       "ok": true,
       "eligible": 0
     },
     {
-      "id": "UCtbCLKu58bBQnvuZWjTTvHA",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UC6xD-jKli-_qIYXDTsNv4dw",
+      "id": "UC22zQ9nBEk6KOjUWqR5XXZg",
       "ok": true,
       "eligible": 0
     },
@@ -117,12 +102,37 @@
       "eligible": 1
     },
     {
+      "id": "UCtbCLKu58bBQnvuZWjTTvHA",
+      "ok": true,
+      "eligible": 0
+    },
+    {
       "id": "UCRpqjPtyLWp51TRyi515Rlg",
       "ok": true,
       "eligible": 0
     },
     {
+      "id": "UCgY-h0zGG5EOa3f_k22wMJg",
+      "ok": true,
+      "eligible": 0
+    },
+    {
+      "id": "UC6xD-jKli-_qIYXDTsNv4dw",
+      "ok": true,
+      "eligible": 0
+    },
+    {
+      "id": "UCxvxIxnS9cjPyeebbiOd4lg",
+      "ok": true,
+      "eligible": 4
+    },
+    {
       "id": "UCo6fjlKg6GuCmEMeqYbGJng",
+      "ok": true,
+      "eligible": 0
+    },
+    {
+      "id": "UCi86xSII1cJOOwOtiefntRw",
       "ok": true,
       "eligible": 0
     },
@@ -132,9 +142,9 @@
       "eligible": 6
     },
     {
-      "id": "UCxvxIxnS9cjPyeebbiOd4lg",
+      "id": "UCrIAnDo3VuWex3fywkGpB1g",
       "ok": true,
-      "eligible": 4
+      "eligible": 1
     },
     {
       "id": "UC_rBRrHKHnHkzgx8qIWwygg",
@@ -142,14 +152,9 @@
       "eligible": 3
     },
     {
-      "id": "UCi86xSII1cJOOwOtiefntRw",
+      "id": "UCptyYDiGZ9hs1pH0AaoBTxA",
       "ok": true,
       "eligible": 0
-    },
-    {
-      "id": "UCrIAnDo3VuWex3fywkGpB1g",
-      "ok": true,
-      "eligible": 1
     },
     {
       "id": "UCu2Nnh9SBz5ax3NQFEnInyg",
@@ -157,14 +162,9 @@
       "eligible": 0
     },
     {
-      "id": "UCDy7RpxdBRnVJzDUJZ_-ktg",
-      "ok": true,
-      "eligible": 0
-    },
-    {
       "id": "UCYSjF7_K6jBVzYVuqrE0uZA",
       "ok": true,
-      "eligible": 0
+      "eligible": 1
     },
     {
       "id": "UCa1yUHQmV6Z0PpAUtfgNd9g",
@@ -172,7 +172,7 @@
       "eligible": 0
     },
     {
-      "id": "UCptyYDiGZ9hs1pH0AaoBTxA",
+      "id": "UCDy7RpxdBRnVJzDUJZ_-ktg",
       "ok": true,
       "eligible": 0
     },
@@ -187,17 +187,12 @@
       "eligible": 0
     },
     {
-      "id": "UCfigptVgX1LGgUKZkQ2BZMQ",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCjBp_7RuDBUYbd1LegWEJ8g",
-      "ok": true,
-      "eligible": 0
-    },
-    {
       "id": "UCqnGgTN0ajGp0LaoKkyxAxA",
+      "ok": true,
+      "eligible": 0
+    },
+    {
+      "id": "UCfigptVgX1LGgUKZkQ2BZMQ",
       "ok": true,
       "eligible": 0
     },
@@ -207,12 +202,12 @@
       "eligible": 0
     },
     {
-      "id": "UCVjS9AuBloqJJjhsy3vIfug",
+      "id": "UClj0L8WZrVydk5xKOscI6-A",
       "ok": true,
       "eligible": 0
     },
     {
-      "id": "UC_BaxRhNREI_V0DVXjXDALA",
+      "id": "UCVjS9AuBloqJJjhsy3vIfug",
       "ok": true,
       "eligible": 0
     },
@@ -222,22 +217,7 @@
       "eligible": 0
     },
     {
-      "id": "UClj0L8WZrVydk5xKOscI6-A",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCTOPrhKvNxvCtNZ2uAy1pQw",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCea45juw3lHS65aRSC4bdCw",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UC72-oIt37SxC6qDQ5O-hYZQ",
+      "id": "UC_BaxRhNREI_V0DVXjXDALA",
       "ok": true,
       "eligible": 0
     },
@@ -247,7 +227,7 @@
       "eligible": 1
     },
     {
-      "id": "UC4U21wzihiCvS3-SyIvoeEA",
+      "id": "UCjBp_7RuDBUYbd1LegWEJ8g",
       "ok": true,
       "eligible": 0
     },
@@ -257,14 +237,14 @@
       "eligible": 0
     },
     {
-      "id": "UCOO7YwECdkQ9QlPGt05xZYQ",
+      "id": "UCea45juw3lHS65aRSC4bdCw",
       "ok": true,
       "eligible": 0
     },
     {
-      "id": "UCvHYGBxKRDpvIxhXIi-A2Ug",
+      "id": "UCOO7YwECdkQ9QlPGt05xZYQ",
       "ok": true,
-      "eligible": 1
+      "eligible": 0
     },
     {
       "id": "UCgiZEPih0eqntG8G7R1_qyw",
@@ -272,7 +252,7 @@
       "eligible": 0
     },
     {
-      "id": "UCQEZFAIw6YFJAN63xoCA46w",
+      "id": "UCTOPrhKvNxvCtNZ2uAy1pQw",
       "ok": true,
       "eligible": 0
     },
@@ -282,27 +262,22 @@
       "eligible": 4
     },
     {
-      "id": "UC3O8-tKnz9VUn3sxZKyKN3w",
+      "id": "UC72-oIt37SxC6qDQ5O-hYZQ",
       "ok": true,
-      "eligible": 3
+      "eligible": 0
+    },
+    {
+      "id": "UC4U21wzihiCvS3-SyIvoeEA",
+      "ok": true,
+      "eligible": 0
+    },
+    {
+      "id": "UCvHYGBxKRDpvIxhXIi-A2Ug",
+      "ok": true,
+      "eligible": 1
     },
     {
       "id": "UCDjs-YnLzdYUREkCkLT4H1g",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCmlKSK0OKn_B3oPwElW4n5w",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCPyawQGP6s9nir6kaQUqBYg",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCGo8Gdd6MSKBufVc9AIjptA",
       "ok": true,
       "eligible": 0
     },
@@ -312,12 +287,32 @@
       "eligible": 0
     },
     {
+      "id": "UCmlKSK0OKn_B3oPwElW4n5w",
+      "ok": true,
+      "eligible": 0
+    },
+    {
+      "id": "UCQEZFAIw6YFJAN63xoCA46w",
+      "ok": true,
+      "eligible": 0
+    },
+    {
+      "id": "UC3O8-tKnz9VUn3sxZKyKN3w",
+      "ok": true,
+      "eligible": 3
+    },
+    {
+      "id": "UCPyawQGP6s9nir6kaQUqBYg",
+      "ok": true,
+      "eligible": 0
+    },
+    {
       "id": "UCmdjwK7Kxekuh9tSyABzZzA",
       "ok": true,
       "eligible": 0
     },
     {
-      "id": "UCSGD1TbYm5ZEZtGKQlkZ69A",
+      "id": "UCGo8Gdd6MSKBufVc9AIjptA",
       "ok": true,
       "eligible": 0
     },
@@ -327,9 +322,29 @@
       "eligible": 0
     },
     {
+      "id": "UCSGD1TbYm5ZEZtGKQlkZ69A",
+      "ok": true,
+      "eligible": 0
+    },
+    {
       "id": "UCFpVYHZJsBvSI8TX1PF0Taw",
       "ok": true,
       "eligible": 0
+    },
+    {
+      "id": "UC4W3zAWU0niQ9FghysCBUsQ",
+      "ok": true,
+      "eligible": 0
+    },
+    {
+      "id": "UChaWSe-UQyKBgAElbT7AsZA",
+      "ok": true,
+      "eligible": 1
+    },
+    {
+      "id": "UCG2D173IlWnQHUTS07ytGsw",
+      "ok": true,
+      "eligible": 2
     },
     {
       "id": "UCM4uVUnkKlubDfgbF2ggqbQ",
@@ -339,40 +354,10 @@
     {
       "id": "UCVfQkDXSIQwHLsaKf-kVVYQ",
       "ok": true,
-      "eligible": 3
-    },
-    {
-      "id": "UChaWSe-UQyKBgAElbT7AsZA",
-      "ok": true,
-      "eligible": 2
-    },
-    {
-      "id": "UCG2D173IlWnQHUTS07ytGsw",
-      "ok": true,
-      "eligible": 2
-    },
-    {
-      "id": "UC4W3zAWU0niQ9FghysCBUsQ",
-      "ok": true,
-      "eligible": 0
+      "eligible": 1
     },
     {
       "id": "UCPzW9BqgPdlJbAYHHwxnf8w",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCvZv4eZVszrPLEQWeUdEFww",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UC0yw39DOcCOwyUj2uY8vbuA",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCr94-HE29as1D5dbk5T4f5Q",
       "ok": true,
       "eligible": 0
     },
@@ -382,7 +367,32 @@
       "eligible": 1
     },
     {
+      "id": "UC0yw39DOcCOwyUj2uY8vbuA",
+      "ok": true,
+      "eligible": 0
+    },
+    {
+      "id": "UCvZv4eZVszrPLEQWeUdEFww",
+      "ok": true,
+      "eligible": 0
+    },
+    {
+      "id": "UCr94-HE29as1D5dbk5T4f5Q",
+      "ok": true,
+      "eligible": 0
+    },
+    {
+      "id": "UCNHPnm8RtlOecbQvNoBSxZw",
+      "ok": true,
+      "eligible": 2
+    },
+    {
       "id": "UCamYoLu-bNaUKGvsjhDfnOw",
+      "ok": true,
+      "eligible": 0
+    },
+    {
+      "id": "UCVxotPxp9JUc4wBWmdyXhYQ",
       "ok": true,
       "eligible": 0
     },
@@ -397,29 +407,14 @@
       "eligible": 0
     },
     {
-      "id": "UCVxotPxp9JUc4wBWmdyXhYQ",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCXvg-X18i5Vv7fVpm2YSocw",
-      "ok": true,
-      "eligible": 0
-    },
-    {
       "id": "UCb95GzFiBNC8LgSh7Lituuw",
       "ok": true,
       "eligible": 0
     },
     {
-      "id": "UCC7Pt4G2JPEj91qOdkc6RSw",
+      "id": "UCtEQuR-kzCp8Fv6F5DY2wPg",
       "ok": true,
       "eligible": 0
-    },
-    {
-      "id": "UCNHPnm8RtlOecbQvNoBSxZw",
-      "ok": true,
-      "eligible": 2
     },
     {
       "id": "UC2PyUUBPi7llRGplhMuD4pQ",
@@ -427,7 +422,12 @@
       "eligible": 2
     },
     {
-      "id": "UCtEQuR-kzCp8Fv6F5DY2wPg",
+      "id": "UCC7Pt4G2JPEj91qOdkc6RSw",
+      "ok": true,
+      "eligible": 0
+    },
+    {
+      "id": "UCXvg-X18i5Vv7fVpm2YSocw",
       "ok": true,
       "eligible": 0
     }
