@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-08T23:19:03.307Z",
+  "generatedAt": "2026-10-09T06:03:55.933Z",
   "policy": {
     "maxAgeDays": 30,
     "minViews": 1000,
@@ -182,8 +182,8 @@
       "id": "ivoopY_qv54",
       "title": "Galaxy Tab S12 Ultra | Short Film",
       "date": "2026-10-07T11:42:47+00:00",
-      "views": 6805,
-      "viewsCheckedAt": "2026-10-08T23:19:03.307Z",
+      "views": 7187,
+      "viewsCheckedAt": "2026-10-09T06:03:55.933Z",
       "countryCode": "IN",
       "region": "Asia",
       "countryBasis": "official-channel-market",
@@ -193,16 +193,16 @@
       "source": "https://www.youtube.com/watch?v=ivoopY_qv54",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 2452,
-      "viewsPerHour": 247,
-      "growthWindowHours": 9.93
+      "viewGain": 382,
+      "viewsPerHour": 57,
+      "growthWindowHours": 6.75
     },
     {
       "id": "jViWeiA0uj4",
       "title": "Galaxy Tab S12 Ultra || Short Film",
       "date": "2026-10-07T11:42:45+00:00",
-      "views": 11764,
-      "viewsCheckedAt": "2026-10-08T23:19:03.307Z",
+      "views": 12256,
+      "viewsCheckedAt": "2026-10-09T06:03:55.933Z",
       "countryCode": "IN",
       "region": "Asia",
       "countryBasis": "official-channel-market",
@@ -212,16 +212,16 @@
       "source": "https://www.youtube.com/watch?v=jViWeiA0uj4",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 3090,
-      "viewsPerHour": 311,
-      "growthWindowHours": 9.93
+      "viewGain": 492,
+      "viewsPerHour": 73,
+      "growthWindowHours": 6.75
     },
     {
       "id": "mSTAZ8Z6x1k",
       "title": "Galaxy Tab S12 Ultra || Short Film",
       "date": "2026-10-07T11:41:43+00:00",
-      "views": 4028,
-      "viewsCheckedAt": "2026-10-08T23:19:03.307Z",
+      "views": 4184,
+      "viewsCheckedAt": "2026-10-09T06:03:55.933Z",
       "countryCode": "IN",
       "region": "Asia",
       "countryBasis": "official-channel-market",
@@ -231,16 +231,16 @@
       "source": "https://www.youtube.com/watch?v=mSTAZ8Z6x1k",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 1058,
-      "viewsPerHour": 107,
-      "growthWindowHours": 9.93
+      "viewGain": 156,
+      "viewsPerHour": 23,
+      "growthWindowHours": 6.75
     },
     {
       "id": "yvayBw_aS38",
       "title": "Galaxy Tab S12 Ultra | Short Film",
       "date": "2026-10-07T11:38:38+00:00",
-      "views": 6575,
-      "viewsCheckedAt": "2026-10-08T23:19:03.307Z",
+      "views": 6919,
+      "viewsCheckedAt": "2026-10-09T06:03:55.933Z",
       "countryCode": "IN",
       "region": "Asia",
       "countryBasis": "official-channel-market",
@@ -250,16 +250,16 @@
       "source": "https://www.youtube.com/watch?v=yvayBw_aS38",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 2060,
-      "viewsPerHour": 207,
-      "growthWindowHours": 9.93
+      "viewGain": 344,
+      "viewsPerHour": 51,
+      "growthWindowHours": 6.75
     },
     {
       "id": "A4OvuUtwqUA",
       "title": "Galaxy Tab S12 Ultra || Short Film",
       "date": "2026-10-07T11:37:50+00:00",
-      "views": 4743,
-      "viewsCheckedAt": "2026-10-08T23:19:03.307Z",
+      "views": 4993,
+      "viewsCheckedAt": "2026-10-09T06:03:55.933Z",
       "countryCode": "IN",
       "region": "Asia",
       "countryBasis": "official-channel-market",
@@ -269,16 +269,16 @@
       "source": "https://www.youtube.com/watch?v=A4OvuUtwqUA",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 2039,
-      "viewsPerHour": 205,
-      "growthWindowHours": 9.93
+      "viewGain": 250,
+      "viewsPerHour": 37,
+      "growthWindowHours": 6.75
     },
     {
       "id": "E3mKeiArgYE",
       "title": "Galaxy Tab S12 Ultra || Short Film",
       "date": "2026-10-07T11:37:14+00:00",
-      "views": 2438,
-      "viewsCheckedAt": "2026-10-08T23:19:03.307Z",
+      "views": 2475,
+      "viewsCheckedAt": "2026-10-09T06:03:55.933Z",
       "countryCode": "IN",
       "region": "Asia",
       "countryBasis": "official-channel-market",
@@ -288,9 +288,9 @@
       "source": "https://www.youtube.com/watch?v=E3mKeiArgYE",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 411,
-      "viewsPerHour": 41,
-      "growthWindowHours": 9.93
+      "viewGain": 37,
+      "viewsPerHour": 5,
+      "growthWindowHours": 6.75
     },
     {
       "id": "q__NkgSFQy8",
@@ -334,8 +334,8 @@
       "id": "F2bDN_hJqVs",
       "title": "Introducing Galaxy Tab S12 Ultra | Samsung",
       "date": "2026-10-06T13:33:30+00:00",
-      "views": 9259,
-      "viewsCheckedAt": "2026-10-08T23:19:03.307Z",
+      "views": 9418,
+      "viewsCheckedAt": "2026-10-09T06:03:55.933Z",
       "countryCode": "IN",
       "region": "Asia",
       "countryBasis": "official-channel-market",
@@ -345,16 +345,16 @@
       "source": "https://www.youtube.com/watch?v=F2bDN_hJqVs",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 1342,
-      "viewsPerHour": 135,
-      "growthWindowHours": 9.93
+      "viewGain": 159,
+      "viewsPerHour": 24,
+      "growthWindowHours": 6.75
     },
     {
       "id": "Jru4h3PT90w",
       "title": "Galaxy Book6 WCL | Feature Film",
       "date": "2026-10-06T13:31:06+00:00",
-      "views": 1995,
-      "viewsCheckedAt": "2026-10-08T23:19:03.307Z",
+      "views": 2055,
+      "viewsCheckedAt": "2026-10-09T06:03:55.933Z",
       "countryCode": "IN",
       "region": "Asia",
       "countryBasis": "official-channel-market",
@@ -364,16 +364,16 @@
       "source": "https://www.youtube.com/watch?v=Jru4h3PT90w",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 154,
-      "viewsPerHour": 16,
-      "growthWindowHours": 9.93
+      "viewGain": 60,
+      "viewsPerHour": 9,
+      "growthWindowHours": 6.75
     },
     {
       "id": "IjXxnPOSrC8",
       "title": "Galaxy Book6 WCL | Feature Film",
       "date": "2026-10-06T13:30:46+00:00",
-      "views": 13317,
-      "viewsCheckedAt": "2026-10-08T23:19:03.307Z",
+      "views": 13594,
+      "viewsCheckedAt": "2026-10-09T06:03:55.933Z",
       "countryCode": "IN",
       "region": "Asia",
       "countryBasis": "official-channel-market",
@@ -383,9 +383,9 @@
       "source": "https://www.youtube.com/watch?v=IjXxnPOSrC8",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 2574,
-      "viewsPerHour": 259,
-      "growthWindowHours": 9.93
+      "viewGain": 277,
+      "viewsPerHour": 41,
+      "growthWindowHours": 6.75
     },
     {
       "id": "j9OaKYQO8Qk",
@@ -1208,8 +1208,8 @@
       "id": "-9fA4PXcqZM",
       "title": "Pepsi Flag on Flavor: Tailgate",
       "date": "2026-09-09T13:00:31+00:00",
-      "views": 17488,
-      "viewsCheckedAt": "2026-10-08T23:19:03.307Z",
+      "views": 17572,
+      "viewsCheckedAt": "2026-10-09T06:03:55.933Z",
       "countryCode": "US",
       "region": "NorthAmerica",
       "countryBasis": "official-channel-market",
@@ -1219,16 +1219,16 @@
       "source": "https://www.youtube.com/watch?v=-9fA4PXcqZM",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 238,
-      "viewsPerHour": 24,
-      "growthWindowHours": 9.93
+      "viewGain": 84,
+      "viewsPerHour": 12,
+      "growthWindowHours": 6.75
     },
     {
       "id": "lZle9w-jERc",
       "title": "Pepsi Flag on Flavor: Gameday Prep",
       "date": "2026-09-09T13:00:22+00:00",
-      "views": 17691480,
-      "viewsCheckedAt": "2026-10-08T23:19:03.307Z",
+      "views": 17727791,
+      "viewsCheckedAt": "2026-10-09T06:03:55.933Z",
       "countryCode": "US",
       "region": "NorthAmerica",
       "countryBasis": "official-channel-market",
@@ -1238,16 +1238,16 @@
       "source": "https://www.youtube.com/watch?v=lZle9w-jERc",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 22644,
-      "viewsPerHour": 2280,
-      "growthWindowHours": 9.93
+      "viewGain": 36311,
+      "viewsPerHour": 5381,
+      "growthWindowHours": 6.75
     },
     {
       "id": "JEijegCbSMk",
       "title": "Pepsi Flag on Flavor: Football Party",
       "date": "2026-09-09T13:00:15+00:00",
-      "views": 8152,
-      "viewsCheckedAt": "2026-10-08T23:19:03.307Z",
+      "views": 8185,
+      "viewsCheckedAt": "2026-10-09T06:03:55.933Z",
       "countryCode": "US",
       "region": "NorthAmerica",
       "countryBasis": "official-channel-market",
@@ -1257,9 +1257,9 @@
       "source": "https://www.youtube.com/watch?v=JEijegCbSMk",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 76,
-      "viewsPerHour": 8,
-      "growthWindowHours": 9.93
+      "viewGain": 33,
+      "viewsPerHour": 5,
+      "growthWindowHours": 6.75
     }
   ]
 }
