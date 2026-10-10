@@ -6,7 +6,7 @@
     "evidenceUrl": "https://marcommnews.com/sun-valley-hands-the-camera-to-the-mountain-community-in-latest-ski-on-the-sunny-side-ad-campaign/",
     "status": "needs-official-and-country-review",
     "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-10-08T23:18:22.158Z"
+    "checkedAt": "2026-10-10T12:26:26.445Z"
   },
   {
     "url": "https://www.youtube.com/@sunvalley",
@@ -15,7 +15,7 @@
     "evidenceUrl": "https://marcommnews.com/sun-valley-hands-the-camera-to-the-mountain-community-in-latest-ski-on-the-sunny-side-ad-campaign/",
     "status": "needs-official-and-country-review",
     "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-10-08T23:18:22.158Z"
+    "checkedAt": "2026-10-10T12:26:26.445Z"
   },
   {
     "brand": "Carrefour",
@@ -50,7 +50,7 @@
     "countryCode": "IN",
     "officialPage": "https://cars.tatamotors.com/",
     "status": "retry",
-    "error": "Website 403"
+    "error": "fetch failed"
   },
   {
     "brand": "Woolworths",
