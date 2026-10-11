@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T21:39:28.139Z",
+  "generatedAt": "2026-10-11T05:41:23.771Z",
   "policy": {
     "maxAgeDays": 30,
     "minViews": 1000,
@@ -841,44 +841,6 @@
       "dateBasis": "published",
       "viewGain": 216,
       "viewsPerHour": 23,
-      "growthWindowHours": 9.21
-    },
-    {
-      "id": "jcYNvCP17zM",
-      "title": "日清のどん兵衛CM「おだしが変わった 篇」15秒 / 吉岡里帆",
-      "date": "2026-09-11T00:01:18+00:00",
-      "views": 2753149,
-      "viewsCheckedAt": "2026-10-10T21:39:28.139Z",
-      "countryCode": "JP",
-      "region": "Asia",
-      "countryBasis": "official-channel-market",
-      "brand": "Nissin",
-      "market": "일본",
-      "channelId": "UC_Mqb6toM3tO8aAD6Q5HXvA",
-      "source": "https://www.youtube.com/watch?v=jcYNvCP17zM",
-      "sourceType": "official",
-      "dateBasis": "published",
-      "viewGain": 11279,
-      "viewsPerHour": 1225,
-      "growthWindowHours": 9.21
-    },
-    {
-      "id": "Fpj-M7Hn-vI",
-      "title": "日清のどん兵衛CM「おだしが変わった 篇」30秒 / 吉岡里帆",
-      "date": "2026-09-11T00:00:53+00:00",
-      "views": 1330892,
-      "viewsCheckedAt": "2026-10-10T21:39:28.139Z",
-      "countryCode": "JP",
-      "region": "Asia",
-      "countryBasis": "official-channel-market",
-      "brand": "Nissin",
-      "market": "일본",
-      "channelId": "UC_Mqb6toM3tO8aAD6Q5HXvA",
-      "source": "https://www.youtube.com/watch?v=Fpj-M7Hn-vI",
-      "sourceType": "official",
-      "dateBasis": "published",
-      "viewGain": 486,
-      "viewsPerHour": 53,
       "growthWindowHours": 9.21
     }
   ]
