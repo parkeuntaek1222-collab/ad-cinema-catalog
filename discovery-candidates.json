@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.youtube.com/@sunvalley",
-    "brand": "Sun Valley",
-    "exampleVideo": "3DHEv2IuuEw",
-    "evidenceUrl": "https://marcommnews.com/sun-valley-hands-the-camera-to-the-mountain-community-in-latest-ski-on-the-sunny-side-ad-campaign/",
-    "status": "needs-official-and-country-review",
-    "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-10-12T15:16:16.370Z"
-  },
-  {
-    "url": "https://www.youtube.com/@sunvalley",
-    "brand": "Sun Valley",
-    "exampleVideo": "aKg06YtgHMA",
-    "evidenceUrl": "https://marcommnews.com/sun-valley-hands-the-camera-to-the-mountain-community-in-latest-ski-on-the-sunny-side-ad-campaign/",
-    "status": "needs-official-and-country-review",
-    "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-10-12T15:16:16.370Z"
-  },
-  {
     "brand": "Carrefour",
     "countryCode": "FR",
     "officialPage": "https://www.carrefour.fr/",
@@ -53,6 +35,13 @@
     "error": "fetch failed"
   },
   {
+    "brand": "Jio",
+    "countryCode": "IN",
+    "officialPage": "https://www.jio.com/",
+    "status": "retry",
+    "error": "fetch failed"
+  },
+  {
     "brand": "Woolworths",
     "countryCode": "AU",
     "officialPage": "https://www.woolworths.com.au/",
@@ -81,10 +70,10 @@
     "error": "Website 403"
   },
   {
-    "brand": "MTN",
-    "countryCode": "ZA",
-    "officialPage": "https://www.mtn.co.za/",
+    "brand": "Spark",
+    "countryCode": "NZ",
+    "officialPage": "https://www.spark.co.nz/",
     "status": "retry",
-    "error": "The operation was aborted due to timeout"
+    "error": "Website 503"
   }
 ]
