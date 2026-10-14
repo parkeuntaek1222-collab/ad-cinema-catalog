@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-13T23:07:32.268Z",
+  "checkedAt": "2026-10-14T05:24:19.292Z",
   "sourceMode": "youtube-trending-only",
   "sources": 0,
   "healthy": 0,
@@ -19,7 +19,7 @@
     {
       "region": "IN",
       "ok": true,
-      "qualified": 30
+      "qualified": 29
     },
     {
       "region": "VN",
@@ -34,7 +34,7 @@
     {
       "region": "PH",
       "ok": true,
-      "qualified": 26
+      "qualified": 25
     },
     {
       "region": "TH",
@@ -49,7 +49,7 @@
     {
       "region": "TW",
       "ok": true,
-      "qualified": 25
+      "qualified": 26
     },
     {
       "region": "HK",
@@ -219,7 +219,7 @@
     {
       "region": "MX",
       "ok": true,
-      "qualified": 27
+      "qualified": 25
     },
     {
       "region": "PR",
@@ -229,7 +229,7 @@
     {
       "region": "DO",
       "ok": true,
-      "qualified": 29
+      "qualified": 30
     },
     {
       "region": "AR",
@@ -474,7 +474,7 @@
     {
       "region": "HN",
       "ok": true,
-      "qualified": 27
+      "qualified": 26
     },
     {
       "region": "NI",
@@ -484,12 +484,12 @@
     {
       "region": "PY",
       "ok": true,
-      "qualified": 24
+      "qualified": 25
     },
     {
       "region": "SV",
       "ok": true,
-      "qualified": 27
+      "qualified": 26
     },
     {
       "region": "VE",
@@ -514,7 +514,7 @@
     {
       "region": "KW",
       "ok": true,
-      "qualified": 28
+      "qualified": 27
     },
     {
       "region": "LB",
@@ -557,15 +557,15 @@
       "qualified": 30
     }
   ],
-  "chartTracks": 1604,
+  "chartTracks": 1600,
   "genres": {
-    "requests": 33,
+    "requests": 32,
     "classified": 1281,
-    "unclassified": 323,
+    "unclassified": 319,
     "failedBatches": 0
   },
-  "tracks": 1604,
-  "playableTracks": 1604,
+  "tracks": 1600,
+  "playableTracks": 1600,
   "countries": [
     "AE",
     "AM",
