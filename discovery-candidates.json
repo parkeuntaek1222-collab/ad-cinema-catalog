@@ -1,5 +1,23 @@
 [
   {
+    "url": "https://www.youtube.com/@boostmobile",
+    "brand": "Boost Mobile",
+    "exampleVideo": "4n3xW77JzxI",
+    "evidenceUrl": "https://marcommnews.com/mike-tyson-delivers-a-wireless-wake-up-call-in-new-boost-mobile-campaign/",
+    "status": "needs-official-and-country-review",
+    "discoveryMethod": "editorial-campaign",
+    "checkedAt": "2026-10-15T16:56:29.039Z"
+  },
+  {
+    "url": "https://www.youtube.com/@boostmobile",
+    "brand": "Boost Mobile",
+    "exampleVideo": "gZnEu6EX7No",
+    "evidenceUrl": "https://marcommnews.com/mike-tyson-delivers-a-wireless-wake-up-call-in-new-boost-mobile-campaign/",
+    "status": "needs-official-and-country-review",
+    "discoveryMethod": "editorial-campaign",
+    "checkedAt": "2026-10-15T16:56:29.039Z"
+  },
+  {
     "brand": "Carrefour",
     "countryCode": "FR",
     "officialPage": "https://www.carrefour.fr/",
@@ -70,10 +88,10 @@
     "error": "Website 403"
   },
   {
-    "brand": "Spark",
-    "countryCode": "NZ",
-    "officialPage": "https://www.spark.co.nz/",
+    "brand": "MTN",
+    "countryCode": "ZA",
+    "officialPage": "https://www.mtn.co.za/",
     "status": "retry",
-    "error": "Website 503"
+    "error": "The operation was aborted due to timeout"
   }
 ]
