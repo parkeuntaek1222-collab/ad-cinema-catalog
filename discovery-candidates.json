@@ -1,12 +1,30 @@
 [
   {
+    "url": "https://www.youtube.com/@WHotelsWorldwide",
+    "brand": "W Hotels",
+    "exampleVideo": "wMTI4BumC1Y",
+    "evidenceUrl": "https://marcommnews.com/tux-creative-house-debuts-latest-episode-of-w-hotels-global-hotel-tales-campaign-starring-avantika/",
+    "status": "needs-official-and-country-review",
+    "discoveryMethod": "editorial-campaign",
+    "checkedAt": "2026-10-16T21:03:51.082Z"
+  },
+  {
+    "url": "https://www.youtube.com/@Ashley.Official",
+    "brand": "Ashley",
+    "exampleVideo": "6kLqjZxvppI",
+    "evidenceUrl": "https://marcommnews.com/flytevu-launches-marketing-campaign-for-ashley-starring-the-brands-first-chief-mood-officer-teddy-swims/",
+    "status": "needs-official-and-country-review",
+    "discoveryMethod": "editorial-campaign",
+    "checkedAt": "2026-10-16T21:03:51.082Z"
+  },
+  {
     "url": "https://www.youtube.com/@boostmobile",
     "brand": "Boost Mobile",
     "exampleVideo": "4n3xW77JzxI",
     "evidenceUrl": "https://marcommnews.com/mike-tyson-delivers-a-wireless-wake-up-call-in-new-boost-mobile-campaign/",
     "status": "needs-official-and-country-review",
     "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-10-15T16:56:29.039Z"
+    "checkedAt": "2026-10-16T21:03:51.082Z"
   },
   {
     "url": "https://www.youtube.com/@boostmobile",
@@ -15,7 +33,7 @@
     "evidenceUrl": "https://marcommnews.com/mike-tyson-delivers-a-wireless-wake-up-call-in-new-boost-mobile-campaign/",
     "status": "needs-official-and-country-review",
     "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-10-15T16:56:29.039Z"
+    "checkedAt": "2026-10-16T21:03:51.082Z"
   },
   {
     "brand": "Carrefour",
@@ -53,11 +71,18 @@
     "error": "fetch failed"
   },
   {
-    "brand": "Jio",
-    "countryCode": "IN",
-    "officialPage": "https://www.jio.com/",
-    "status": "retry",
-    "error": "fetch failed"
+    "brand": "AIS",
+    "countryCode": "TH",
+    "officialPage": "https://www.ais.th/",
+    "id": "UCyWwBrArC078HbZF1Ax0hdg",
+    "url": "https://www.youtube.com/user/AISChannel",
+    "title": "AIS - YouTube",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCyWwBrArC078HbZF1Ax0hdg",
+    "region": "Asia",
+    "checkedAt": "2026-10-16T21:03:51.082Z",
+    "discoveryMethod": "official-website-link",
+    "countryBasis": "official-channel-market",
+    "status": "needs-country-review"
   },
   {
     "brand": "Woolworths",
@@ -86,12 +111,5 @@
     "officialPage": "https://www.natura.com.br/",
     "status": "retry",
     "error": "Website 403"
-  },
-  {
-    "brand": "MTN",
-    "countryCode": "ZA",
-    "officialPage": "https://www.mtn.co.za/",
-    "status": "retry",
-    "error": "The operation was aborted due to timeout"
   }
 ]
