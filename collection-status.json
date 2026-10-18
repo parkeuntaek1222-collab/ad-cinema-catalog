@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-18T10:59:25.291Z",
+  "checkedAt": "2026-10-18T15:49:07.467Z",
   "sources": 83,
   "healthy": 83,
   "ads": 33,
@@ -15,17 +15,17 @@
   ],
   "channels": [
     {
-      "id": "UCWwgaK7x0_FR1goeSRazfsQ",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCUFgkRb0ZHc4Rpq15VRCICA",
+      "id": "UCbp3o7U6oSa6s-LQBZvOnGg",
       "ok": true,
       "eligible": 0
     },
     {
       "id": "UCrgHdSQWAXEv1QZpzgrJHnA",
+      "ok": true,
+      "eligible": 0
+    },
+    {
+      "id": "UCuLUOxd7ezJ8c6NSLBNRRfg",
       "ok": true,
       "eligible": 0
     },
@@ -40,12 +40,12 @@
       "eligible": 5
     },
     {
-      "id": "UCbp3o7U6oSa6s-LQBZvOnGg",
+      "id": "UCUFgkRb0ZHc4Rpq15VRCICA",
       "ok": true,
       "eligible": 0
     },
     {
-      "id": "UCuLUOxd7ezJ8c6NSLBNRRfg",
+      "id": "UCWwgaK7x0_FR1goeSRazfsQ",
       "ok": true,
       "eligible": 0
     },
@@ -55,12 +55,12 @@
       "eligible": 0
     },
     {
-      "id": "UC-2Y8dQb0S6DtpxNgAKoJKA",
+      "id": "UCYwrS5QvBY_JbSdbINLey6Q",
       "ok": true,
       "eligible": 0
     },
     {
-      "id": "UCYwrS5QvBY_JbSdbINLey6Q",
+      "id": "UC-2Y8dQb0S6DtpxNgAKoJKA",
       "ok": true,
       "eligible": 0
     },
@@ -70,7 +70,7 @@
       "eligible": 1
     },
     {
-      "id": "UC23ZqC2LTzl7dfOi6EmwJhg",
+      "id": "UC22zQ9nBEk6KOjUWqR5XXZg",
       "ok": true,
       "eligible": 0
     },
@@ -80,17 +80,27 @@
       "eligible": 0
     },
     {
-      "id": "UC22zQ9nBEk6KOjUWqR5XXZg",
+      "id": "UCH47Lk8Qv2Vdr7yu7JHyvug",
       "ok": true,
       "eligible": 0
     },
     {
-      "id": "UC6Im3VweLhYbiT2qYTIP6nw",
+      "id": "UC23ZqC2LTzl7dfOi6EmwJhg",
       "ok": true,
       "eligible": 0
     },
     {
       "id": "UCv5iVjD-tFfl04V4AB4XRYw",
+      "ok": true,
+      "eligible": 0
+    },
+    {
+      "id": "UCgY-h0zGG5EOa3f_k22wMJg",
+      "ok": true,
+      "eligible": 0
+    },
+    {
+      "id": "UC6Im3VweLhYbiT2qYTIP6nw",
       "ok": true,
       "eligible": 0
     },
@@ -105,17 +115,12 @@
       "eligible": 0
     },
     {
+      "id": "UC6xD-jKli-_qIYXDTsNv4dw",
+      "ok": true,
+      "eligible": 0
+    },
+    {
       "id": "UCo6fjlKg6GuCmEMeqYbGJng",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCH47Lk8Qv2Vdr7yu7JHyvug",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCgY-h0zGG5EOa3f_k22wMJg",
       "ok": true,
       "eligible": 0
     },
@@ -123,16 +128,6 @@
       "id": "UCxvxIxnS9cjPyeebbiOd4lg",
       "ok": true,
       "eligible": 4
-    },
-    {
-      "id": "UC6xD-jKli-_qIYXDTsNv4dw",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCrIAnDo3VuWex3fywkGpB1g",
-      "ok": true,
-      "eligible": 0
     },
     {
       "id": "UCi86xSII1cJOOwOtiefntRw",
@@ -143,6 +138,11 @@
       "id": "UC8meHqoXa7z6I6-jiGgfL0w",
       "ok": true,
       "eligible": 2
+    },
+    {
+      "id": "UCrIAnDo3VuWex3fywkGpB1g",
+      "ok": true,
+      "eligible": 0
     },
     {
       "id": "UC_rBRrHKHnHkzgx8qIWwygg",
@@ -160,16 +160,6 @@
       "eligible": 2
     },
     {
-      "id": "UCDy7RpxdBRnVJzDUJZ_-ktg",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCYSjF7_K6jBVzYVuqrE0uZA",
-      "ok": true,
-      "eligible": 1
-    },
-    {
       "id": "UCu2Nnh9SBz5ax3NQFEnInyg",
       "ok": true,
       "eligible": 0
@@ -180,9 +170,19 @@
       "eligible": 0
     },
     {
-      "id": "UCqnGgTN0ajGp0LaoKkyxAxA",
+      "id": "UCR8RWMHZcSgqjD0HiUiJ_cQ",
       "ok": true,
       "eligible": 0
+    },
+    {
+      "id": "UCDy7RpxdBRnVJzDUJZ_-ktg",
+      "ok": true,
+      "eligible": 0
+    },
+    {
+      "id": "UCYSjF7_K6jBVzYVuqrE0uZA",
+      "ok": true,
+      "eligible": 1
     },
     {
       "id": "UCjBp_7RuDBUYbd1LegWEJ8g",
@@ -195,17 +195,17 @@
       "eligible": 0
     },
     {
-      "id": "UCR8RWMHZcSgqjD0HiUiJ_cQ",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UClj0L8WZrVydk5xKOscI6-A",
+      "id": "UCqnGgTN0ajGp0LaoKkyxAxA",
       "ok": true,
       "eligible": 0
     },
     {
       "id": "UC_BaxRhNREI_V0DVXjXDALA",
+      "ok": true,
+      "eligible": 0
+    },
+    {
+      "id": "UCVjS9AuBloqJJjhsy3vIfug",
       "ok": true,
       "eligible": 0
     },
@@ -220,7 +220,7 @@
       "eligible": 1
     },
     {
-      "id": "UCVjS9AuBloqJJjhsy3vIfug",
+      "id": "UCO5ujNeWRIwP4DbCZqZWcLw",
       "ok": true,
       "eligible": 0
     },
@@ -230,12 +230,7 @@
       "eligible": 0
     },
     {
-      "id": "UCO5ujNeWRIwP4DbCZqZWcLw",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCA5vKQkvC9zlTDOSNtoMdCQ",
+      "id": "UClj0L8WZrVydk5xKOscI6-A",
       "ok": true,
       "eligible": 0
     },
@@ -250,6 +245,11 @@
       "eligible": 0
     },
     {
+      "id": "UCA5vKQkvC9zlTDOSNtoMdCQ",
+      "ok": true,
+      "eligible": 0
+    },
+    {
       "id": "UCTOPrhKvNxvCtNZ2uAy1pQw",
       "ok": true,
       "eligible": 0
@@ -260,14 +260,14 @@
       "eligible": 0
     },
     {
-      "id": "UC4U21wzihiCvS3-SyIvoeEA",
-      "ok": true,
-      "eligible": 0
-    },
-    {
       "id": "UC_Mqb6toM3tO8aAD6Q5HXvA",
       "ok": true,
       "eligible": 4
+    },
+    {
+      "id": "UCvHYGBxKRDpvIxhXIi-A2Ug",
+      "ok": true,
+      "eligible": 1
     },
     {
       "id": "UCDjs-YnLzdYUREkCkLT4H1g",
@@ -290,12 +290,17 @@
       "eligible": 0
     },
     {
-      "id": "UCvHYGBxKRDpvIxhXIi-A2Ug",
+      "id": "UCPyawQGP6s9nir6kaQUqBYg",
       "ok": true,
-      "eligible": 1
+      "eligible": 0
     },
     {
-      "id": "UCPyawQGP6s9nir6kaQUqBYg",
+      "id": "UC4U21wzihiCvS3-SyIvoeEA",
+      "ok": true,
+      "eligible": 0
+    },
+    {
+      "id": "UCmdjwK7Kxekuh9tSyABzZzA",
       "ok": true,
       "eligible": 0
     },
@@ -310,14 +315,9 @@
       "eligible": 0
     },
     {
-      "id": "UCmdjwK7Kxekuh9tSyABzZzA",
+      "id": "UC26E_8Ic6cc087pvMPUPFxg",
       "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCSGD1TbYm5ZEZtGKQlkZ69A",
-      "ok": true,
-      "eligible": 0
+      "eligible": 1
     },
     {
       "id": "UCFpVYHZJsBvSI8TX1PF0Taw",
@@ -335,14 +335,19 @@
       "eligible": 0
     },
     {
-      "id": "UC26E_8Ic6cc087pvMPUPFxg",
-      "ok": true,
-      "eligible": 1
-    },
-    {
       "id": "UCM4uVUnkKlubDfgbF2ggqbQ",
       "ok": true,
       "eligible": 4
+    },
+    {
+      "id": "UCSGD1TbYm5ZEZtGKQlkZ69A",
+      "ok": true,
+      "eligible": 0
+    },
+    {
+      "id": "UCVfQkDXSIQwHLsaKf-kVVYQ",
+      "ok": true,
+      "eligible": 0
     },
     {
       "id": "UCPzW9BqgPdlJbAYHHwxnf8w",
@@ -360,17 +365,12 @@
       "eligible": 0
     },
     {
-      "id": "UCVfQkDXSIQwHLsaKf-kVVYQ",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCr94-HE29as1D5dbk5T4f5Q",
-      "ok": true,
-      "eligible": 0
-    },
-    {
       "id": "UC7x7gqeQQ5dazPAvDgC7TIw",
+      "ok": true,
+      "eligible": 0
+    },
+    {
+      "id": "UCamYoLu-bNaUKGvsjhDfnOw",
       "ok": true,
       "eligible": 0
     },
@@ -380,7 +380,7 @@
       "eligible": 0
     },
     {
-      "id": "UCamYoLu-bNaUKGvsjhDfnOw",
+      "id": "UCr94-HE29as1D5dbk5T4f5Q",
       "ok": true,
       "eligible": 0
     },
@@ -395,17 +395,12 @@
       "eligible": 0
     },
     {
-      "id": "UCb95GzFiBNC8LgSh7Lituuw",
+      "id": "UCSo_it8y_WM0dLlvuOs34Zg",
       "ok": true,
       "eligible": 0
     },
     {
-      "id": "UCXvg-X18i5Vv7fVpm2YSocw",
-      "ok": true,
-      "eligible": 2
-    },
-    {
-      "id": "UCSo_it8y_WM0dLlvuOs34Zg",
+      "id": "UCb95GzFiBNC8LgSh7Lituuw",
       "ok": true,
       "eligible": 0
     },
@@ -415,12 +410,12 @@
       "eligible": 0
     },
     {
-      "id": "UCC7Pt4G2JPEj91qOdkc6RSw",
+      "id": "UCXvg-X18i5Vv7fVpm2YSocw",
       "ok": true,
-      "eligible": 0
+      "eligible": 2
     },
     {
-      "id": "UCtEQuR-kzCp8Fv6F5DY2wPg",
+      "id": "UCC7Pt4G2JPEj91qOdkc6RSw",
       "ok": true,
       "eligible": 0
     },
@@ -428,6 +423,11 @@
       "id": "UC2PyUUBPi7llRGplhMuD4pQ",
       "ok": true,
       "eligible": 1
+    },
+    {
+      "id": "UCtEQuR-kzCp8Fv6F5DY2wPg",
+      "ok": true,
+      "eligible": 0
     }
   ]
 }
