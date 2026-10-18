@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T20:33:17.151Z",
+  "generatedAt": "2026-10-18T04:27:07.394Z",
   "policy": {
     "maxAgeDays": 30,
     "minViews": 1000,
@@ -49,8 +49,8 @@
       "id": "HVulqdoLorg",
       "title": "花王 ピュオーラ 超密着ホイップハミガキ TVCF+機能紹介30秒 動画広告 山田裕貴",
       "date": "2026-10-14T15:00:22+00:00",
-      "views": 1986,
-      "viewsCheckedAt": "2026-10-17T20:33:17.151Z",
+      "views": 1993,
+      "viewsCheckedAt": "2026-10-18T04:27:07.394Z",
       "countryCode": "JP",
       "region": "Asia",
       "countryBasis": "official-channel-market",
@@ -60,16 +60,16 @@
       "source": "https://www.youtube.com/watch?v=HVulqdoLorg",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 46,
-      "viewsPerHour": 9,
-      "growthWindowHours": 5.06
+      "viewGain": 7,
+      "viewsPerHour": 1,
+      "growthWindowHours": 7.9
     },
     {
       "id": "rl53DDGNorU",
       "title": "花王 ピュオーラ 超密着ホイップハミガキTVCF 15秒 CM 山田裕貴",
       "date": "2026-10-14T15:00:20+00:00",
-      "views": 5301,
-      "viewsCheckedAt": "2026-10-17T20:33:17.151Z",
+      "views": 5355,
+      "viewsCheckedAt": "2026-10-18T04:27:07.394Z",
       "countryCode": "JP",
       "region": "Asia",
       "countryBasis": "official-channel-market",
@@ -79,9 +79,9 @@
       "source": "https://www.youtube.com/watch?v=rl53DDGNorU",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 69,
-      "viewsPerHour": 14,
-      "growthWindowHours": 5.06
+      "viewGain": 54,
+      "viewsPerHour": 7,
+      "growthWindowHours": 7.9
     },
     {
       "id": "dWu_MWeXuZE",
