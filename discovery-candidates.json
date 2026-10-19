@@ -6,7 +6,7 @@
     "evidenceUrl": "https://marcommnews.com/tux-creative-house-debuts-latest-episode-of-w-hotels-global-hotel-tales-campaign-starring-avantika/",
     "status": "needs-official-and-country-review",
     "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-10-18T04:26:11.240Z"
+    "checkedAt": "2026-10-19T04:35:12.090Z"
   },
   {
     "url": "https://www.youtube.com/@Ashley.Official",
@@ -15,7 +15,7 @@
     "evidenceUrl": "https://marcommnews.com/flytevu-launches-marketing-campaign-for-ashley-starring-the-brands-first-chief-mood-officer-teddy-swims/",
     "status": "needs-official-and-country-review",
     "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-10-18T04:26:11.240Z"
+    "checkedAt": "2026-10-19T04:35:12.090Z"
   },
   {
     "url": "https://www.youtube.com/@boostmobile",
@@ -24,7 +24,7 @@
     "evidenceUrl": "https://marcommnews.com/mike-tyson-delivers-a-wireless-wake-up-call-in-new-boost-mobile-campaign/",
     "status": "needs-official-and-country-review",
     "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-10-18T04:26:11.240Z"
+    "checkedAt": "2026-10-19T04:35:12.090Z"
   },
   {
     "url": "https://www.youtube.com/@boostmobile",
@@ -33,7 +33,7 @@
     "evidenceUrl": "https://marcommnews.com/mike-tyson-delivers-a-wireless-wake-up-call-in-new-boost-mobile-campaign/",
     "status": "needs-official-and-country-review",
     "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-10-18T04:26:11.240Z"
+    "checkedAt": "2026-10-19T04:35:12.090Z"
   },
   {
     "brand": "Carrefour",
@@ -54,7 +54,7 @@
     "countryCode": "FR",
     "officialPage": "https://www.intermarche.com/",
     "status": "retry",
-    "error": "Website 502"
+    "error": "Website 403"
   },
   {
     "brand": "Amul",
@@ -79,7 +79,7 @@
     "title": "AIS - YouTube",
     "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCyWwBrArC078HbZF1Ax0hdg",
     "region": "Asia",
-    "checkedAt": "2026-10-18T04:26:11.240Z",
+    "checkedAt": "2026-10-19T04:35:12.090Z",
     "discoveryMethod": "official-website-link",
     "countryBasis": "official-channel-market",
     "status": "needs-country-review"
@@ -111,12 +111,5 @@
     "officialPage": "https://www.natura.com.br/",
     "status": "retry",
     "error": "Website 403"
-  },
-  {
-    "brand": "Spark",
-    "countryCode": "NZ",
-    "officialPage": "https://www.spark.co.nz/",
-    "status": "retry",
-    "error": "The operation was aborted due to timeout"
   }
 ]
