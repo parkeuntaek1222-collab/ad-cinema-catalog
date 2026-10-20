@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-20T05:17:42.233Z",
+  "checkedAt": "2026-10-20T12:12:10.069Z",
   "sourceMode": "youtube-trending-only",
   "sources": 0,
   "healthy": 0,
@@ -557,15 +557,15 @@
       "qualified": 27
     }
   ],
-  "chartTracks": 1612,
+  "chartTracks": 1613,
   "genres": {
     "requests": 33,
-    "classified": 1283,
-    "unclassified": 329,
+    "classified": 1282,
+    "unclassified": 331,
     "failedBatches": 0
   },
-  "tracks": 1612,
-  "playableTracks": 1612,
+  "tracks": 1613,
+  "playableTracks": 1613,
   "countries": [
     "AE",
     "AM",
