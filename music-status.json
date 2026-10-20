@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-20T17:31:39.108Z",
+  "checkedAt": "2026-10-20T21:52:25.966Z",
   "sourceMode": "youtube-trending-only",
   "sources": 0,
   "healthy": 0,
@@ -14,7 +14,7 @@
     {
       "region": "JP",
       "ok": true,
-      "qualified": 21
+      "qualified": 22
     },
     {
       "region": "IN",
@@ -39,7 +39,7 @@
     {
       "region": "TH",
       "ok": true,
-      "qualified": 27
+      "qualified": 26
     },
     {
       "region": "MY",
@@ -194,7 +194,7 @@
     {
       "region": "UA",
       "ok": true,
-      "qualified": 27
+      "qualified": 26
     },
     {
       "region": "TR",
@@ -309,7 +309,7 @@
     {
       "region": "AE",
       "ok": true,
-      "qualified": 28
+      "qualified": 27
     },
     {
       "region": "IL",
@@ -349,7 +349,7 @@
     {
       "region": "UG",
       "ok": true,
-      "qualified": 25
+      "qualified": 24
     },
     {
       "region": "AM",
@@ -369,7 +369,7 @@
     {
       "region": "KH",
       "ok": true,
-      "qualified": 26
+      "qualified": 27
     },
     {
       "region": "LA",
@@ -439,7 +439,7 @@
     {
       "region": "MK",
       "ok": true,
-      "qualified": 24
+      "qualified": 25
     },
     {
       "region": "MT",
@@ -464,7 +464,7 @@
     {
       "region": "CR",
       "ok": true,
-      "qualified": 26
+      "qualified": 27
     },
     {
       "region": "GT",
@@ -489,7 +489,7 @@
     {
       "region": "SV",
       "ok": true,
-      "qualified": 25
+      "qualified": 26
     },
     {
       "region": "VE",
@@ -499,7 +499,7 @@
     {
       "region": "BH",
       "ok": true,
-      "qualified": 12
+      "qualified": 13
     },
     {
       "region": "IQ",
@@ -557,15 +557,15 @@
       "qualified": 27
     }
   ],
-  "chartTracks": 1616,
+  "chartTracks": 1611,
   "genres": {
     "requests": 33,
-    "classified": 1290,
-    "unclassified": 326,
+    "classified": 1284,
+    "unclassified": 327,
     "failedBatches": 0
   },
-  "tracks": 1616,
-  "playableTracks": 1616,
+  "tracks": 1611,
+  "playableTracks": 1611,
   "countries": [
     "AE",
     "AM",
