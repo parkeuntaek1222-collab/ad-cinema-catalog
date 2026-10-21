@@ -1,30 +1,10 @@
 [
   {
-    "url": "https://www.youtube.com/@ErsteBankSparkasse",
-    "brand": "Erste Bank und Sparkasse",
-    "exampleVideo": "5NibC7FDFbw",
-    "evidenceUrl": "https://marcommnews.com/180heartbeats-jung-v-matt-creates-new-campaign-for-erste-bank-in-austria-and-the-czech-republic/",
-    "status": "needs-official-and-country-review",
-    "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-10-20T04:44:05.608Z"
-  },
-  {
-    "url": "https://www.youtube.com/@WHotelsWorldwide",
-    "brand": "W Hotels",
-    "exampleVideo": "wMTI4BumC1Y",
-    "evidenceUrl": "https://marcommnews.com/tux-creative-house-debuts-latest-episode-of-w-hotels-global-hotel-tales-campaign-starring-avantika/",
-    "status": "needs-official-and-country-review",
-    "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-10-20T04:44:05.608Z"
-  },
-  {
-    "url": "https://www.youtube.com/@Ashley.Official",
-    "brand": "Ashley",
-    "exampleVideo": "6kLqjZxvppI",
-    "evidenceUrl": "https://marcommnews.com/flytevu-launches-marketing-campaign-for-ashley-starring-the-brands-first-chief-mood-officer-teddy-swims/",
-    "status": "needs-official-and-country-review",
-    "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-10-20T04:44:05.608Z"
+    "brand": "Renault",
+    "countryCode": "FR",
+    "officialPage": "https://www.renault.fr/",
+    "status": "retry",
+    "error": "Website 403"
   },
   {
     "brand": "Carrefour",
@@ -70,7 +50,7 @@
     "title": "AIS - YouTube",
     "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCyWwBrArC078HbZF1Ax0hdg",
     "region": "Asia",
-    "checkedAt": "2026-10-20T04:44:05.608Z",
+    "checkedAt": "2026-10-21T11:43:09.269Z",
     "discoveryMethod": "official-website-link",
     "countryBasis": "official-channel-market",
     "status": "needs-country-review"
