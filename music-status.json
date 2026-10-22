@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-22T05:21:57.071Z",
+  "checkedAt": "2026-10-22T12:26:11.824Z",
   "sourceMode": "youtube-trending-only",
   "sources": 0,
   "healthy": 0,
@@ -29,7 +29,7 @@
     {
       "region": "ID",
       "ok": true,
-      "qualified": 27
+      "qualified": 26
     },
     {
       "region": "PH",
@@ -64,7 +64,7 @@
     {
       "region": "PK",
       "ok": true,
-      "qualified": 28
+      "qualified": 27
     },
     {
       "region": "BD",
@@ -104,7 +104,7 @@
     {
       "region": "DE",
       "ok": true,
-      "qualified": 28
+      "qualified": 27
     },
     {
       "region": "NL",
@@ -279,7 +279,7 @@
     {
       "region": "TZ",
       "ok": true,
-      "qualified": 29
+      "qualified": 30
     },
     {
       "region": "SN",
@@ -304,7 +304,7 @@
     {
       "region": "SA",
       "ok": true,
-      "qualified": 28
+      "qualified": 27
     },
     {
       "region": "AE",
@@ -379,7 +379,7 @@
     {
       "region": "BA",
       "ok": true,
-      "qualified": 27
+      "qualified": 26
     },
     {
       "region": "BG",
@@ -404,7 +404,7 @@
     {
       "region": "HR",
       "ok": true,
-      "qualified": 26
+      "qualified": 25
     },
     {
       "region": "LI",
@@ -424,12 +424,12 @@
     {
       "region": "LV",
       "ok": true,
-      "qualified": 6
+      "qualified": 5
     },
     {
       "region": "MD",
       "ok": true,
-      "qualified": 21
+      "qualified": 22
     },
     {
       "region": "ME",
@@ -549,7 +549,7 @@
     {
       "region": "ZW",
       "ok": true,
-      "qualified": 26
+      "qualified": 25
     },
     {
       "region": "PG",
@@ -557,15 +557,15 @@
       "qualified": 26
     }
   ],
-  "chartTracks": 1603,
+  "chartTracks": 1604,
   "genres": {
     "requests": 33,
-    "classified": 1283,
-    "unclassified": 320,
+    "classified": 1282,
+    "unclassified": 322,
     "failedBatches": 0
   },
-  "tracks": 1603,
-  "playableTracks": 1603,
+  "tracks": 1604,
+  "playableTracks": 1604,
   "countries": [
     "AE",
     "AM",
