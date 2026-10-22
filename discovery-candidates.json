@@ -1,12 +1,5 @@
 [
   {
-    "brand": "Renault",
-    "countryCode": "FR",
-    "officialPage": "https://www.renault.fr/",
-    "status": "retry",
-    "error": "Website 403"
-  },
-  {
     "brand": "Carrefour",
     "countryCode": "FR",
     "officialPage": "https://www.carrefour.fr/",
@@ -50,7 +43,7 @@
     "title": "AIS - YouTube",
     "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCyWwBrArC078HbZF1Ax0hdg",
     "region": "Asia",
-    "checkedAt": "2026-10-21T11:43:09.269Z",
+    "checkedAt": "2026-10-22T11:45:58.497Z",
     "discoveryMethod": "official-website-link",
     "countryBasis": "official-channel-market",
     "status": "needs-country-review"
