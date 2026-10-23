@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-23T12:07:30.298Z",
+  "checkedAt": "2026-10-23T17:26:37.610Z",
   "sourceMode": "youtube-trending-only",
   "sources": 0,
   "healthy": 0,
@@ -299,7 +299,7 @@
     {
       "region": "DZ",
       "ok": true,
-      "qualified": 27
+      "qualified": 26
     },
     {
       "region": "SA",
@@ -557,15 +557,15 @@
       "qualified": 26
     }
   ],
-  "chartTracks": 1598,
+  "chartTracks": 1597,
   "genres": {
     "requests": 32,
-    "classified": 1289,
+    "classified": 1288,
     "unclassified": 309,
     "failedBatches": 0
   },
-  "tracks": 1598,
-  "playableTracks": 1598,
+  "tracks": 1597,
+  "playableTracks": 1597,
   "countries": [
     "AE",
     "AM",
