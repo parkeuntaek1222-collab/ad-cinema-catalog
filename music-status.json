@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-25T05:18:38.675Z",
+  "checkedAt": "2026-10-25T11:59:23.638Z",
   "sourceMode": "youtube-trending-only",
   "sources": 0,
   "healthy": 0,
@@ -9,7 +9,7 @@
     {
       "region": "KR",
       "ok": true,
-      "qualified": 29
+      "qualified": 28
     },
     {
       "region": "JP",
@@ -34,7 +34,7 @@
     {
       "region": "PH",
       "ok": true,
-      "qualified": 29
+      "qualified": 28
     },
     {
       "region": "TH",
@@ -84,7 +84,7 @@
     {
       "region": "US",
       "ok": true,
-      "qualified": 25
+      "qualified": 24
     },
     {
       "region": "CA",
@@ -159,7 +159,7 @@
     {
       "region": "IE",
       "ok": true,
-      "qualified": 26
+      "qualified": 27
     },
     {
       "region": "PT",
@@ -224,7 +224,7 @@
     {
       "region": "PR",
       "ok": true,
-      "qualified": 29
+      "qualified": 28
     },
     {
       "region": "DO",
@@ -274,7 +274,7 @@
     {
       "region": "GH",
       "ok": true,
-      "qualified": 29
+      "qualified": 30
     },
     {
       "region": "TZ",
@@ -339,7 +339,7 @@
     {
       "region": "RS",
       "ok": true,
-      "qualified": 26
+      "qualified": 27
     },
     {
       "region": "KZ",
@@ -369,7 +369,7 @@
     {
       "region": "KH",
       "ok": true,
-      "qualified": 29
+      "qualified": 28
     },
     {
       "region": "LA",
@@ -394,7 +394,7 @@
     {
       "region": "CY",
       "ok": true,
-      "qualified": 16
+      "qualified": 15
     },
     {
       "region": "EE",
@@ -554,18 +554,18 @@
     {
       "region": "PG",
       "ok": true,
-      "qualified": 25
+      "qualified": 24
     }
   ],
-  "chartTracks": 1604,
+  "chartTracks": 1597,
   "genres": {
-    "requests": 33,
-    "classified": 1298,
-    "unclassified": 306,
+    "requests": 32,
+    "classified": 1287,
+    "unclassified": 310,
     "failedBatches": 0
   },
-  "tracks": 1604,
-  "playableTracks": 1604,
+  "tracks": 1597,
+  "playableTracks": 1597,
   "countries": [
     "AE",
     "AM",
