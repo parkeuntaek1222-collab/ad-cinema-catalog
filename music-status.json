@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-25T16:49:15.759Z",
+  "checkedAt": "2026-10-25T21:14:25.239Z",
   "sourceMode": "youtube-trending-only",
   "sources": 0,
   "healthy": 0,
@@ -144,7 +144,7 @@
     {
       "region": "FI",
       "ok": true,
-      "qualified": 27
+      "qualified": 28
     },
     {
       "region": "CH",
@@ -179,7 +179,7 @@
     {
       "region": "RO",
       "ok": true,
-      "qualified": 26
+      "qualified": 27
     },
     {
       "region": "GR",
@@ -214,7 +214,7 @@
     {
       "region": "CO",
       "ok": true,
-      "qualified": 28
+      "qualified": 27
     },
     {
       "region": "MX",
@@ -244,12 +244,12 @@
     {
       "region": "PE",
       "ok": true,
-      "qualified": 25
+      "qualified": 24
     },
     {
       "region": "EC",
       "ok": true,
-      "qualified": 27
+      "qualified": 28
     },
     {
       "region": "UY",
@@ -339,7 +339,7 @@
     {
       "region": "RS",
       "ok": true,
-      "qualified": 27
+      "qualified": 28
     },
     {
       "region": "KZ",
@@ -369,7 +369,7 @@
     {
       "region": "KH",
       "ok": true,
-      "qualified": 28
+      "qualified": 29
     },
     {
       "region": "LA",
@@ -379,7 +379,7 @@
     {
       "region": "BA",
       "ok": true,
-      "qualified": 26
+      "qualified": 27
     },
     {
       "region": "BG",
@@ -414,7 +414,7 @@
     {
       "region": "LT",
       "ok": true,
-      "qualified": 25
+      "qualified": 26
     },
     {
       "region": "LU",
@@ -534,7 +534,7 @@
     {
       "region": "YE",
       "ok": true,
-      "qualified": 27
+      "qualified": 26
     },
     {
       "region": "LY",
@@ -544,7 +544,7 @@
     {
       "region": "TN",
       "ok": true,
-      "qualified": 28
+      "qualified": 27
     },
     {
       "region": "ZW",
@@ -557,15 +557,15 @@
       "qualified": 24
     }
   ],
-  "chartTracks": 1599,
+  "chartTracks": 1600,
   "genres": {
     "requests": 32,
-    "classified": 1286,
-    "unclassified": 313,
+    "classified": 1288,
+    "unclassified": 312,
     "failedBatches": 0
   },
-  "tracks": 1599,
-  "playableTracks": 1599,
+  "tracks": 1600,
+  "playableTracks": 1600,
   "countries": [
     "AE",
     "AM",
