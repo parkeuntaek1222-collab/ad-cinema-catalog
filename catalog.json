@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T22:38:08.327Z",
+  "generatedAt": "2026-10-27T04:58:29.866Z",
   "policy": {
     "maxAgeDays": 30,
     "minViews": 1000,
