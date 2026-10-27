@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-27T05:36:15.358Z",
+  "checkedAt": "2026-10-27T12:40:26.659Z",
   "sourceMode": "youtube-trending-only",
   "sources": 0,
   "healthy": 0,
@@ -44,17 +44,17 @@
     {
       "region": "MY",
       "ok": true,
-      "qualified": 23
+      "qualified": 22
     },
     {
       "region": "TW",
       "ok": true,
-      "qualified": 25
+      "qualified": 24
     },
     {
       "region": "HK",
       "ok": true,
-      "qualified": 29
+      "qualified": 30
     },
     {
       "region": "SG",
@@ -64,17 +64,17 @@
     {
       "region": "PK",
       "ok": true,
-      "qualified": 27
+      "qualified": 26
     },
     {
       "region": "BD",
       "ok": true,
-      "qualified": 29
+      "qualified": 28
     },
     {
       "region": "LK",
       "ok": true,
-      "qualified": 25
+      "qualified": 24
     },
     {
       "region": "NP",
@@ -184,7 +184,7 @@
     {
       "region": "GR",
       "ok": true,
-      "qualified": 24
+      "qualified": 23
     },
     {
       "region": "HU",
@@ -194,7 +194,7 @@
     {
       "region": "UA",
       "ok": true,
-      "qualified": 26
+      "qualified": 25
     },
     {
       "region": "TR",
@@ -219,7 +219,7 @@
     {
       "region": "MX",
       "ok": true,
-      "qualified": 29
+      "qualified": 30
     },
     {
       "region": "PR",
@@ -244,7 +244,7 @@
     {
       "region": "PE",
       "ok": true,
-      "qualified": 23
+      "qualified": 24
     },
     {
       "region": "EC",
@@ -269,7 +269,7 @@
     {
       "region": "KE",
       "ok": true,
-      "qualified": 27
+      "qualified": 26
     },
     {
       "region": "GH",
@@ -359,7 +359,7 @@
     {
       "region": "AZ",
       "ok": true,
-      "qualified": 22
+      "qualified": 23
     },
     {
       "region": "GE",
@@ -449,7 +449,7 @@
     {
       "region": "SI",
       "ok": true,
-      "qualified": 24
+      "qualified": 25
     },
     {
       "region": "SK",
@@ -560,8 +560,8 @@
   "chartTracks": 1604,
   "genres": {
     "requests": 33,
-    "classified": 1290,
-    "unclassified": 314,
+    "classified": 1291,
+    "unclassified": 313,
     "failedBatches": 0
   },
   "tracks": 1604,
