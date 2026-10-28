@@ -1,12 +1,39 @@
 [
   {
+    "url": "https://www.youtube.com/@quenchagency",
+    "brand": "quench",
+    "exampleVideo": "lqj1U6zgEKI",
+    "evidenceUrl": "https://marcommnews.com/home-run-inn-pizza-launches-new-television-integrated-marketing-campaign/",
+    "status": "needs-official-and-country-review",
+    "discoveryMethod": "editorial-campaign",
+    "checkedAt": "2026-10-28T12:46:38.743Z"
+  },
+  {
+    "url": "https://www.youtube.com/@quenchagency",
+    "brand": "quench",
+    "exampleVideo": "77ce0z_kHPU",
+    "evidenceUrl": "https://marcommnews.com/home-run-inn-pizza-launches-new-television-integrated-marketing-campaign/",
+    "status": "needs-official-and-country-review",
+    "discoveryMethod": "editorial-campaign",
+    "checkedAt": "2026-10-28T12:46:38.743Z"
+  },
+  {
+    "url": "https://www.youtube.com/@quenchagency",
+    "brand": "quench",
+    "exampleVideo": "NARbq5V07vc",
+    "evidenceUrl": "https://marcommnews.com/home-run-inn-pizza-launches-new-television-integrated-marketing-campaign/",
+    "status": "needs-official-and-country-review",
+    "discoveryMethod": "editorial-campaign",
+    "checkedAt": "2026-10-28T12:46:38.743Z"
+  },
+  {
     "url": "https://www.youtube.com/@Wise",
     "brand": "Wise",
     "exampleVideo": "ietpNs2rQT4",
     "evidenceUrl": "https://marcommnews.com/little-big-engine-launches-humorous-campaign-to-showcase-the-wise-chequing-account-in-canada/",
     "status": "needs-official-and-country-review",
     "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-10-26T22:37:28.156Z"
+    "checkedAt": "2026-10-28T12:46:38.743Z"
   },
   {
     "url": "https://www.youtube.com/@Wise",
@@ -15,7 +42,7 @@
     "evidenceUrl": "https://marcommnews.com/little-big-engine-launches-humorous-campaign-to-showcase-the-wise-chequing-account-in-canada/",
     "status": "needs-official-and-country-review",
     "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-10-26T22:37:28.156Z"
+    "checkedAt": "2026-10-28T12:46:38.743Z"
   },
   {
     "url": "https://www.youtube.com/@Wise",
@@ -24,7 +51,14 @@
     "evidenceUrl": "https://marcommnews.com/little-big-engine-launches-humorous-campaign-to-showcase-the-wise-chequing-account-in-canada/",
     "status": "needs-official-and-country-review",
     "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-10-26T22:37:28.156Z"
+    "checkedAt": "2026-10-28T12:46:38.743Z"
+  },
+  {
+    "brand": "Renault",
+    "countryCode": "FR",
+    "officialPage": "https://www.renault.fr/",
+    "status": "retry",
+    "error": "Website 403"
   },
   {
     "brand": "Carrefour",
