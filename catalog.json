@@ -1,12 +1,31 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T12:47:25.864Z",
+  "generatedAt": "2026-10-28T22:31:13.736Z",
   "policy": {
     "maxAgeDays": 30,
     "minViews": 1000,
     "maxViewAgeHours": 72
   },
   "ads": [
+    {
+      "id": "yp8GpA8_d14",
+      "title": "Introducing the transparent Prism Collection, launching February 4",
+      "date": "2026-10-28T15:20:23+00:00",
+      "views": 55872,
+      "viewsCheckedAt": "2026-10-28T22:31:13.736Z",
+      "countryCode": null,
+      "region": "Global",
+      "countryBasis": "global",
+      "brand": "PlayStation",
+      "market": "글로벌",
+      "channelId": "UC-2Y8dQb0S6DtpxNgAKoJKA",
+      "source": "https://www.youtube.com/watch?v=yp8GpA8_d14",
+      "sourceType": "official",
+      "dateBasis": "published",
+      "viewGain": null,
+      "viewsPerHour": null,
+      "growthWindowHours": null
+    },
     {
       "id": "5Mteu6JKvrE",
       "title": "三角チョコパイ「みんなで収穫祭」篇 15秒",
@@ -144,8 +163,8 @@
       "id": "x5h1JykMcFU",
       "title": "Introducing the new iPad mini with OLED display",
       "date": "2026-10-26T13:07:59+00:00",
-      "views": 2236288,
-      "viewsCheckedAt": "2026-10-28T12:47:25.864Z",
+      "views": 2331577,
+      "viewsCheckedAt": "2026-10-28T22:31:13.736Z",
       "countryCode": null,
       "region": "Global",
       "countryBasis": "global",
@@ -155,9 +174,9 @@
       "source": "https://www.youtube.com/watch?v=x5h1JykMcFU",
       "sourceType": "official",
       "dateBasis": "published",
-      "viewGain": 95383,
-      "viewsPerHour": 6517,
-      "growthWindowHours": 14.64
+      "viewGain": 95289,
+      "viewsPerHour": 9793,
+      "growthWindowHours": 9.73
     },
     {
       "id": "WhfgjknG4bc",
