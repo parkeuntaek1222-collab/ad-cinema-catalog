@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-27T22:37:12.169Z",
+  "checkedAt": "2026-10-28T06:17:29.211Z",
   "sourceMode": "youtube-trending-only",
   "sources": 0,
   "healthy": 0,
@@ -560,8 +560,8 @@
   "chartTracks": 1610,
   "genres": {
     "requests": 33,
-    "classified": 1296,
-    "unclassified": 314,
+    "classified": 1295,
+    "unclassified": 315,
     "failedBatches": 0
   },
   "tracks": 1610,
