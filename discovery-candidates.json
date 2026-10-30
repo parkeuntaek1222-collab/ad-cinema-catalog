@@ -1,12 +1,30 @@
 [
   {
+    "url": "https://www.youtube.com/@dude.london",
+    "brand": "DUDE London ",
+    "exampleVideo": "a4GDSPkt1Aw",
+    "evidenceUrl": "https://marcommnews.com/chopstix-takes-on-the-british-lunch-with-first-brand-campaign-starring-two-greggs-fay-mcdonald-and-mark-s-spencer/",
+    "status": "needs-official-and-country-review",
+    "discoveryMethod": "editorial-campaign",
+    "checkedAt": "2026-10-30T22:15:14.857Z"
+  },
+  {
+    "url": "https://www.youtube.com/@mcdonaldsse",
+    "brand": "McDonald's Sverige",
+    "exampleVideo": "-0qdVTzePTk",
+    "evidenceUrl": "https://marcommnews.com/mcdonalds-sweden-haunts-its-former-restaurant-locations-in-new-campaign/",
+    "status": "needs-official-and-country-review",
+    "discoveryMethod": "editorial-campaign",
+    "checkedAt": "2026-10-30T22:15:14.857Z"
+  },
+  {
     "url": "https://www.youtube.com/@Blumhouse",
     "brand": "Blumhouse",
     "exampleVideo": "4uttu0oPQ7E",
     "evidenceUrl": "https://marcommnews.com/chilling-new-halloween-campaign-from-cheetos-makes-all-time-top-10-scariest-ads/",
     "status": "needs-official-and-country-review",
     "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-10-29T12:54:41.198Z"
+    "checkedAt": "2026-10-30T22:15:14.857Z"
   },
   {
     "url": "https://www.youtube.com/@TVholidays",
@@ -15,7 +33,7 @@
     "evidenceUrl": "https://marcommnews.com/chilling-new-halloween-campaign-from-cheetos-makes-all-time-top-10-scariest-ads/",
     "status": "needs-official-and-country-review",
     "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-10-29T12:54:41.198Z"
+    "checkedAt": "2026-10-30T22:15:14.857Z"
   },
   {
     "url": "https://www.youtube.com/@IChooseFreedomCharity",
@@ -24,7 +42,7 @@
     "evidenceUrl": "https://marcommnews.com/chilling-new-halloween-campaign-from-cheetos-makes-all-time-top-10-scariest-ads/",
     "status": "needs-official-and-country-review",
     "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-10-29T12:54:41.198Z"
+    "checkedAt": "2026-10-30T22:15:14.857Z"
   },
   {
     "url": "https://www.youtube.com/@universalpicturesuk",
@@ -33,7 +51,7 @@
     "evidenceUrl": "https://marcommnews.com/chilling-new-halloween-campaign-from-cheetos-makes-all-time-top-10-scariest-ads/",
     "status": "needs-official-and-country-review",
     "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-10-29T12:54:41.198Z"
+    "checkedAt": "2026-10-30T22:15:14.857Z"
   },
   {
     "url": "https://www.youtube.com/@harriswilkinson8215",
@@ -42,7 +60,7 @@
     "evidenceUrl": "https://marcommnews.com/chilling-new-halloween-campaign-from-cheetos-makes-all-time-top-10-scariest-ads/",
     "status": "needs-official-and-country-review",
     "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-10-29T12:54:41.198Z"
+    "checkedAt": "2026-10-30T22:15:14.857Z"
   },
   {
     "url": "https://www.youtube.com/@hatchforsleep",
@@ -51,25 +69,14 @@
     "evidenceUrl": "https://marcommnews.com/chilling-new-halloween-campaign-from-cheetos-makes-all-time-top-10-scariest-ads/",
     "status": "needs-official-and-country-review",
     "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-10-29T12:54:41.198Z"
+    "checkedAt": "2026-10-30T22:15:14.857Z"
   },
   {
-    "url": "https://www.youtube.com/@sixt",
-    "brand": "SIXT",
-    "exampleVideo": "6YhpZqqXlRY",
-    "evidenceUrl": "https://marcommnews.com/chilling-new-halloween-campaign-from-cheetos-makes-all-time-top-10-scariest-ads/",
-    "status": "needs-official-and-country-review",
-    "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-10-29T12:54:41.198Z"
-  },
-  {
-    "url": "https://www.youtube.com/@ThemeParkArchives",
-    "brand": "ThemeParkArchives",
-    "exampleVideo": "TKHxTJWSByk",
-    "evidenceUrl": "https://marcommnews.com/chilling-new-halloween-campaign-from-cheetos-makes-all-time-top-10-scariest-ads/",
-    "status": "needs-official-and-country-review",
-    "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-10-29T12:54:41.198Z"
+    "brand": "Renault",
+    "countryCode": "FR",
+    "officialPage": "https://www.renault.fr/",
+    "status": "retry",
+    "error": "Website 403"
   },
   {
     "brand": "Carrefour",
@@ -133,12 +140,5 @@
     "officialPage": "https://www.natura.com.br/",
     "status": "retry",
     "error": "Website 403"
-  },
-  {
-    "brand": "Spark",
-    "countryCode": "NZ",
-    "officialPage": "https://www.spark.co.nz/",
-    "status": "retry",
-    "error": "Website 503"
   }
 ]
