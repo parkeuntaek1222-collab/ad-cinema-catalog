@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T22:16:01.751Z",
+  "generatedAt": "2026-10-31T05:34:11.339Z",
   "policy": {
     "maxAgeDays": 30,
     "minViews": 1000,
@@ -917,44 +917,6 @@
       "dateBasis": "published",
       "viewGain": 4601,
       "viewsPerHour": 486,
-      "growthWindowHours": 9.46
-    },
-    {
-      "id": "Z4bYzWtMkLI",
-      "title": "【ALPHARD】TVCM「次の自分」篇30秒",
-      "date": "2026-10-01T00:01:32+00:00",
-      "views": 17170,
-      "viewsCheckedAt": "2026-10-30T22:16:01.751Z",
-      "countryCode": "JP",
-      "region": "Asia",
-      "countryBasis": "official-channel-market",
-      "brand": "Toyota",
-      "market": "일본",
-      "channelId": "UCxvxIxnS9cjPyeebbiOd4lg",
-      "source": "https://www.youtube.com/watch?v=Z4bYzWtMkLI",
-      "sourceType": "official",
-      "dateBasis": "published",
-      "viewGain": 165,
-      "viewsPerHour": 17,
-      "growthWindowHours": 9.46
-    },
-    {
-      "id": "PWNyN9hZk-s",
-      "title": "【VELLFIRE】TVCM「道なき道を行く人」篇30秒",
-      "date": "2026-10-01T00:00:12+00:00",
-      "views": 15459,
-      "viewsCheckedAt": "2026-10-30T22:16:01.751Z",
-      "countryCode": "JP",
-      "region": "Asia",
-      "countryBasis": "official-channel-market",
-      "brand": "Toyota",
-      "market": "일본",
-      "channelId": "UCxvxIxnS9cjPyeebbiOd4lg",
-      "source": "https://www.youtube.com/watch?v=PWNyN9hZk-s",
-      "sourceType": "official",
-      "dateBasis": "published",
-      "viewGain": 83,
-      "viewsPerHour": 9,
       "growthWindowHours": 9.46
     }
   ]
