@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-02T21:55:48.638Z",
+  "checkedAt": "2026-11-03T07:14:42.765Z",
   "sourceMode": "youtube-trending-only",
   "sources": 0,
   "healthy": 0,
@@ -34,12 +34,12 @@
     {
       "region": "PH",
       "ok": true,
-      "qualified": 25
+      "qualified": 24
     },
     {
       "region": "TH",
       "ok": true,
-      "qualified": 26
+      "qualified": 25
     },
     {
       "region": "MY",
@@ -244,7 +244,7 @@
     {
       "region": "PE",
       "ok": true,
-      "qualified": 23
+      "qualified": 24
     },
     {
       "region": "EC",
@@ -304,7 +304,7 @@
     {
       "region": "SA",
       "ok": true,
-      "qualified": 27
+      "qualified": 28
     },
     {
       "region": "AE",
@@ -439,7 +439,7 @@
     {
       "region": "MK",
       "ok": true,
-      "qualified": 26
+      "qualified": 27
     },
     {
       "region": "MT",
@@ -459,12 +459,12 @@
     {
       "region": "BO",
       "ok": true,
-      "qualified": 29
+      "qualified": 28
     },
     {
       "region": "CR",
       "ok": true,
-      "qualified": 29
+      "qualified": 30
     },
     {
       "region": "GT",
@@ -560,8 +560,8 @@
   "chartTracks": 1623,
   "genres": {
     "requests": 33,
-    "classified": 1285,
-    "unclassified": 338,
+    "classified": 1282,
+    "unclassified": 341,
     "failedBatches": 0
   },
   "tracks": 1623,
