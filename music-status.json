@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-03T19:48:54.981Z",
+  "checkedAt": "2026-11-04T06:58:26.451Z",
   "sourceMode": "youtube-trending-only",
   "sources": 0,
   "healthy": 0,
@@ -24,7 +24,7 @@
     {
       "region": "VN",
       "ok": true,
-      "qualified": 24
+      "qualified": 25
     },
     {
       "region": "ID",
@@ -34,7 +34,7 @@
     {
       "region": "PH",
       "ok": true,
-      "qualified": 24
+      "qualified": 23
     },
     {
       "region": "TH",
@@ -64,7 +64,7 @@
     {
       "region": "PK",
       "ok": true,
-      "qualified": 27
+      "qualified": 28
     },
     {
       "region": "BD",
@@ -144,7 +144,7 @@
     {
       "region": "FI",
       "ok": true,
-      "qualified": 27
+      "qualified": 28
     },
     {
       "region": "CH",
@@ -199,7 +199,7 @@
     {
       "region": "TR",
       "ok": true,
-      "qualified": 27
+      "qualified": 28
     },
     {
       "region": "RU",
@@ -249,7 +249,7 @@
     {
       "region": "EC",
       "ok": true,
-      "qualified": 28
+      "qualified": 27
     },
     {
       "region": "UY",
@@ -269,7 +269,7 @@
     {
       "region": "KE",
       "ok": true,
-      "qualified": 26
+      "qualified": 27
     },
     {
       "region": "GH",
@@ -304,7 +304,7 @@
     {
       "region": "SA",
       "ok": true,
-      "qualified": 27
+      "qualified": 28
     },
     {
       "region": "AE",
@@ -319,7 +319,7 @@
     {
       "region": "AU",
       "ok": true,
-      "qualified": 27
+      "qualified": 26
     },
     {
       "region": "NZ",
@@ -344,7 +344,7 @@
     {
       "region": "KZ",
       "ok": true,
-      "qualified": 16
+      "qualified": 17
     },
     {
       "region": "UG",
@@ -359,7 +359,7 @@
     {
       "region": "AZ",
       "ok": true,
-      "qualified": 26
+      "qualified": 25
     },
     {
       "region": "GE",
@@ -459,7 +459,7 @@
     {
       "region": "BO",
       "ok": true,
-      "qualified": 28
+      "qualified": 27
     },
     {
       "region": "CR",
@@ -484,7 +484,7 @@
     {
       "region": "PY",
       "ok": true,
-      "qualified": 26
+      "qualified": 27
     },
     {
       "region": "SV",
@@ -560,8 +560,8 @@
   "chartTracks": 1630,
   "genres": {
     "requests": 33,
-    "classified": 1283,
-    "unclassified": 347,
+    "classified": 1285,
+    "unclassified": 345,
     "failedBatches": 0
   },
   "tracks": 1630,
