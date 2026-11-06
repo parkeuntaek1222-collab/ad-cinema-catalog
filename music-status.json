@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T20:15:58.794Z",
+  "checkedAt": "2026-11-06T07:24:11.759Z",
   "sourceMode": "youtube-trending-only",
   "sources": 0,
   "healthy": 0,
@@ -14,7 +14,7 @@
     {
       "region": "JP",
       "ok": true,
-      "qualified": 26
+      "qualified": 25
     },
     {
       "region": "IN",
@@ -24,17 +24,17 @@
     {
       "region": "VN",
       "ok": true,
-      "qualified": 25
+      "qualified": 24
     },
     {
       "region": "ID",
       "ok": true,
-      "qualified": 26
+      "qualified": 27
     },
     {
       "region": "PH",
       "ok": true,
-      "qualified": 22
+      "qualified": 23
     },
     {
       "region": "TH",
@@ -64,7 +64,7 @@
     {
       "region": "PK",
       "ok": true,
-      "qualified": 29
+      "qualified": 28
     },
     {
       "region": "BD",
@@ -119,12 +119,12 @@
     {
       "region": "ES",
       "ok": true,
-      "qualified": 27
+      "qualified": 26
     },
     {
       "region": "IT",
       "ok": true,
-      "qualified": 29
+      "qualified": 28
     },
     {
       "region": "SE",
@@ -134,7 +134,7 @@
     {
       "region": "NO",
       "ok": true,
-      "qualified": 22
+      "qualified": 21
     },
     {
       "region": "DK",
@@ -184,7 +184,7 @@
     {
       "region": "GR",
       "ok": true,
-      "qualified": 24
+      "qualified": 23
     },
     {
       "region": "HU",
@@ -194,12 +194,12 @@
     {
       "region": "UA",
       "ok": true,
-      "qualified": 26
+      "qualified": 27
     },
     {
       "region": "TR",
       "ok": true,
-      "qualified": 28
+      "qualified": 27
     },
     {
       "region": "RU",
@@ -214,22 +214,22 @@
     {
       "region": "CO",
       "ok": true,
-      "qualified": 30
+      "qualified": 29
     },
     {
       "region": "MX",
       "ok": true,
-      "qualified": 28
+      "qualified": 27
     },
     {
       "region": "PR",
       "ok": true,
-      "qualified": 30
+      "qualified": 29
     },
     {
       "region": "DO",
       "ok": true,
-      "qualified": 28
+      "qualified": 27
     },
     {
       "region": "AR",
@@ -244,7 +244,7 @@
     {
       "region": "PE",
       "ok": true,
-      "qualified": 23
+      "qualified": 22
     },
     {
       "region": "EC",
@@ -319,7 +319,7 @@
     {
       "region": "AU",
       "ok": true,
-      "qualified": 26
+      "qualified": 27
     },
     {
       "region": "NZ",
@@ -334,7 +334,7 @@
     {
       "region": "PA",
       "ok": true,
-      "qualified": 30
+      "qualified": 29
     },
     {
       "region": "RS",
@@ -374,7 +374,7 @@
     {
       "region": "LA",
       "ok": true,
-      "qualified": 27
+      "qualified": 28
     },
     {
       "region": "BA",
@@ -394,12 +394,12 @@
     {
       "region": "CY",
       "ok": true,
-      "qualified": 11
+      "qualified": 12
     },
     {
       "region": "EE",
       "ok": true,
-      "qualified": 8
+      "qualified": 11
     },
     {
       "region": "HR",
@@ -464,7 +464,7 @@
     {
       "region": "CR",
       "ok": true,
-      "qualified": 30
+      "qualified": 29
     },
     {
       "region": "GT",
@@ -474,27 +474,27 @@
     {
       "region": "HN",
       "ok": true,
-      "qualified": 28
+      "qualified": 27
     },
     {
       "region": "NI",
       "ok": true,
-      "qualified": 29
+      "qualified": 28
     },
     {
       "region": "PY",
       "ok": true,
-      "qualified": 27
+      "qualified": 26
     },
     {
       "region": "SV",
       "ok": true,
-      "qualified": 29
+      "qualified": 30
     },
     {
       "region": "VE",
       "ok": true,
-      "qualified": 29
+      "qualified": 27
     },
     {
       "region": "BH",
@@ -557,15 +557,15 @@
       "qualified": 28
     }
   ],
-  "chartTracks": 1635,
+  "chartTracks": 1647,
   "genres": {
     "requests": 33,
-    "classified": 1302,
-    "unclassified": 333,
+    "classified": 1311,
+    "unclassified": 336,
     "failedBatches": 0
   },
-  "tracks": 1635,
-  "playableTracks": 1635,
+  "tracks": 1647,
+  "playableTracks": 1647,
   "countries": [
     "AE",
     "AM",
