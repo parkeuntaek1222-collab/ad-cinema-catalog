@@ -1,59 +1,5 @@
 [
   {
-    "url": "https://www.youtube.com/@VodafoneUK",
-    "brand": "Vodafone UK",
-    "exampleVideo": "AJVCP4eFkYQ",
-    "evidenceUrl": "https://marcommnews.com/slippers-camera-action-roman-kemp-stars-in-vodafone-tvs-first-campaign/",
-    "status": "needs-official-and-country-review",
-    "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-11-09T22:16:43.243Z"
-  },
-  {
-    "url": "https://www.youtube.com/@VodafoneUK",
-    "brand": "Vodafone UK",
-    "exampleVideo": "KFoZ1oFz0AY",
-    "evidenceUrl": "https://marcommnews.com/slippers-camera-action-roman-kemp-stars-in-vodafone-tvs-first-campaign/",
-    "status": "needs-official-and-country-review",
-    "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-11-09T22:16:43.243Z"
-  },
-  {
-    "url": "https://www.youtube.com/@VodafoneUK",
-    "brand": "Vodafone UK",
-    "exampleVideo": "AJVCP4eFkYQ",
-    "evidenceUrl": "https://marcommnews.com/slippers-camera-action-roman-kemp-stars-in-vodafone-tvs-first-campaign/",
-    "status": "needs-official-and-country-review",
-    "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-11-09T22:16:43.243Z"
-  },
-  {
-    "url": "https://www.youtube.com/@TheNationalLottery",
-    "brand": "The National Lottery",
-    "exampleVideo": "hcOJLQIIIjg",
-    "evidenceUrl": "https://marcommnews.com/allwyn-uk-unveils-its-biggest-ever-christmas-campaign-for-the-national-lottery-reminding-the-nation-that-amazing-things-happen-when-you-believe/",
-    "status": "needs-official-and-country-review",
-    "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-11-09T22:16:43.243Z"
-  },
-  {
-    "url": "https://www.youtube.com/@betc_havas",
-    "brand": "BETC HAVAS",
-    "exampleVideo": "RxD0IM9I0NA",
-    "evidenceUrl": "https://marcommnews.com/epson-challenges-the-environmental-impact-of-toner-in-new-campaign/",
-    "status": "needs-official-and-country-review",
-    "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-11-09T22:16:43.243Z"
-  },
-  {
-    "url": "https://www.youtube.com/@amazon",
-    "brand": "amazon",
-    "exampleVideo": "oAl_EHxk8sw",
-    "evidenceUrl": "https://marcommnews.com/amazons-festive-campaign-spotlights-the-pull-of-getting-home-for-the-holidays-and-kindness-shown-along-the-way/",
-    "status": "needs-official-and-country-review",
-    "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-11-09T22:16:43.243Z"
-  },
-  {
     "brand": "Carrefour",
     "countryCode": "FR",
     "officialPage": "https://www.carrefour.fr/",
@@ -87,20 +33,6 @@
     "officialPage": "https://cars.tatamotors.com/",
     "status": "retry",
     "error": "fetch failed"
-  },
-  {
-    "brand": "IKEA",
-    "countryCode": "ES",
-    "officialPage": "https://www.ikea.com/es/es/",
-    "id": "UCGKA-ylbgI5MumYiQW6hQ8g",
-    "url": "https://www.youtube.com/user/IKEAUSA",
-    "title": "IKEA USA - YouTube",
-    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCGKA-ylbgI5MumYiQW6hQ8g",
-    "region": "Europe",
-    "checkedAt": "2026-11-09T22:16:43.243Z",
-    "discoveryMethod": "official-website-link",
-    "countryBasis": "official-channel-market",
-    "status": "needs-country-review"
   },
   {
     "brand": "Woolworths",
