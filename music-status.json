@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-13T07:18:16.910Z",
+  "checkedAt": "2026-11-13T20:02:14.864Z",
   "sourceMode": "youtube-trending-only",
   "sources": 0,
   "healthy": 0,
@@ -34,7 +34,7 @@
     {
       "region": "PH",
       "ok": true,
-      "qualified": 24
+      "qualified": 26
     },
     {
       "region": "TH",
@@ -44,7 +44,7 @@
     {
       "region": "MY",
       "ok": true,
-      "qualified": 25
+      "qualified": 26
     },
     {
       "region": "TW",
@@ -59,12 +59,12 @@
     {
       "region": "SG",
       "ok": true,
-      "qualified": 24
+      "qualified": 25
     },
     {
       "region": "PK",
       "ok": true,
-      "qualified": 29
+      "qualified": 30
     },
     {
       "region": "BD",
@@ -74,12 +74,12 @@
     {
       "region": "LK",
       "ok": true,
-      "qualified": 25
+      "qualified": 24
     },
     {
       "region": "NP",
       "ok": true,
-      "qualified": 25
+      "qualified": 24
     },
     {
       "region": "US",
@@ -89,7 +89,7 @@
     {
       "region": "CA",
       "ok": true,
-      "qualified": 29
+      "qualified": 30
     },
     {
       "region": "GB",
@@ -99,7 +99,7 @@
     {
       "region": "FR",
       "ok": true,
-      "qualified": 28
+      "qualified": 29
     },
     {
       "region": "DE",
@@ -124,7 +124,7 @@
     {
       "region": "IT",
       "ok": true,
-      "qualified": 28
+      "qualified": 29
     },
     {
       "region": "SE",
@@ -134,12 +134,12 @@
     {
       "region": "NO",
       "ok": true,
-      "qualified": 21
+      "qualified": 22
     },
     {
       "region": "DK",
       "ok": true,
-      "qualified": 19
+      "qualified": 21
     },
     {
       "region": "FI",
@@ -169,7 +169,7 @@
     {
       "region": "PL",
       "ok": true,
-      "qualified": 24
+      "qualified": 25
     },
     {
       "region": "CZ",
@@ -199,12 +199,12 @@
     {
       "region": "TR",
       "ok": true,
-      "qualified": 22
+      "qualified": 23
     },
     {
       "region": "RU",
       "ok": true,
-      "qualified": 20
+      "qualified": 22
     },
     {
       "region": "BR",
@@ -239,12 +239,12 @@
     {
       "region": "CL",
       "ok": true,
-      "qualified": 26
+      "qualified": 28
     },
     {
       "region": "PE",
       "ok": true,
-      "qualified": 23
+      "qualified": 22
     },
     {
       "region": "EC",
@@ -264,7 +264,7 @@
     {
       "region": "ZA",
       "ok": true,
-      "qualified": 27
+      "qualified": 29
     },
     {
       "region": "KE",
@@ -299,17 +299,17 @@
     {
       "region": "DZ",
       "ok": true,
-      "qualified": 30
+      "qualified": 29
     },
     {
       "region": "SA",
       "ok": true,
-      "qualified": 27
+      "qualified": 28
     },
     {
       "region": "AE",
       "ok": true,
-      "qualified": 29
+      "qualified": 28
     },
     {
       "region": "IL",
@@ -319,7 +319,7 @@
     {
       "region": "AU",
       "ok": true,
-      "qualified": 25
+      "qualified": 26
     },
     {
       "region": "NZ",
@@ -339,7 +339,7 @@
     {
       "region": "RS",
       "ok": true,
-      "qualified": 27
+      "qualified": 24
     },
     {
       "region": "KZ",
@@ -349,7 +349,7 @@
     {
       "region": "UG",
       "ok": true,
-      "qualified": 23
+      "qualified": 24
     },
     {
       "region": "AM",
@@ -369,7 +369,7 @@
     {
       "region": "KH",
       "ok": true,
-      "qualified": 24
+      "qualified": 23
     },
     {
       "region": "LA",
@@ -379,12 +379,12 @@
     {
       "region": "BA",
       "ok": true,
-      "qualified": 23
+      "qualified": 20
     },
     {
       "region": "BG",
       "ok": true,
-      "qualified": 28
+      "qualified": 27
     },
     {
       "region": "BY",
@@ -399,7 +399,7 @@
     {
       "region": "EE",
       "ok": true,
-      "qualified": 11
+      "qualified": 10
     },
     {
       "region": "HR",
@@ -424,17 +424,17 @@
     {
       "region": "LV",
       "ok": true,
-      "qualified": 12
+      "qualified": 13
     },
     {
       "region": "MD",
       "ok": true,
-      "qualified": 25
+      "qualified": 26
     },
     {
       "region": "ME",
       "ok": true,
-      "qualified": 21
+      "qualified": 18
     },
     {
       "region": "MK",
@@ -449,7 +449,7 @@
     {
       "region": "SI",
       "ok": true,
-      "qualified": 24
+      "qualified": 22
     },
     {
       "region": "SK",
@@ -504,7 +504,7 @@
     {
       "region": "IQ",
       "ok": true,
-      "qualified": 28
+      "qualified": 26
     },
     {
       "region": "JO",
@@ -524,7 +524,7 @@
     {
       "region": "OM",
       "ok": true,
-      "qualified": 25
+      "qualified": 26
     },
     {
       "region": "QA",
@@ -539,7 +539,7 @@
     {
       "region": "LY",
       "ok": true,
-      "qualified": 29
+      "qualified": 28
     },
     {
       "region": "TN",
@@ -557,15 +557,15 @@
       "qualified": 28
     }
   ],
-  "chartTracks": 1668,
+  "chartTracks": 1692,
   "genres": {
     "requests": 34,
-    "classified": 1363,
-    "unclassified": 305,
+    "classified": 1379,
+    "unclassified": 313,
     "failedBatches": 0
   },
-  "tracks": 1668,
-  "playableTracks": 1668,
+  "tracks": 1692,
+  "playableTracks": 1692,
   "countries": [
     "AE",
     "AM",
