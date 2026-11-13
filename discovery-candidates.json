@@ -35,6 +35,20 @@
     "error": "fetch failed"
   },
   {
+    "brand": "AIS",
+    "countryCode": "TH",
+    "officialPage": "https://www.ais.th/",
+    "id": "UCyWwBrArC078HbZF1Ax0hdg",
+    "url": "https://www.youtube.com/user/AISChannel",
+    "title": "AIS - YouTube",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCyWwBrArC078HbZF1Ax0hdg",
+    "region": "Asia",
+    "checkedAt": "2026-11-13T19:37:15.704Z",
+    "discoveryMethod": "official-website-link",
+    "countryBasis": "official-channel-market",
+    "status": "needs-country-review"
+  },
+  {
     "brand": "Woolworths",
     "countryCode": "AU",
     "officialPage": "https://www.woolworths.com.au/",
@@ -61,5 +75,19 @@
     "officialPage": "https://www.natura.com.br/",
     "status": "retry",
     "error": "Website 403"
+  },
+  {
+    "brand": "Vodacom",
+    "countryCode": "ZA",
+    "officialPage": "https://www.vodacom.co.za/",
+    "id": "UCSSopRUyvi4ss350wWXhLJw",
+    "url": "https://www.youtube.com/user/VODACOMTV",
+    "title": "Vodacom SA - YouTube",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSSopRUyvi4ss350wWXhLJw",
+    "region": "Africa",
+    "checkedAt": "2026-11-13T19:37:15.704Z",
+    "discoveryMethod": "official-website-link",
+    "countryBasis": "official-channel-market",
+    "status": "needs-country-review"
   }
 ]
