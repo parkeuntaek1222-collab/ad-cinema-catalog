@@ -1,5 +1,32 @@
 [
   {
+    "url": "https://www.youtube.com/@dogstrust",
+    "brand": "Dogs Trust",
+    "exampleVideo": "U99fcG_srao",
+    "evidenceUrl": "https://marcommnews.com/dogs-trusts-heart-warming-campaign-leads-the-pack-in-ranking-of-the-most-emotionally-engaging-christmas-ads/",
+    "status": "needs-official-and-country-review",
+    "discoveryMethod": "editorial-campaign",
+    "checkedAt": "2026-11-16T21:57:35.831Z"
+  },
+  {
+    "url": "https://www.youtube.com/@amazon",
+    "brand": "amazon",
+    "exampleVideo": "oAl_EHxk8sw",
+    "evidenceUrl": "https://marcommnews.com/dogs-trusts-heart-warming-campaign-leads-the-pack-in-ranking-of-the-most-emotionally-engaging-christmas-ads/",
+    "status": "needs-official-and-country-review",
+    "discoveryMethod": "editorial-campaign",
+    "checkedAt": "2026-11-16T21:57:35.831Z"
+  },
+  {
+    "url": "https://www.youtube.com/@notonthehighstreet",
+    "brand": "Not On The High Street",
+    "exampleVideo": "ORpNHAzLwNg",
+    "evidenceUrl": "https://marcommnews.com/dogs-trusts-heart-warming-campaign-leads-the-pack-in-ranking-of-the-most-emotionally-engaging-christmas-ads/",
+    "status": "needs-official-and-country-review",
+    "discoveryMethod": "editorial-campaign",
+    "checkedAt": "2026-11-16T21:57:35.831Z"
+  },
+  {
     "brand": "Carrefour",
     "countryCode": "FR",
     "officialPage": "https://www.carrefour.fr/",
@@ -43,7 +70,7 @@
     "title": "AIS - YouTube",
     "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCyWwBrArC078HbZF1Ax0hdg",
     "region": "Asia",
-    "checkedAt": "2026-11-14T22:18:59.137Z",
+    "checkedAt": "2026-11-16T21:57:35.831Z",
     "discoveryMethod": "official-website-link",
     "countryBasis": "official-channel-market",
     "status": "needs-country-review"
@@ -75,19 +102,5 @@
     "officialPage": "https://www.natura.com.br/",
     "status": "retry",
     "error": "Website 403"
-  },
-  {
-    "brand": "Vodacom",
-    "countryCode": "ZA",
-    "officialPage": "https://www.vodacom.co.za/",
-    "id": "UCSSopRUyvi4ss350wWXhLJw",
-    "url": "https://www.youtube.com/user/VODACOMTV",
-    "title": "Vodacom SA - YouTube",
-    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSSopRUyvi4ss350wWXhLJw",
-    "region": "Africa",
-    "checkedAt": "2026-11-14T22:18:59.137Z",
-    "discoveryMethod": "official-website-link",
-    "countryBasis": "official-channel-market",
-    "status": "needs-country-review"
   }
 ]
