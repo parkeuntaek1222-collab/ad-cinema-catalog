@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://www.youtube.com/@dogstrust",
-    "brand": "Dogs Trust",
-    "exampleVideo": "U99fcG_srao",
-    "evidenceUrl": "https://marcommnews.com/dogs-trusts-heart-warming-campaign-leads-the-pack-in-ranking-of-the-most-emotionally-engaging-christmas-ads/",
-    "status": "needs-official-and-country-review",
-    "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-11-16T21:57:35.831Z"
-  },
-  {
-    "url": "https://www.youtube.com/@amazon",
-    "brand": "amazon",
-    "exampleVideo": "oAl_EHxk8sw",
-    "evidenceUrl": "https://marcommnews.com/dogs-trusts-heart-warming-campaign-leads-the-pack-in-ranking-of-the-most-emotionally-engaging-christmas-ads/",
-    "status": "needs-official-and-country-review",
-    "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-11-16T21:57:35.831Z"
-  },
-  {
-    "url": "https://www.youtube.com/@notonthehighstreet",
-    "brand": "Not On The High Street",
-    "exampleVideo": "ORpNHAzLwNg",
-    "evidenceUrl": "https://marcommnews.com/dogs-trusts-heart-warming-campaign-leads-the-pack-in-ranking-of-the-most-emotionally-engaging-christmas-ads/",
-    "status": "needs-official-and-country-review",
-    "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-11-16T21:57:35.831Z"
-  },
-  {
     "brand": "Carrefour",
     "countryCode": "FR",
     "officialPage": "https://www.carrefour.fr/",
@@ -62,6 +35,13 @@
     "error": "fetch failed"
   },
   {
+    "brand": "Thai Life Insurance",
+    "countryCode": "TH",
+    "officialPage": "https://www.thailife.com/",
+    "status": "retry",
+    "error": "Website 403"
+  },
+  {
     "brand": "AIS",
     "countryCode": "TH",
     "officialPage": "https://www.ais.th/",
@@ -70,7 +50,7 @@
     "title": "AIS - YouTube",
     "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCyWwBrArC078HbZF1Ax0hdg",
     "region": "Asia",
-    "checkedAt": "2026-11-16T21:57:35.831Z",
+    "checkedAt": "2026-11-18T07:20:19.565Z",
     "discoveryMethod": "official-website-link",
     "countryBasis": "official-channel-market",
     "status": "needs-country-review"
