@@ -35,13 +35,6 @@
     "error": "fetch failed"
   },
   {
-    "brand": "Thai Life Insurance",
-    "countryCode": "TH",
-    "officialPage": "https://www.thailife.com/",
-    "status": "retry",
-    "error": "Website 403"
-  },
-  {
     "brand": "AIS",
     "countryCode": "TH",
     "officialPage": "https://www.ais.th/",
@@ -50,7 +43,7 @@
     "title": "AIS - YouTube",
     "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCyWwBrArC078HbZF1Ax0hdg",
     "region": "Asia",
-    "checkedAt": "2026-11-18T07:20:19.565Z",
+    "checkedAt": "2026-11-19T20:29:58.494Z",
     "discoveryMethod": "official-website-link",
     "countryBasis": "official-channel-market",
     "status": "needs-country-review"
