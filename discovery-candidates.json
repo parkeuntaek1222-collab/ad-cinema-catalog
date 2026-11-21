@@ -1,5 +1,23 @@
 [
   {
+    "url": "https://www.youtube.com/@adcouncil",
+    "brand": "Ad Council",
+    "exampleVideo": "py_5u_kPz_s",
+    "evidenceUrl": "https://marcommnews.com/strawberryfrog-and-the-ad-council-launch-psa-campaign-to-increase-adoption-of-teenagers-in-foster-care/",
+    "status": "needs-official-and-country-review",
+    "discoveryMethod": "editorial-campaign",
+    "checkedAt": "2026-11-21T06:59:14.403Z"
+  },
+  {
+    "url": "https://www.youtube.com/@adcouncil",
+    "brand": "Ad Council",
+    "exampleVideo": "CvbAroB7OUE",
+    "evidenceUrl": "https://marcommnews.com/strawberryfrog-and-the-ad-council-launch-psa-campaign-to-increase-adoption-of-teenagers-in-foster-care/",
+    "status": "needs-official-and-country-review",
+    "discoveryMethod": "editorial-campaign",
+    "checkedAt": "2026-11-21T06:59:14.403Z"
+  },
+  {
     "brand": "Carrefour",
     "countryCode": "FR",
     "officialPage": "https://www.carrefour.fr/",
@@ -43,7 +61,7 @@
     "title": "AIS - YouTube",
     "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCyWwBrArC078HbZF1Ax0hdg",
     "region": "Asia",
-    "checkedAt": "2026-11-19T20:29:58.494Z",
+    "checkedAt": "2026-11-21T06:59:14.403Z",
     "discoveryMethod": "official-website-link",
     "countryBasis": "official-channel-market",
     "status": "needs-country-review"
