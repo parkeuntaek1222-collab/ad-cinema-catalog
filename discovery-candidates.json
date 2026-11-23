@@ -1,12 +1,39 @@
 [
   {
+    "url": "https://www.youtube.com/@crunchmastercrackers",
+    "brand": "Crunchmaster",
+    "exampleVideo": "Ipussuj5Ndk",
+    "evidenceUrl": "https://marcommnews.com/humanaut-launches-psa-spoof-campaign-to-promote-crunchmaster-crackers-brand/",
+    "status": "needs-official-and-country-review",
+    "discoveryMethod": "editorial-campaign",
+    "checkedAt": "2026-11-23T23:49:23.620Z"
+  },
+  {
+    "url": "https://www.youtube.com/@humanaut1524",
+    "brand": "Humanaut",
+    "exampleVideo": "ao_y79I8aPI",
+    "evidenceUrl": "https://marcommnews.com/humanaut-launches-psa-spoof-campaign-to-promote-crunchmaster-crackers-brand/",
+    "status": "needs-official-and-country-review",
+    "discoveryMethod": "editorial-campaign",
+    "checkedAt": "2026-11-23T23:49:23.620Z"
+  },
+  {
+    "url": "https://www.youtube.com/@humanaut1524",
+    "brand": "Humanaut",
+    "exampleVideo": "ZvRQPVqv4G4",
+    "evidenceUrl": "https://marcommnews.com/humanaut-launches-psa-spoof-campaign-to-promote-crunchmaster-crackers-brand/",
+    "status": "needs-official-and-country-review",
+    "discoveryMethod": "editorial-campaign",
+    "checkedAt": "2026-11-23T23:49:23.620Z"
+  },
+  {
     "url": "https://www.youtube.com/@adcouncil",
     "brand": "Ad Council",
     "exampleVideo": "py_5u_kPz_s",
     "evidenceUrl": "https://marcommnews.com/strawberryfrog-and-the-ad-council-launch-psa-campaign-to-increase-adoption-of-teenagers-in-foster-care/",
     "status": "needs-official-and-country-review",
     "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-11-22T19:31:46.214Z"
+    "checkedAt": "2026-11-23T23:49:23.620Z"
   },
   {
     "url": "https://www.youtube.com/@adcouncil",
@@ -15,7 +42,7 @@
     "evidenceUrl": "https://marcommnews.com/strawberryfrog-and-the-ad-council-launch-psa-campaign-to-increase-adoption-of-teenagers-in-foster-care/",
     "status": "needs-official-and-country-review",
     "discoveryMethod": "editorial-campaign",
-    "checkedAt": "2026-11-22T19:31:46.214Z"
+    "checkedAt": "2026-11-23T23:49:23.620Z"
   },
   {
     "brand": "Carrefour",
@@ -61,10 +88,17 @@
     "title": "AIS - YouTube",
     "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCyWwBrArC078HbZF1Ax0hdg",
     "region": "Asia",
-    "checkedAt": "2026-11-22T19:31:46.214Z",
+    "checkedAt": "2026-11-23T23:49:23.620Z",
     "discoveryMethod": "official-website-link",
     "countryBasis": "official-channel-market",
     "status": "needs-country-review"
+  },
+  {
+    "brand": "Jio",
+    "countryCode": "IN",
+    "officialPage": "https://www.jio.com/",
+    "status": "retry",
+    "error": "fetch failed"
   },
   {
     "brand": "Woolworths",
