@@ -32,7 +32,7 @@
     "countryCode": "IN",
     "officialPage": "https://cars.tatamotors.com/",
     "status": "retry",
-    "error": "fetch failed"
+    "error": "Website 403"
   },
   {
     "brand": "AIS",
@@ -43,24 +43,17 @@
     "title": "AIS - YouTube",
     "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCyWwBrArC078HbZF1Ax0hdg",
     "region": "Asia",
-    "checkedAt": "2026-11-25T08:24:22.308Z",
+    "checkedAt": "2026-11-26T21:26:48.915Z",
     "discoveryMethod": "official-website-link",
     "countryBasis": "official-channel-market",
     "status": "needs-country-review"
   },
   {
-    "brand": "IKEA",
-    "countryCode": "SE",
-    "officialPage": "https://www.ikea.com/se/sv/",
-    "id": "UCVyks2GwjsozP_r3Ge7yf3g",
-    "url": "https://www.youtube.com/user/IKEAswitzerland",
-    "title": "IKEA Switzerland - YouTube",
-    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVyks2GwjsozP_r3Ge7yf3g",
-    "region": "Europe",
-    "checkedAt": "2026-11-25T08:24:22.308Z",
-    "discoveryMethod": "official-website-link",
-    "countryBasis": "official-channel-market",
-    "status": "needs-country-review"
+    "brand": "Jio",
+    "countryCode": "IN",
+    "officialPage": "https://www.jio.com/",
+    "status": "retry",
+    "error": "The operation was aborted due to timeout"
   },
   {
     "brand": "Woolworths",
@@ -74,7 +67,7 @@
     "countryCode": "AU",
     "officialPage": "https://mcdonalds.com.au/",
     "status": "retry",
-    "error": "The operation was aborted due to timeout"
+    "error": "Website 403"
   },
   {
     "brand": "Itaú",
