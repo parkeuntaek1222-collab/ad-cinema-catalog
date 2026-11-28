@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-11-27T21:11:10.292Z",
+  "checkedAt": "2026-11-28T07:41:20.737Z",
   "sources": 83,
-  "healthy": 35,
-  "ads": 45,
+  "healthy": 2,
+  "ads": 37,
   "countries": [
     "AU",
     "GB",
@@ -14,57 +14,32 @@
   "channels": [
     {
       "id": "UCbp3o7U6oSa6s-LQBZvOnGg",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UCrgHdSQWAXEv1QZpzgrJHnA",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 4
+    },
+    {
+      "id": "UCWwgaK7x0_FR1goeSRazfsQ",
+      "ok": false,
+      "error": "HTTP 503",
       "eligible": 0
     },
     {
       "id": "UChqSIUxTWurwjobZ9X0frtg",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 503",
       "eligible": 10
     },
     {
-      "id": "UCrgHdSQWAXEv1QZpzgrJHnA",
-      "ok": true,
-      "eligible": 12
-    },
-    {
-      "id": "UCE_M8A5yxnLfW0KghEeajjw",
-      "ok": true,
-      "eligible": 1
-    },
-    {
-      "id": "UCosXctaTYxN4YPIvI5Fpcrw",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCWwgaK7x0_FR1goeSRazfsQ",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCK8sQmJBp8GCxrOtXWBpyEA",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UC-2Y8dQb0S6DtpxNgAKoJKA",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCYwrS5QvBY_JbSdbINLey6Q",
-      "ok": true,
-      "eligible": 1
-    },
-    {
-      "id": "UCuLUOxd7ezJ8c6NSLBNRRfg",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UC1pOTJteEef10zJM0cHs4iQ",
-      "ok": true,
+      "id": "UCUFgkRb0ZHc4Rpq15VRCICA",
+      "ok": false,
+      "error": "HTTP 503",
       "eligible": 0
     },
     {
@@ -73,111 +48,73 @@
       "eligible": 0
     },
     {
-      "id": "UC22zQ9nBEk6KOjUWqR5XXZg",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UC6Im3VweLhYbiT2qYTIP6nw",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCgY-h0zGG5EOa3f_k22wMJg",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCUFgkRb0ZHc4Rpq15VRCICA",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCRpqjPtyLWp51TRyi515Rlg",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCo6fjlKg6GuCmEMeqYbGJng",
-      "ok": true,
-      "eligible": 1
-    },
-    {
-      "id": "UCv5iVjD-tFfl04V4AB4XRYw",
-      "ok": true,
+      "id": "UCuLUOxd7ezJ8c6NSLBNRRfg",
+      "ok": false,
+      "error": "HTTP 503",
       "eligible": 0
     },
     {
       "id": "UCH47Lk8Qv2Vdr7yu7JHyvug",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 503",
       "eligible": 0
     },
     {
-      "id": "UCi86xSII1cJOOwOtiefntRw",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UC6xD-jKli-_qIYXDTsNv4dw",
-      "ok": true,
+      "id": "UCE_M8A5yxnLfW0KghEeajjw",
+      "ok": false,
+      "error": "HTTP 503",
       "eligible": 1
     },
     {
-      "id": "UC8meHqoXa7z6I6-jiGgfL0w",
-      "ok": true,
-      "eligible": 3
-    },
-    {
-      "id": "UCrIAnDo3VuWex3fywkGpB1g",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCYSjF7_K6jBVzYVuqrE0uZA",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UC_rBRrHKHnHkzgx8qIWwygg",
-      "ok": true,
-      "eligible": 3
-    },
-    {
-      "id": "UCa1yUHQmV6Z0PpAUtfgNd9g",
+      "id": "UCK8sQmJBp8GCxrOtXWBpyEA",
       "ok": false,
       "error": "HTTP 503",
       "eligible": 0
     },
     {
-      "id": "UCptyYDiGZ9hs1pH0AaoBTxA",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCx_eAZKDceT1yaY4bRo636A",
+      "id": "UCosXctaTYxN4YPIvI5Fpcrw",
       "ok": false,
       "error": "HTTP 503",
       "eligible": 0
     },
     {
-      "id": "UCfigptVgX1LGgUKZkQ2BZMQ",
+      "id": "UCYwrS5QvBY_JbSdbINLey6Q",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 1
+    },
+    {
+      "id": "UC-2Y8dQb0S6DtpxNgAKoJKA",
       "ok": false,
       "error": "HTTP 503",
       "eligible": 0
     },
     {
-      "id": "UCu2Nnh9SBz5ax3NQFEnInyg",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCqnGgTN0ajGp0LaoKkyxAxA",
+      "id": "UC22zQ9nBEk6KOjUWqR5XXZg",
       "ok": false,
       "error": "HTTP 503",
       "eligible": 0
     },
     {
-      "id": "UCRI5ZedBs0_BYY4PlxD6m7w",
+      "id": "UCv5iVjD-tFfl04V4AB4XRYw",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UC6Im3VweLhYbiT2qYTIP6nw",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UC1pOTJteEef10zJM0cHs4iQ",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UCgY-h0zGG5EOa3f_k22wMJg",
       "ok": false,
       "error": "HTTP 503",
       "eligible": 0
@@ -195,13 +132,63 @@
       "eligible": 0
     },
     {
-      "id": "UCjBp_7RuDBUYbd1LegWEJ8g",
-      "ok": true,
+      "id": "UCo6fjlKg6GuCmEMeqYbGJng",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 1
+    },
+    {
+      "id": "UCRpqjPtyLWp51TRyi515Rlg",
+      "ok": false,
+      "error": "HTTP 503",
       "eligible": 0
     },
     {
-      "id": "UClj0L8WZrVydk5xKOscI6-A",
-      "ok": true,
+      "id": "UC6xD-jKli-_qIYXDTsNv4dw",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 1
+    },
+    {
+      "id": "UC8meHqoXa7z6I6-jiGgfL0w",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 3
+    },
+    {
+      "id": "UCi86xSII1cJOOwOtiefntRw",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UCYSjF7_K6jBVzYVuqrE0uZA",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UC_rBRrHKHnHkzgx8qIWwygg",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 3
+    },
+    {
+      "id": "UCu2Nnh9SBz5ax3NQFEnInyg",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UCrIAnDo3VuWex3fywkGpB1g",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UCa1yUHQmV6Z0PpAUtfgNd9g",
+      "ok": false,
+      "error": "HTTP 503",
       "eligible": 0
     },
     {
@@ -211,7 +198,66 @@
       "eligible": 0
     },
     {
+      "id": "UCqnGgTN0ajGp0LaoKkyxAxA",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UCptyYDiGZ9hs1pH0AaoBTxA",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UCx_eAZKDceT1yaY4bRo636A",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UCjBp_7RuDBUYbd1LegWEJ8g",
+      "ok": true,
+      "eligible": 0
+    },
+    {
+      "id": "UCfigptVgX1LGgUKZkQ2BZMQ",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UCR8RWMHZcSgqjD0HiUiJ_cQ",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UCO5ujNeWRIwP4DbCZqZWcLw",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UClj0L8WZrVydk5xKOscI6-A",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UC_BaxRhNREI_V0DVXjXDALA",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
       "id": "UCVjS9AuBloqJJjhsy3vIfug",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UCRI5ZedBs0_BYY4PlxD6m7w",
       "ok": false,
       "error": "HTTP 503",
       "eligible": 0
@@ -224,76 +270,12 @@
     },
     {
       "id": "UCMZh9kMjQ6Yc_JuCNIp1UDw",
-      "ok": true,
-      "eligible": 0
-    },
-    {
-      "id": "UCO5ujNeWRIwP4DbCZqZWcLw",
       "ok": false,
       "error": "HTTP 503",
-      "eligible": 0
-    },
-    {
-      "id": "UCgiZEPih0eqntG8G7R1_qyw",
-      "ok": false,
-      "error": "HTTP 503",
-      "eligible": 1
-    },
-    {
-      "id": "UCR8RWMHZcSgqjD0HiUiJ_cQ",
-      "ok": false,
-      "error": "HTTP 503",
-      "eligible": 0
-    },
-    {
-      "id": "UCOO7YwECdkQ9QlPGt05xZYQ",
-      "ok": true,
       "eligible": 0
     },
     {
       "id": "UCA5vKQkvC9zlTDOSNtoMdCQ",
-      "ok": false,
-      "error": "HTTP 503",
-      "eligible": 0
-    },
-    {
-      "id": "UC_Mqb6toM3tO8aAD6Q5HXvA",
-      "ok": false,
-      "error": "HTTP 503",
-      "eligible": 5
-    },
-    {
-      "id": "UC4U21wzihiCvS3-SyIvoeEA",
-      "ok": false,
-      "error": "HTTP 503",
-      "eligible": 0
-    },
-    {
-      "id": "UCvHYGBxKRDpvIxhXIi-A2Ug",
-      "ok": false,
-      "error": "HTTP 503",
-      "eligible": 0
-    },
-    {
-      "id": "UC72-oIt37SxC6qDQ5O-hYZQ",
-      "ok": false,
-      "error": "HTTP 503",
-      "eligible": 0
-    },
-    {
-      "id": "UC3O8-tKnz9VUn3sxZKyKN3w",
-      "ok": false,
-      "error": "HTTP 503",
-      "eligible": 0
-    },
-    {
-      "id": "UCDjs-YnLzdYUREkCkLT4H1g",
-      "ok": false,
-      "error": "HTTP 503",
-      "eligible": 0
-    },
-    {
-      "id": "UClu5bSQwA6D9uat64pGt3FQ",
       "ok": false,
       "error": "HTTP 503",
       "eligible": 0
@@ -305,7 +287,49 @@
       "eligible": 0
     },
     {
-      "id": "UC_BaxRhNREI_V0DVXjXDALA",
+      "id": "UCOO7YwECdkQ9QlPGt05xZYQ",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UCgiZEPih0eqntG8G7R1_qyw",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 1
+    },
+    {
+      "id": "UC_Mqb6toM3tO8aAD6Q5HXvA",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 5
+    },
+    {
+      "id": "UC72-oIt37SxC6qDQ5O-hYZQ",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UC4U21wzihiCvS3-SyIvoeEA",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UC3O8-tKnz9VUn3sxZKyKN3w",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UCvHYGBxKRDpvIxhXIi-A2Ug",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UCDjs-YnLzdYUREkCkLT4H1g",
       "ok": false,
       "error": "HTTP 503",
       "eligible": 0
@@ -317,14 +341,27 @@
       "eligible": 0
     },
     {
-      "id": "UCGo8Gdd6MSKBufVc9AIjptA",
+      "id": "UCPyawQGP6s9nir6kaQUqBYg",
       "ok": false,
       "error": "HTTP 503",
       "eligible": 0
     },
     {
-      "id": "UCPyawQGP6s9nir6kaQUqBYg",
-      "ok": true,
+      "id": "UCmlKSK0OKn_B3oPwElW4n5w",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UClu5bSQwA6D9uat64pGt3FQ",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UCGo8Gdd6MSKBufVc9AIjptA",
+      "ok": false,
+      "error": "HTTP 503",
       "eligible": 0
     },
     {
@@ -335,18 +372,6 @@
     },
     {
       "id": "UCmdjwK7Kxekuh9tSyABzZzA",
-      "ok": false,
-      "error": "HTTP 503",
-      "eligible": 0
-    },
-    {
-      "id": "UCG2D173IlWnQHUTS07ytGsw",
-      "ok": false,
-      "error": "HTTP 503",
-      "eligible": 0
-    },
-    {
-      "id": "UC4W3zAWU0niQ9FghysCBUsQ",
       "ok": false,
       "error": "HTTP 503",
       "eligible": 0
@@ -364,23 +389,43 @@
       "eligible": 2
     },
     {
-      "id": "UCmlKSK0OKn_B3oPwElW4n5w",
-      "ok": true,
+      "id": "UChaWSe-UQyKBgAElbT7AsZA",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 1
+    },
+    {
+      "id": "UC4W3zAWU0niQ9FghysCBUsQ",
+      "ok": false,
+      "error": "HTTP 503",
       "eligible": 0
     },
     {
-      "id": "UCVfQkDXSIQwHLsaKf-kVVYQ",
+      "id": "UCG2D173IlWnQHUTS07ytGsw",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UCM4uVUnkKlubDfgbF2ggqbQ",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UCPzW9BqgPdlJbAYHHwxnf8w",
       "ok": false,
       "error": "HTTP 503",
       "eligible": 0
     },
     {
       "id": "UC7x7gqeQQ5dazPAvDgC7TIw",
-      "ok": true,
+      "ok": false,
+      "error": "HTTP 503",
       "eligible": 0
     },
     {
-      "id": "UCPzW9BqgPdlJbAYHHwxnf8w",
+      "id": "UCVfQkDXSIQwHLsaKf-kVVYQ",
       "ok": false,
       "error": "HTTP 503",
       "eligible": 0
@@ -392,31 +437,37 @@
       "eligible": 0
     },
     {
-      "id": "UCvZv4eZVszrPLEQWeUdEFww",
-      "ok": false,
-      "error": "HTTP 503",
-      "eligible": 0
-    },
-    {
       "id": "UC0yw39DOcCOwyUj2uY8vbuA",
       "ok": false,
       "error": "HTTP 503",
       "eligible": 0
     },
     {
-      "id": "UChaWSe-UQyKBgAElbT7AsZA",
+      "id": "UCvZv4eZVszrPLEQWeUdEFww",
       "ok": false,
       "error": "HTTP 503",
-      "eligible": 1
+      "eligible": 0
     },
     {
-      "id": "UCM4uVUnkKlubDfgbF2ggqbQ",
+      "id": "UCSo_it8y_WM0dLlvuOs34Zg",
       "ok": false,
       "error": "HTTP 503",
       "eligible": 0
     },
     {
       "id": "UCamYoLu-bNaUKGvsjhDfnOw",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UCb95GzFiBNC8LgSh7Lituuw",
+      "ok": false,
+      "error": "HTTP 503",
+      "eligible": 0
+    },
+    {
+      "id": "UCVxotPxp9JUc4wBWmdyXhYQ",
       "ok": false,
       "error": "HTTP 503",
       "eligible": 0
@@ -434,13 +485,7 @@
       "eligible": 1
     },
     {
-      "id": "UCSo_it8y_WM0dLlvuOs34Zg",
-      "ok": false,
-      "error": "HTTP 503",
-      "eligible": 0
-    },
-    {
-      "id": "UCVxotPxp9JUc4wBWmdyXhYQ",
+      "id": "UCC7Pt4G2JPEj91qOdkc6RSw",
       "ok": false,
       "error": "HTTP 503",
       "eligible": 0
@@ -458,19 +503,7 @@
       "eligible": 0
     },
     {
-      "id": "UCb95GzFiBNC8LgSh7Lituuw",
-      "ok": false,
-      "error": "HTTP 503",
-      "eligible": 0
-    },
-    {
       "id": "UCtEQuR-kzCp8Fv6F5DY2wPg",
-      "ok": false,
-      "error": "HTTP 503",
-      "eligible": 0
-    },
-    {
-      "id": "UCC7Pt4G2JPEj91qOdkc6RSw",
       "ok": false,
       "error": "HTTP 503",
       "eligible": 0
